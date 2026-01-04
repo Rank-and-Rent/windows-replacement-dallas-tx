@@ -1,0 +1,153 @@
+.section {
+  background: var(--color-off-white);
+  padding: var(--section-padding) 0;
+}
+
+.container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 4rem;
+  align-items: center;
+}
+
+.imageColumn {
+  position: relative;
+}
+
+.imageWrapper {
+  position: relative;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.imageWrapper img {
+  width: 100%;
+  height: auto;
+  display: block;
+  aspect-ratio: 4/5;
+  object-fit: cover;
+}
+
+.imageAccent {
+  position: absolute;
+  bottom: -20px;
+  right: -20px;
+  width: 60%;
+  height: 60%;
+  background: var(--color-accent);
+  opacity: 0.15;
+  border-radius: 4px;
+  z-index: -1;
+}
+
+.contentColumn {
+  padding-left: 2rem;
+}
+
+.label {
+  display: inline-block;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: var(--color-accent-dark);
+  margin-bottom: 1rem;
+}
+
+.title {
+  font-family: var(--font-display);
+  font-size: clamp(1.75rem, 3vw, 2.5rem);
+  font-weight: 500;
+  color: var(--color-primary);
+  margin-bottom: 1.5rem;
+  line-height: 1.2;
+}
+
+.content {
+  margin-bottom: 2.5rem;
+}
+
+.content p {
+  font-size: 1rem;
+  line-height: 1.75;
+  color: var(--color-gray-600);
+  margin-bottom: 1.25rem;
+}
+
+.content p:last-child {
+  margin-bottom: 0;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.5rem;
+}
+
+.statItem {
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  background: var(--color-white);
+  border-radius: 4px;
+  border-left: 3px solid var(--color-accent);
+}
+
+.statNumber {
+  font-family: var(--font-display);
+  font-size: 2rem;
+  font-weight: 600;
+  color: var(--color-primary);
+  line-height: 1;
+  margin-bottom: 0.25rem;
+}
+
+.statLabel {
+  font-size: 0.8rem;
+  font-weight: 500;
+  color: var(--color-gray-500);
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
+@media (max-width: 1024px) {
+  .grid {
+    grid-template-columns: 1fr;
+    gap: 3rem;
+  }
+
+  .contentColumn {
+    padding-left: 0;
+  }
+
+  .imageWrapper img {
+    aspect-ratio: 16/10;
+  }
+
+  .imageAccent {
+    display: none;
+  }
+}
+
+@media (max-width: 640px) {
+  .statsGrid {
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .statItem {
+    padding: 1rem;
+  }
+
+  .statNumber {
+    font-size: 1.5rem;
+  }
+}
+
+

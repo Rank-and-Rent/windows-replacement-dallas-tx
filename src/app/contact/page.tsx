@@ -1,0 +1,247 @@
+import Header from '@/components/layout/Header'
+import Footer from '@/components/layout/Footer'
+import { servicesData } from '@/data'
+
+export const metadata = {
+  title: 'Contact Us | Window Replacements of Dallas, TX',
+  description: 'Contact Window Replacements of Dallas for a free window and door installation consultation. Call 214-949-8227 or submit our online form for a detailed estimate.',
+}
+
+export default function ContactPage() {
+  const windowServices = servicesData.filter(s => s.category === 'Windows')
+  const doorServices = servicesData.filter(s => s.category === 'Doors')
+
+  return (
+    <>
+      <Header />
+      <main>
+        {/* Hero Section */}
+        <section className="pt-32 pb-24 bg-gray-900 text-white">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-12 text-center">
+            <h1 className="text-4xl md:text-6xl font-black uppercase tracking-tighter leading-none mb-8">
+              Contact Us
+            </h1>
+            <p className="text-xl text-gray-300 font-medium max-w-2xl mx-auto leading-relaxed">
+              Ready to upgrade your Dallas home with premium windows and doors? Get your free consultation today.
+            </p>
+          </div>
+        </section>
+
+        {/* Contact Form Section */}
+        <section className="py-24 bg-gray-50">
+          <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-16">
+              {/* Contact Info */}
+              <div>
+                <h2 className="text-3xl font-black text-gray-900 uppercase tracking-tighter mb-8">
+                  Get In Touch
+                </h2>
+                <div className="space-y-8">
+                  <div className="flex items-start gap-4">
+                    <div className="bg-orange-600 p-3 rounded-lg">
+                      <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" className="text-white">
+                        <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-gray-900 mb-1">Phone</h3>
+                      <a href="tel:214-949-8227" className="text-gray-600 hover:text-orange-600 transition-colors">
+                        214-949-8227
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="bg-orange-600 p-3 rounded-lg">
+                      <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" className="text-white">
+                        <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-gray-900 mb-1">Email</h3>
+                      <a href="mailto:hello@windowreplacementdallastx.com" className="text-gray-600 hover:text-orange-600 transition-colors">
+                        hello@windowreplacementdallastx.com
+                      </a>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="bg-orange-600 p-3 rounded-lg">
+                      <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" className="text-white">
+                        <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-gray-900 mb-1">Address</h3>
+                      <address className="text-gray-600 not-italic">
+                        600 N Pearl St #1615<br />
+                        Dallas, TX 75201
+                      </address>
+                    </div>
+                  </div>
+
+                  <div className="flex items-start gap-4">
+                    <div className="bg-orange-600 p-3 rounded-lg">
+                      <svg viewBox="0 0 24 24" width="24" height="24" fill="currentColor" className="text-white">
+                        <path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67z"/>
+                      </svg>
+                    </div>
+                    <div>
+                      <h3 className="font-bold text-gray-900 mb-1">Hours</h3>
+                      <p className="text-gray-600">
+                        Open 24/7<br />
+                        Available for Emergency Service
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              {/* Contact Form - MUST HAVE DARK BACKGROUND */}
+              <div>
+                <div className="bg-gray-800 p-8 rounded-lg">
+                  <h3 className="text-2xl font-bold text-white mb-6">Request Free Estimate</h3>
+                  <form className="space-y-4">
+                    {/* 1. Full Name */}
+                    <div>
+                      <label htmlFor="fullName" className="block text-sm font-medium text-gray-300 mb-1">
+                        Full Name *
+                      </label>
+                      <input
+                        type="text"
+                        id="fullName"
+                        name="fullName"
+                        required
+                        placeholder="John Smith"
+                        className="w-full px-4 py-3 bg-white text-gray-900 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+                      />
+                    </div>
+
+                    {/* 2. Phone Number */}
+                    <div>
+                      <label htmlFor="phone" className="block text-sm font-medium text-gray-300 mb-1">
+                        Phone Number *
+                      </label>
+                      <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        required
+                        placeholder="(214) 949-8227"
+                        className="w-full px-4 py-3 bg-white text-gray-900 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+                      />
+                    </div>
+
+                    {/* 3. Email Address */}
+                    <div>
+                      <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-1">
+                        Email Address *
+                      </label>
+                      <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        required
+                        placeholder="john@example.com"
+                        className="w-full px-4 py-3 bg-white text-gray-900 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+                      />
+                    </div>
+
+                    {/* 4. Service Interested In - WITH OPTGROUPS */}
+                    <div>
+                      <label htmlFor="service" className="block text-sm font-medium text-gray-300 mb-1">
+                        Service Interested In *
+                      </label>
+                      <select
+                        id="service"
+                        name="service"
+                        required
+                        className="w-full px-4 py-3 bg-white text-gray-900 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+                      >
+                        <option value="">Select a service...</option>
+                        <optgroup label="Windows">
+                          {windowServices.map(service => (
+                            <option key={service.slug} value={service.name}>
+                              {service.name}
+                            </option>
+                          ))}
+                        </optgroup>
+                        <optgroup label="Doors">
+                          {doorServices.map(service => (
+                            <option key={service.slug} value={service.name}>
+                              {service.name}
+                            </option>
+                          ))}
+                        </optgroup>
+                        <option value="Not Sure / Multiple Services">Not Sure / Multiple Services</option>
+                      </select>
+                    </div>
+
+                    {/* 5. Property Address */}
+                    <div>
+                      <label htmlFor="address" className="block text-sm font-medium text-gray-300 mb-1">
+                        Property Address *
+                      </label>
+                      <input
+                        type="text"
+                        id="address"
+                        name="address"
+                        required
+                        placeholder="123 Main St, Dallas, TX 75201"
+                        className="w-full px-4 py-3 bg-white text-gray-900 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+                      />
+                    </div>
+
+                    {/* 6. Project Timeline */}
+                    <div>
+                      <label htmlFor="timeline" className="block text-sm font-medium text-gray-300 mb-1">
+                        Project Timeline *
+                      </label>
+                      <select
+                        id="timeline"
+                        name="timeline"
+                        required
+                        className="w-full px-4 py-3 bg-white text-gray-900 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent"
+                      >
+                        <option value="">Select timeline...</option>
+                        <option value="ASAP">ASAP</option>
+                        <option value="Within 1 month">Within 1 month</option>
+                        <option value="Within 3 months">Within 3 months</option>
+                        <option value="Within 6 months">Within 6 months</option>
+                        <option value="6+ months">6+ months</option>
+                        <option value="Just researching">Just researching</option>
+                      </select>
+                    </div>
+
+                    {/* 7. Project Description */}
+                    <div>
+                      <label htmlFor="description" className="block text-sm font-medium text-gray-300 mb-1">
+                        Project Description *
+                      </label>
+                      <textarea
+                        id="description"
+                        name="description"
+                        required
+                        rows={4}
+                        placeholder="Tell us about your project..."
+                        className="w-full px-4 py-3 bg-white text-gray-900 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-orange-500 focus:border-transparent resize-vertical"
+                      />
+                    </div>
+
+                    <button
+                      type="submit"
+                      className="w-full bg-orange-600 hover:bg-orange-700 text-white font-bold py-4 px-6 rounded-md transition-colors"
+                    >
+                      Send Message
+                    </button>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </main>
+      <Footer />
+    </>
+  )
+}

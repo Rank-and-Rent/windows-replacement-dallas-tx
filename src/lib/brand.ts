@@ -13,7 +13,7 @@ export function getBrand() {
     subject: "We received your window replacement inquiry",
     preheader: "Thanks for your inquiry, we have received your window replacement request and will contact you within one business day.",
     company_name: COMPANY_NAME,
-    logo_url: 'https://www.windowreplacementdallastx.com/logo.png',
+    logo_url: `${CANONICAL_URL}window-replacements-of-dallas-tx-logo.png`,
     city_state: "Dallas, TX",
     brand_accent: COLORS.primary,
     cta_dark_bg: COLORS.dark,

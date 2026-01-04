@@ -6,14 +6,6 @@ import { sendCustomerConfirmation, sendInternalNotifications } from '@/lib/email
 
 export const runtime = 'nodejs'
 
-// Map site identifiers to project types for CRM categorization
-function getProjectTypeFromSite(site: string): string {
-  const siteToProjectType: Record<string, string> = {
-    'windows-replacement-dallas-tx': 'Window Replacement',
-  }
-  return siteToProjectType[site] || 'Unknown'
-}
-
 export async function POST(request: NextRequest) {
   const rate = apiRateLimiter.isAllowed(request)
   const stdHeaders = {
@@ -39,18 +31,14 @@ export async function POST(request: NextRequest) {
     const zapierWebhookUrl = (process.env.ZAPIER_WEBHOOK || '').trim()
     const siteUrl = process.env.NEXT_PUBLIC_SITE_URL || 'https://www.windowreplacementdallastx.com'
 
-    // Honeypot check - if the hidden field is filled, it's a bot
-    // Currently not using honeypot since we have Turnstile
-
     const payload = {
       ...body,
-      projectType: body.service || getProjectTypeFromSite('windows-replacement-dallas-tx'),
+      projectType: body.service || 'Window Replacement',
       contractorEmail: process.env.CONTRACTOR_EMAIL || '',
       timestamp: new Date().toISOString(),
       source: process.env.NEXT_PUBLIC_SOURCE || 'Window Replacements Dallas Website',
       submitted_at: new Date().toISOString(),
       website_url: siteUrl,
-      // helpful tracing for Zapier
       _meta: {
         site: 'windows-replacement-dallas-tx',
         route: '/api/submit',
@@ -73,10 +61,7 @@ export async function POST(request: NextRequest) {
 
     // Send to Zapier if configured
     if (zapierWebhookUrl) {
-      // Normalize URL (avoid missing trailing slash issues)
       const zapierUrl = zapierWebhookUrl.endsWith('/') ? zapierWebhookUrl : `${zapierWebhookUrl}/`
-
-      // Send to Zapier with timeout + simple retries
       let z: Response | undefined
       for (let attempt = 1; attempt <= 3; attempt++) {
         const zapierController = new AbortController()
@@ -101,7 +86,6 @@ export async function POST(request: NextRequest) {
         const status = z?.status
         const text = z ? await z.text().catch(() => '') : ''
         console.error('Zapier webhook failed after retries (will continue):', { status, body: text })
-        // Do not block UX; continue to email even if Zapier fails
       }
     }
 
@@ -119,7 +103,6 @@ export async function POST(request: NextRequest) {
       message: body.message ? String(body.message) : (body.description ? String(body.description) : undefined),
     }
 
-    // Add submitted_date to brand data
     const brandWithDate = {
       ...brand,
       submitted_date: new Date().toLocaleDateString('en-US', {

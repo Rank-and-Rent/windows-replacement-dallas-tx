@@ -73,7 +73,7 @@ type BrandData = {
 
 export async function sendCustomerConfirmation(brand: BrandData, lead: Lead) {
   ensureApiKeyInitialized();
-  const fromEmail = brand.supportEmail || 'hello@windowreplacementdallastx.com';
+  const fromEmail = process.env.SENDGRID_FROM_EMAIL || brand.supportEmail || 'info@1031exchangehouston.com';
   const msg = {
     to: lead.email,
     from: { email: fromEmail, name: brand.company_name },
@@ -86,7 +86,7 @@ export async function sendCustomerConfirmation(brand: BrandData, lead: Lead) {
 // Same email content, different recipients, sent separately (no cc/bcc)
 export async function sendInternalNotifications(brand: BrandData, lead: Lead) {
   ensureApiKeyInitialized();
-  const fromEmail = brand.supportEmail || 'hello@windowreplacementdallastx.com';
+  const fromEmail = process.env.SENDGRID_FROM_EMAIL || brand.supportEmail || 'info@1031exchangehouston.com';
   const recipients = [
     process.env.CONTRACTOR_EMAIL,
     'rankhoundseo@gmail.com',

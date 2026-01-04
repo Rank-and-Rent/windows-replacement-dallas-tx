@@ -65,7 +65,7 @@ export default function PrivacyPage() {
                   <p>If you have questions about this privacy policy or your personal information, please contact us at:</p>
                   <div className="bg-gray-100 p-6 rounded-lg mt-4">
                     <p className="font-semibold">Phone: 214-949-8227</p>
-                    <p className="font-semibold">Email: info@windowsofdallas.com</p>
+                    <p className="font-semibold">Email: hello@windowreplacementdallastx.com</p>
                     <p className="mt-2">909 Hidden Ridge Dr #180<br />Irving, TX 75038</p>
                   </div>
                 </div>

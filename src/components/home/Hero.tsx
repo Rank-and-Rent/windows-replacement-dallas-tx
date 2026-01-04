@@ -20,28 +20,28 @@ export default function Hero() {
           <span className="text-[10px] font-black text-primary uppercase tracking-[0.4em] mb-4 block">Trusted Brands We Install</span>
           <h3 className="text-2xl md:text-3xl font-black text-secondary-dark uppercase tracking-tighter mb-8">Premium Manufacturer Partnerships</h3>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8 items-center justify-items-center max-w-4xl mx-auto">
-            <Link href="/brands/andersen-windows-doors" className="bg-primary/10 backdrop-blur-sm p-6 rounded-lg hover:bg-primary/20 transition-all duration-300 group border border-primary/20">
+            <Link href="/brands/andersen-windows-doors" className="bg-white backdrop-blur-sm p-6 rounded-lg hover:bg-gray-50 transition-all duration-300 group border border-gray-200 shadow-sm">
               <img
                 src="/andersen-windows-and-doors-dallas-tx-logo.png"
                 alt="Andersen Windows & Doors"
                 className="h-12 md:h-16 w-auto object-contain"
               />
             </Link>
-            <Link href="/brands/jeld-wen-windows-doors" className="bg-primary/10 backdrop-blur-sm p-6 rounded-lg hover:bg-primary/20 transition-all duration-300 group border border-primary/20">
+            <Link href="/brands/jeld-wen-windows-doors" className="bg-white backdrop-blur-sm p-6 rounded-lg hover:bg-gray-50 transition-all duration-300 group border border-gray-200 shadow-sm">
               <img
                 src="/jeld-wen-windows-and-doors-dallas-tx-logo.png"
                 alt="Jeld-Wen Windows & Doors"
                 className="h-12 md:h-16 w-auto object-contain"
               />
             </Link>
-            <Link href="/brands/marvin-windows-doors" className="bg-primary/10 backdrop-blur-sm p-6 rounded-lg hover:bg-primary/20 transition-all duration-300 group border border-primary/20">
+            <Link href="/brands/marvin-windows-doors" className="bg-white backdrop-blur-sm p-6 rounded-lg hover:bg-gray-50 transition-all duration-300 group border border-gray-200 shadow-sm">
               <img
                 src="/marvin-windows-and-doors-dallas-tx-logo.png"
                 alt="Marvin Windows & Doors"
                 className="h-12 md:h-16 w-auto object-contain"
               />
             </Link>
-            <Link href="/brands/pella-windows-doors" className="bg-primary/10 backdrop-blur-sm p-6 rounded-lg hover:bg-primary/20 transition-all duration-300 group border border-primary/20">
+            <Link href="/brands/pella-windows-doors" className="bg-white backdrop-blur-sm p-6 rounded-lg hover:bg-gray-50 transition-all duration-300 group border border-gray-200 shadow-sm">
               <img
                 src="/pella-windows-and-doors-dallas-tx-logo.png"
                 alt="Pella Windows & Doors"

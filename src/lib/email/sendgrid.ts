@@ -12,7 +12,7 @@ function ensureApiKeyInitialized() {
   apiKeyInitialized = true;
 }
 
-export const SENDGRID_TEMPLATE_ID = process.env.SENDGRID_TEMPLATE_ID || 'd-15217ab1c55347b5847c2421b1a82847';
+export const SENDGRID_TEMPLATE_ID = process.env.SENDGRID_TEMPLATE_ID || 'd-06806bafac9d47f38c719518702e0f4f';
 
 type Lead = {
   name: string;

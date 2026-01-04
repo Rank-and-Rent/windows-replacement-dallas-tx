@@ -117,9 +117,18 @@ export async function POST(request: NextRequest) {
         sendCustomerConfirmation(brandWithDate, lead),
         sendInternalNotifications(brandWithDate, lead),
       ])
-      console.log('SendGrid emails sent successfully to:', body.email)
-    } catch (error) {
-      console.error("SendGrid email failed", error)
+      console.log('SendGrid emails sent successfully:', {
+        customerConfirmation: lead.email,
+        internalNotifications: ['rankhoundseo@gmail.com', process.env.CONTRACTOR_EMAIL].filter(Boolean),
+      })
+    } catch (error: any) {
+      console.error("SendGrid email failed:", {
+        message: error?.message,
+        response: error?.response?.body,
+        statusCode: error?.response?.statusCode,
+        templateId: process.env.SENDGRID_TEMPLATE_ID || 'd-06806bafac9d47f38c719518702e0f4f',
+        stack: error?.stack,
+      })
       // continue without blocking UX
     }
 

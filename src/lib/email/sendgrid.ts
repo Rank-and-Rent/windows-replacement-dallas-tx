@@ -73,32 +73,89 @@ type BrandData = {
 
 export async function sendCustomerConfirmation(brand: BrandData, lead: Lead) {
   ensureApiKeyInitialized();
-  const fromEmail = brand.supportEmail || 'info@1031exchangehouston.com';
+  
+  if (!SENDGRID_TEMPLATE_ID) {
+    throw new Error('SENDGRID_TEMPLATE_ID is not configured');
+  }
+  
+  const fromEmail = process.env.SENDGRID_FROM_EMAIL || brand.supportEmail || 'info@1031exchangehouston.com';
+  
   const msg = {
     to: lead.email,
     from: { email: fromEmail, name: brand.company_name },
     templateId: SENDGRID_TEMPLATE_ID,
-    dynamicTemplateData: { ...brand, lead },
+    dynamicTemplateData: {
+      ...brand,
+      lead,
+      // Ensure subject is passed if template uses it
+      subject: brand.subject || 'We received your inquiry',
+    },
   };
-  await sgMail.send(msg);
+  
+  try {
+    const [response] = await sgMail.send(msg);
+    console.log('SendGrid customer confirmation sent:', {
+      statusCode: response.statusCode,
+      templateId: SENDGRID_TEMPLATE_ID,
+      to: lead.email,
+    });
+    return response;
+  } catch (error: any) {
+    console.error('SendGrid customer confirmation failed:', {
+      error: error.message,
+      response: error.response?.body,
+      templateId: SENDGRID_TEMPLATE_ID,
+      to: lead.email,
+    });
+    throw error;
+  }
 }
 
 // Same email content, different recipients, sent separately (no cc/bcc)
 export async function sendInternalNotifications(brand: BrandData, lead: Lead) {
   ensureApiKeyInitialized();
-  const fromEmail = brand.supportEmail || 'info@1031exchangehouston.com';
-  const recipients = [
-    process.env.CONTRACTOR_EMAIL,
-    'rankhoundseo@gmail.com',
-  ].filter(Boolean) as string[];
+  
+  if (!SENDGRID_TEMPLATE_ID) {
+    throw new Error('SENDGRID_TEMPLATE_ID is not configured');
+  }
+  
+  const fromEmail = process.env.SENDGRID_FROM_EMAIL || brand.supportEmail || 'info@1031exchangehouston.com';
+  
+  // Always send to rankhoundseo@gmail.com, plus contractor email if configured
+  const recipients: string[] = ['rankhoundseo@gmail.com'];
+  if (process.env.CONTRACTOR_EMAIL) {
+    recipients.push(process.env.CONTRACTOR_EMAIL);
+  }
 
-  const sends = recipients.map(email =>
-    sgMail.send({
-      to: email,
-      from: { email: fromEmail, name: brand.company_name },
-      templateId: SENDGRID_TEMPLATE_ID,
-      dynamicTemplateData: { ...brand, lead },
-    })
-  );
+  const sends = recipients.map(async (email) => {
+    try {
+      const [response] = await sgMail.send({
+        to: email,
+        from: { email: fromEmail, name: brand.company_name },
+        templateId: SENDGRID_TEMPLATE_ID,
+        dynamicTemplateData: {
+          ...brand,
+          lead,
+          // Ensure subject is passed if template uses it
+          subject: brand.subject || `New inquiry from ${lead.name || 'customer'}`,
+        },
+      });
+      console.log('SendGrid internal notification sent:', {
+        statusCode: response.statusCode,
+        templateId: SENDGRID_TEMPLATE_ID,
+        to: email,
+      });
+      return response;
+    } catch (error: any) {
+      console.error('SendGrid internal notification failed:', {
+        error: error.message,
+        response: error.response?.body,
+        templateId: SENDGRID_TEMPLATE_ID,
+        to: email,
+      });
+      throw error;
+    }
+  });
+  
   await Promise.all(sends);
 }

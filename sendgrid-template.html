@@ -1,0 +1,183 @@
+<!doctype html>
+<html lang="en" style="margin:0;padding:0;">
+<head>
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width">
+  <meta name="x-apple-disable-message-reformatting">
+  <title>{{subject}}</title>
+  <style>
+    @media only screen and (max-width: 600px){
+      .container{ width:100% !important; }
+      .pxy{ padding-left:20px !important; padding-right:20px !important; }
+      .btn{ width:100% !important; }
+    }
+  </style>
+</head>
+<body style="margin:0;padding:0;background:{{bg_color}}">
+  <!-- Preheader -->
+  <div style="display:none;max-height:0;overflow:hidden;opacity:0;">
+    {{preheader}}
+  </div>
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:{{bg_color}}">
+    <tr>
+      <td align="center">
+        <table role="presentation" width="600" cellpadding="0" cellspacing="0" class="container" style="width:600px;max-width:600px;">
+          <!-- Header -->
+          <tr>
+            <td style="padding:24px 24px 0 24px;">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td align="left">
+                    {{#if logo_url}}
+                      <img src="{{logo_url}}" alt="{{company_name}}" style="display:block;border:0;max-width:190px;height:auto;">
+                    {{else}}
+                      <span style="display:inline-block;font-family:Georgia,'Times New Roman',Times,serif;font-weight:700;font-size:18px;letter-spacing:.2px;color:{{header_text_color}};">
+                        {{company_name}}
+                      </span>
+                    {{/if}}
+                  </td>
+                  <td align="right" style="font-family:Helvetica,Arial,sans-serif;font-size:12px;color:{{header_text_color}}">
+                    {{city_state}}
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- Accent divider -->
+          <tr>
+            <td style="height:6px;background:{{brand_accent}}"></td>
+          </tr>
+          <!-- Hero -->
+          <tr>
+            <td class="pxy" style="padding:32px 32px 8px 32px;background:#ffffff">
+              <h1 style="margin:0 0 4px 0;font-family:Georgia,'Times New Roman',Times,serif;font-weight:600;line-height:1.2;color:{{text_dark}};font-size:26px">
+                {{hero_title}}
+              </h1>
+              {{#if hero_subtitle}}
+                <p style="margin:0 0 12px 0;font-family:Helvetica,Arial,sans-serif;color:{{text_muted}};font-size:16px;line-height:1.6">
+                  {{hero_subtitle}}
+                </p>
+              {{/if}}
+            </td>
+          </tr>
+          <!-- Summary card -->
+          <tr>
+            <td class="pxy" style="padding:0 32px 4px;background:#ffffff">
+              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid {{border_color}};border-radius:10px;overflow:hidden">
+                <tr>
+                  <td style="background:{{card_header_bg}};border-bottom:1px solid {{border_color}};padding:14px 18px;font-family:Helvetica,Arial,sans-serif;color:{{card_header_text}};font-weight:700">
+                    {{details_title}}
+                  </td>
+                </tr>
+                <tr>
+                  <td style="padding:16px 18px;background:#ffffff">
+                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="font-family:Helvetica,Arial,sans-serif;font-size:14px;color:{{text_body}}">
+                      <tr>
+                        <td width="170" style="padding:6px 0;color:{{text_dark}}">Name</td>
+                        <td style="padding:6px 0">{{lead.name}}</td>
+                      </tr>
+                      {{#if lead.email}}
+                      <tr>
+                        <td width="170" style="padding:6px 0;color:{{text_dark}}">Email</td>
+                        <td style="padding:6px 0"><a href="mailto:{{lead.email}}" style="color:{{brand_accent}};text-decoration:none">{{lead.email}}</a></td>
+                      </tr>
+                      {{/if}}
+                      {{#if lead.phone}}
+                      <tr>
+                        <td width="170" style="padding:6px 0;color:{{text_dark}}">Phone</td>
+                        <td style="padding:6px 0"><a href="tel:{{lead.phone_plain}}" style="color:{{brand_accent}};text-decoration:none">{{lead.phone}}</a></td>
+                      </tr>
+                      {{/if}}
+                      <tr>
+                        <td width="170" style="padding:6px 0;color:{{text_dark}}">Service</td>
+                        <td style="padding:6px 0">{{lead.projectType}}</td>
+                      </tr>
+                      {{#if lead.address}}
+                      <tr>
+                        <td width="170" style="padding:6px 0;color:{{text_dark}}">Address</td>
+                        <td style="padding:6px 0">{{lead.address}}</td>
+                      </tr>
+                      {{/if}}
+                      {{#if lead.city}}
+                      <tr>
+                        <td width="170" style="padding:6px 0;color:{{text_dark}}">City</td>
+                        <td style="padding:6px 0">{{lead.city}}</td>
+                      </tr>
+                      {{/if}}
+                      {{#if lead.timeline}}
+                      <tr>
+                        <td width="170" style="padding:6px 0;color:{{text_dark}}">Timeline</td>
+                        <td style="padding:6px 0">{{lead.timeline}}</td>
+                      </tr>
+                      {{/if}}
+                      {{#if lead.message}}
+                      <tr>
+                        <td width="170" valign="top" style="padding:6px 0;color:{{text_dark}}">Message</td>
+                        <td style="padding:6px 0;white-space:pre-line">{{{lead.message}}}</td>
+                      </tr>
+                      {{/if}}
+                      {{#if submitted_date}}
+                      <tr>
+                        <td width="170" style="padding:6px 0;color:{{text_dark}}">Submitted</td>
+                        <td style="padding:6px 0">{{submitted_date}}</td>
+                      </tr>
+                      {{/if}}
+                    </table>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+          <!-- CTA -->
+          <tr>
+            <td class="pxy" align="center" style="padding:28px 32px 36px;background:#ffffff">
+              {{#if call_phone}}
+              <table role="presentation" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td bgcolor="{{brand_accent}}" style="border-radius:6px">
+                    <a href="tel:{{call_phone_plain}}" class="btn" target="_blank"
+                       style="display:inline-block;padding:14px 26px;font-family:Helvetica,Arial,sans-serif;color:#ffffff;text-decoration:none;font-size:14px;letter-spacing:.06em">
+                      {{call_cta_label}}
+                    </a>
+                  </td>
+                </tr>
+              </table>
+              {{/if}}
+              {{#if site_url}}
+              <div style="height:12px"></div>
+              <table role="presentation" cellpadding="0" cellspacing="0">
+                <tr>
+                  <td bgcolor="{{cta_dark_bg}}" style="border-radius:6px">
+                    <a href="{{site_url}}" class="btn" target="_blank"
+                       style="display:inline-block;padding:14px 26px;font-family:Helvetica,Arial,sans-serif;color:#ffffff;text-decoration:none;font-size:14px;letter-spacing:.06em">
+                      {{site_cta_label}}
+                    </a>
+                  </td>
+                </tr>
+              </table>
+              {{/if}}
+            </td>
+          </tr>
+          <!-- Footer -->
+          <tr>
+            <td style="padding:18px 24px 40px 24px;text-align:center">
+              <p style="margin:0 0 6px 0;font-family:Helvetica,Arial,sans-serif;color:{{footer_text_color}};font-size:12px">
+                {{company_name}}
+              </p>
+              {{#if address_line}}
+              <p style="margin:0;font-family:Helvetica,Arial,sans-serif;color:{{footer_text_color}};font-size:12px">
+                {{address_line}}
+              </p>
+              {{/if}}
+              <div style="height:8px"></div>
+              <p style="margin:0;font-family:Helvetica,Arial,sans-serif;color:{{text_faint}};font-size:11px">
+                {{footer_note}}
+              </p>
+            </td>
+          </tr>
+        </table>
+      </td>
+    </tr>
+  </table>
+</body>
+</html>

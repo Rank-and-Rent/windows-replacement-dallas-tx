@@ -66,7 +66,7 @@ export default function BrandsIndex() {
             </p>
           </div>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 items-center justify-items-center">
-            <div className="bg-gray-50 p-8 rounded-lg hover:bg-white hover:shadow-lg transition-all duration-300 group border border-gray-100">
+            <Link href="/brands/andersen-windows-doors" className="bg-gray-50 p-8 rounded-lg hover:bg-white hover:shadow-lg transition-all duration-300 group border border-gray-100 cursor-pointer">
               <img
                 src="/andersen-windows-and-doors-dallas-tx-logo.png"
                 alt="Andersen Windows & Doors"
@@ -76,8 +76,8 @@ export default function BrandsIndex() {
                 <h3 className="text-lg font-black text-secondary-dark uppercase tracking-tighter mb-2">Andersen</h3>
                 <p className="text-xs text-gray-500 font-bold uppercase tracking-widest">Architectural Excellence</p>
               </div>
-            </div>
-            <div className="bg-gray-50 p-8 rounded-lg hover:bg-white hover:shadow-lg transition-all duration-300 group border border-gray-100">
+            </Link>
+            <Link href="/brands/jeld-wen-windows-doors" className="bg-gray-50 p-8 rounded-lg hover:bg-white hover:shadow-lg transition-all duration-300 group border border-gray-100 cursor-pointer">
               <img
                 src="/jeld-wen-windows-and-doors-dallas-tx-logo.png"
                 alt="Jeld-Wen Windows & Doors"
@@ -87,8 +87,8 @@ export default function BrandsIndex() {
                 <h3 className="text-lg font-black text-secondary-dark uppercase tracking-tighter mb-2">Jeld-Wen</h3>
                 <p className="text-xs text-gray-500 font-bold uppercase tracking-widest">Reliable Performance</p>
               </div>
-            </div>
-            <div className="bg-gray-50 p-8 rounded-lg hover:bg-white hover:shadow-lg transition-all duration-300 group border border-gray-100">
+            </Link>
+            <Link href="/brands/marvin-windows-doors" className="bg-gray-50 p-8 rounded-lg hover:bg-white hover:shadow-lg transition-all duration-300 group border border-gray-100 cursor-pointer">
               <img
                 src="/marvin-windows-and-doors-dallas-tx-logo.png"
                 alt="Marvin Windows & Doors"
@@ -98,8 +98,8 @@ export default function BrandsIndex() {
                 <h3 className="text-lg font-black text-secondary-dark uppercase tracking-tighter mb-2">Marvin</h3>
                 <p className="text-xs text-gray-500 font-bold uppercase tracking-widest">Luxury Craftsmanship</p>
               </div>
-            </div>
-            <div className="bg-gray-50 p-8 rounded-lg hover:bg-white hover:shadow-lg transition-all duration-300 group border border-gray-100">
+            </Link>
+            <Link href="/brands/pella-windows-doors" className="bg-gray-50 p-8 rounded-lg hover:bg-white hover:shadow-lg transition-all duration-300 group border border-gray-100 cursor-pointer">
               <img
                 src="/pella-windows-and-doors-dallas-tx-logo.png"
                 alt="Pella Windows & Doors"
@@ -109,7 +109,7 @@ export default function BrandsIndex() {
                 <h3 className="text-lg font-black text-secondary-dark uppercase tracking-tighter mb-2">Pella</h3>
                 <p className="text-xs text-gray-500 font-bold uppercase tracking-widest">Innovation & Design</p>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
       </section>

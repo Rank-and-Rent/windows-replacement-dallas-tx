@@ -227,7 +227,7 @@ export default function Page() {
                   How much do front entry doors cost in Dallas?
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Front entry doors in Dallas, Texas range from $1,500-$6,000 depending on material, style, and features. Premium fiberglass or steel doors with decorative glass and advanced security features typically cost $3,000-$5,000, while basic models start around $800-$1,500.
+                  Front entry doors with installation in Dallas, Texas range from $1,500-$6,000 depending on material, style, and features. Everything is priced including installation. Premium fiberglass or steel doors with decorative glass and advanced security features typically cost $3,000-$5,000 with installation, while basic models start around $800-$1,500 with installation. We do not sell entry doors without installation.
                 </p>
               </div>
 

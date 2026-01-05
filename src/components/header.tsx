@@ -70,9 +70,10 @@ export default function Header() {
     setMobileActiveDropdown(null)
   }
 
-  // Split services into windows and doors
+  // Split services into windows, doors, and materials
   const windowServices = servicesData.filter(s => s.category === 'Windows')
   const doorServices = servicesData.filter(s => s.category === 'Doors')
+  const materialServices = servicesData.filter(s => s.category === 'Materials')
   
   // Top 8 locations for dropdown (main city first, then most populous)
   const topLocations = locationsData.slice(0, 8)
@@ -83,8 +84,8 @@ export default function Header() {
         <div className={styles.container}>
           <Link href="/" className={styles.logo} onClick={closeMobileMenu}>
             <Image
-              src="/window-replacements-of-dallas-tx-logo.png"
-              alt="Window Replacements of Dallas TX"
+              src="/logo.png"
+              alt="Home Window Replacement Service of Arlington TX"
               width={200}
               height={60}
               className={styles.logoImage}
@@ -132,6 +133,50 @@ export default function Header() {
                     onClick={() => setActiveDropdown(null)}
                   >
                     View All Windows
+                  </Link>
+                </div>
+              )}
+            </div>
+
+            {/* Materials Dropdown */}
+            <div
+              className={styles.dropdown}
+              onMouseEnter={() => handleMouseEnter('materials')}
+              onMouseLeave={handleMouseLeave}
+            >
+              <button
+                className={styles.navLink}
+                onKeyDown={(e) => handleKeyDown(e, 'materials')}
+                aria-expanded={activeDropdown === 'materials'}
+                aria-haspopup="true"
+              >
+                Materials
+                <svg className={styles.dropdownArrow} viewBox="0 0 24 24" width="12" height="12" fill="currentColor">
+                  <path d="M7 10l5 5 5-5z"/>
+                </svg>
+              </button>
+              {activeDropdown === 'materials' && (
+                <div
+                  className={styles.dropdownMenu}
+                  onMouseEnter={handleDropdownMouseEnter}
+                  onMouseLeave={handleMouseLeave}
+                >
+                  {materialServices.map((service) => (
+                    <Link
+                      key={service.slug}
+                      href={service.route}
+                      className={styles.dropdownItem}
+                      onClick={() => setActiveDropdown(null)}
+                    >
+                      {service.name}
+                    </Link>
+                  ))}
+                  <Link
+                    href="/windows"
+                    className={`${styles.dropdownItem} ${styles.viewAll}`}
+                    onClick={() => setActiveDropdown(null)}
+                  >
+                    View All Materials
                   </Link>
                 </div>
               )}
@@ -278,9 +323,9 @@ export default function Header() {
           </nav>
 
           <div className={styles.headerActions}>
-            <a href="tel:214-949-8227" className={styles.phone}>
+            <a href="tel:817-592-8870" className={styles.phone}>
               <span className={styles.phoneLabel}>Call Now</span>
-              <span className={styles.phoneNumber}>214-949-8227</span>
+              <span className={styles.phoneNumber}>817-592-8870</span>
             </a>
             <Link href="/contact" className={styles.ctaButton}>
               Free Estimate
@@ -313,8 +358,8 @@ export default function Header() {
         <div className={styles.mobileMenuHeader}>
           <Link href="/" className={styles.mobileLogo} onClick={closeMobileMenu}>
             <Image
-              src="/window-replacements-of-dallas-tx-logo.png"
-              alt="Window Replacements of Dallas TX"
+              src="/logo.png"
+              alt="Home Window Replacement Service of Arlington TX"
               width={150}
               height={40}
               className={styles.mobileLogoImage}
@@ -361,6 +406,39 @@ export default function Header() {
                 onClick={closeMobileMenu}
               >
                 View All Windows
+              </Link>
+            </div>
+          </div>
+
+          {/* Materials Accordion */}
+          <div className={styles.mobileDropdown}>
+            <button
+              className={`${styles.mobileDropdownToggle} ${mobileActiveDropdown === 'materials' ? styles.mobileDropdownToggleActive : ''}`}
+              onClick={() => toggleMobileDropdown('materials')}
+              aria-expanded={mobileActiveDropdown === 'materials'}
+            >
+              Materials
+              <svg className={styles.mobileDropdownArrow} viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                <path d="M7 10l5 5 5-5z"/>
+              </svg>
+            </button>
+            <div className={`${styles.mobileDropdownContent} ${mobileActiveDropdown === 'materials' ? styles.mobileDropdownContentOpen : ''}`}>
+              {materialServices.map((service) => (
+                <Link
+                  key={service.slug}
+                  href={service.route}
+                  className={styles.mobileDropdownItem}
+                  onClick={closeMobileMenu}
+                >
+                  {service.name}
+                </Link>
+              ))}
+              <Link
+                href="/windows"
+                className={`${styles.mobileDropdownItem} ${styles.mobileViewAll}`}
+                onClick={closeMobileMenu}
+              >
+                View All Materials
               </Link>
             </div>
           </div>
@@ -475,11 +553,11 @@ export default function Header() {
 
         {/* Mobile Menu Footer */}
         <div className={styles.mobileMenuFooter}>
-          <a href="tel:214-949-8227" className={styles.mobilePhoneButton}>
+          <a href="tel:817-592-8870" className={styles.mobilePhoneButton}>
             <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
               <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
             </svg>
-            Call: 214-949-8227
+            Call: 817-592-8870
           </a>
           <Link href="/contact" className={styles.mobileEstimateButton} onClick={closeMobileMenu}>
             Get Free Estimate
@@ -487,6 +565,16 @@ export default function Header() {
         </div>
       </nav>
 
+      {/* Floating Mobile Call Button */}
+      <a 
+        href="tel:817-592-8870" 
+        className={styles.floatingCallButton}
+        aria-label="Call Now"
+      >
+        <svg viewBox="0 0 24 24" width="28" height="28" fill="currentColor">
+          <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/>
+        </svg>
+      </a>
     </>
   )
 }

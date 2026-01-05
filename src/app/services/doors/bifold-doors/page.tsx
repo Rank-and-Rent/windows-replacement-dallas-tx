@@ -236,7 +236,7 @@ export default function Page() {
                   What's the cost range for bifold doors in Dallas?
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Bifold doors in Dallas, Texas range from $3,000-$8,000 per linear foot depending on panel count, glass options, and hardware quality. Multi-panel systems for large openings typically cost $15,000-$50,000 or more, making them a premium investment for luxury Dallas-area homes.
+                  Bifold doors with installation in Dallas, Texas range from $3,000-$8,000 per linear foot depending on panel count, glass options, and hardware quality. Everything is priced including installation. Multi-panel systems for large openings typically cost $15,000-$50,000 or more with installation, making them a premium investment for luxury Dallas-area homes. We do not sell doors without installation.
                 </p>
               </div>
 

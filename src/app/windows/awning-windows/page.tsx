@@ -6,7 +6,7 @@ export default function Page() {
     <div className="bg-white">
       {/* Hero Section */}
       <section className="bg-secondary-dark py-32 relative overflow-hidden">
-        <div className="absolute inset-0 opacity-10 grayscale bg-[url('/windows/awning-windows-arlington-tx.jpg')] bg-cover bg-center" />
+        <div className="absolute inset-0 opacity-10 grayscale bg-[url('/windows/awning-windows-dallas-tx.jpg')] bg-cover bg-center" />
         <div className="container relative z-10">
           <div className="max-w-4xl">
             <nav className="flex items-center gap-4 text-[10px] font-black uppercase tracking-[0.4em] text-gray-400 mb-8">

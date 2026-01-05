@@ -227,7 +227,7 @@ export default function Page() {
                   What's the cost range for multi-slide door systems?
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Multi-slide doors in Dallas, Texas range from $25,000-$75,000 or more depending on size, glass specifications, and hardware quality. The premium engineering and custom fabrication required for large panel systems make them a significant investment for luxury properties.
+                  Multi-slide doors with installation in Dallas, Texas range from $25,000-$75,000 or more depending on size, glass specifications, and hardware quality. Everything is priced including installation. The premium engineering and custom fabrication required for large panel systems make them a significant investment for luxury properties. We do not sell doors without installation.
                 </p>
               </div>
 

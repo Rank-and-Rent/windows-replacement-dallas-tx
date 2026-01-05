@@ -245,7 +245,7 @@ export default function Page() {
                   How much do windows cost in Dallas?
                 </h3>
                 <p className="text-gray-600 leading-relaxed">
-                  Window costs in Dallas, TX vary based on size, style, materials, and energy efficiency features. Basic replacement windows typically range from $300-$800 per window installed. Premium energy-efficient or impact-resistant windows range from $600-$1,500 or more per window. We provide detailed quotes based on your specific selections.
+                  Window costs with installation in Dallas, TX vary based on size, style, materials, and energy efficiency features. Everything is priced including installation. Pricing starts at around $850 for small vinyl windows and goes up to $3500 per window depending on frame material, like wood clad windows. We do not sell windows without installation.
                 </p>
               </div>
             </div>

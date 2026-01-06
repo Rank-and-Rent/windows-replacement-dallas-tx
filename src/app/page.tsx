@@ -1,6 +1,7 @@
 import Hero from '@/components/home/Hero';
 import FullImageSection from '@/components/home/FullImageSection';
 import WindowTypesSection from '@/components/home/WindowTypesSection';
+import MaterialsSection from '@/components/home/MaterialsSection';
 import BrandsSection from '@/components/home/BrandsSection';
 import ServiceSection from '@/components/home/ServiceSection';
 import ServiceAreasSection from '@/components/home/ServiceAreasSection';
@@ -12,6 +13,7 @@ export default function Home() {
     <>
       <Hero />
       <WindowTypesSection />
+      <MaterialsSection />
       <BrandsSection />
       <ServiceSection />
       <FullImageSection

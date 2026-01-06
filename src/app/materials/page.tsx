@@ -1,6 +1,16 @@
 import Link from 'next/link';
 import Image from 'next/image';
 import { FaArrowRight, FaCheckCircle } from 'react-icons/fa';
+import type { Metadata } from 'next';
+
+export const metadata: Metadata = {
+  title: 'Window Materials Dallas TX | Vinyl, Aluminum, Fiberglass & More',
+  description: 'Premium window materials in Dallas, TX. Vinyl, aluminum, fiberglass, Fibrex, wood-clad, and wood windows. Expert guidance on choosing the right material.',
+  keywords: 'window materials Dallas TX, vinyl windows, aluminum windows, fiberglass windows, wood windows',
+  alternates: {
+    canonical: 'https://windowreplacementdallastx.com/materials',
+  },
+};
 
 export default function MaterialsIndex() {
   const materialTypes = [

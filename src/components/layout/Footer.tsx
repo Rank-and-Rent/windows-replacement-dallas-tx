@@ -6,6 +6,7 @@ export default function Footer() {
 
   const windowServices = servicesData.filter(s => s.category === 'Windows')
   const doorServices = servicesData.filter(s => s.category === 'Doors')
+  const materialServices = servicesData.filter(s => s.category === 'Materials')
   const topLocations = locationsData.slice(0, 8) // Show first 8 locations
 
   return (
@@ -35,6 +36,31 @@ export default function Footer() {
             <h3 className="text-lg font-bold uppercase tracking-wider mb-6">Doors</h3>
             <ul className="space-y-3">
               {doorServices.map((service) => (
+                <li key={service.slug}>
+                  <Link
+                    href={service.route}
+                    className="text-gray-300 hover:text-orange-400 transition-colors text-sm"
+                  >
+                    {service.name}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </div>
+
+          {/* Materials Section - All 6 material types */}
+          <div>
+            <h3 className="text-lg font-bold uppercase tracking-wider mb-6">Materials</h3>
+            <ul className="space-y-3">
+              <li>
+                <Link
+                  href="/materials"
+                  className="text-gray-300 hover:text-orange-400 transition-colors text-sm"
+                >
+                  View All Materials
+                </Link>
+              </li>
+              {materialServices.map((service) => (
                 <li key={service.slug}>
                   <Link
                     href={service.route}

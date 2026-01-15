@@ -71,8 +71,8 @@ export const metadata: Metadata = {
     google: 'verification-token',
   },
   icons: {
-    icon: '/favicon/favicon.ico',
-    shortcut: '/favicon/favicon.ico',
+    icon: '/favicon.ico',
+    shortcut: '/favicon.ico',
     apple: '/favicon/apple-touch-icon.png',
     other: {
       rel: 'android-chrome-192x192',
@@ -100,7 +100,7 @@ export default function RootLayout({
           href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
           rel="stylesheet"
         />
-        <link rel="icon" href="/favicon/favicon.ico" sizes="any" />
+        <link rel="icon" href="/favicon.ico" sizes="any" />
         <link rel="icon" href="/favicon/favicon-16x16.png" sizes="16x16" type="image/png" />
         <link rel="icon" href="/favicon/favicon-32x32.png" sizes="32x32" type="image/png" />
         <link rel="apple-touch-icon" href="/favicon/apple-touch-icon.png" />
@@ -108,8 +108,8 @@ export default function RootLayout({
         <meta name="theme-color" content="#1a365d" />
         <meta name="geo.region" content="US-TX" />
         <meta name="geo.placename" content="Dallas" />
-        <meta name="geo.position" content="32.7767;-96.7970" />
-        <meta name="ICBM" content="32.7767, -96.7970" />
+        <meta name="geo.position" content="32.78668;-96.79495" />
+        <meta name="ICBM" content="32.78668, -96.79495" />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{
@@ -133,8 +133,8 @@ export default function RootLayout({
               },
               geo: {
                 '@type': 'GeoCoordinates',
-                latitude: 32.7767,
-                longitude: -96.7970,
+                latitude: 32.78668,
+                longitude: -96.79495,
               },
               areaServed: [
                 { '@type': 'City', name: 'Dallas', containedInPlace: { '@type': 'State', name: 'Texas' } },
@@ -269,9 +269,9 @@ export default function RootLayout({
           }}
         />
       </head>
-      <body className={`${inter.className} antialiased bg-white text-gray-900 flex flex-col min-h-screen`}>
+      <body className={`${inter.className} antialiased bg-white text-gray-900 flex flex-col min-h-screen overflow-x-hidden`}>
         <Header />
-        <main className="flex-grow">
+        <main className="flex-grow overflow-x-hidden w-full">
           {children}
         </main>
         <Footer />

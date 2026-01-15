@@ -139,8 +139,8 @@ export default function Footer() {
                     <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/>
                   </svg>
                   <address className="not-italic">
-                    909 Hidden Ridge Dr #180<br />
-                    Irving, TX 75038
+                    600 N Pearl St #1615<br />
+                    Dallas, TX 75201
                   </address>
                 </div>
               </li>
@@ -188,7 +188,7 @@ export default function Footer() {
           <h3 className="text-center mb-6 text-lg font-bold">Find Us</h3>
           <div className="aspect-video w-full max-w-4xl mx-auto rounded-lg overflow-hidden shadow-lg">
             <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.5!2d-96.9497!3d32.9026!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c2b6e1db45555%3A0x1234567890!2s909%20Hidden%20Ridge%20Dr%20%23180%2C%20Irving%2C%20TX%2075038!5e0!3m2!1sen!2sus!4v1234567890"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3348.5!2d-96.79495!3d32.78668!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x864c2b6e1db45555%3A0x1234567890!2s600%20N%20Pearl%20St%20%231615%2C%20Dallas%2C%20TX%2075201!5e0!3m2!1sen!2sus!4v1234567890"
               width="100%"
               height="100%"
               style={{ border: 0 }}

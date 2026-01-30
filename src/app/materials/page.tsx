@@ -94,7 +94,7 @@ export default function MaterialsIndex() {
               <p className="text-gray-500 font-medium leading-relaxed mb-8">
                 Our selection process focuses on durability, energy efficiency, and aesthetic appeal. Every material we offer is tested for Dallas's extreme weather conditions and backed by comprehensive warranties.
               </p>
-              <Link href="/quote" className="btn-primary inline-flex">
+              <Link href="/contact" className="btn-primary inline-flex">
                 Get a Free Quote
               </Link>
             </div>

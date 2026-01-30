@@ -119,7 +119,7 @@ export default function Page() {
                 <p className="text-gray-400 font-bold uppercase tracking-widest text-xs mb-8">
                   Professional consultation and free estimate
                 </p>
-                <Link href="/quote" className="inline-block bg-primary hover:bg-primary-dark text-white font-black py-5 px-12 uppercase tracking-[0.3em] text-[11px] shadow-2xl shadow-primary/40 transition-all active:scale-95">
+                <Link href="/contact" className="inline-block bg-primary hover:bg-primary-dark text-white font-black py-5 px-12 uppercase tracking-[0.3em] text-[11px] shadow-2xl shadow-primary/40 transition-all active:scale-95">
                   Schedule Consultation
                 </Link>
               </div>
@@ -283,7 +283,7 @@ export default function Page() {
               <div className="text-center">
                 <h3 className="text-lg font-black text-secondary-dark uppercase tracking-tighter mb-2">Andersen</h3>
                 <p className="text-xs text-gray-500 font-bold uppercase tracking-widest mb-4">Architectural Excellence</p>
-                <Link href="/brands/andersen" className="text-primary hover:text-primary-dark font-bold uppercase tracking-widest text-xs transition-colors">
+                <Link href="/brands/andersen-windows-doors" className="text-primary hover:text-primary-dark font-bold uppercase tracking-widest text-xs transition-colors">
                   Learn More →
                 </Link>
               </div>
@@ -297,7 +297,7 @@ export default function Page() {
               <div className="text-center">
                 <h3 className="text-lg font-black text-secondary-dark uppercase tracking-tighter mb-2">Jeld-Wen</h3>
                 <p className="text-xs text-gray-500 font-bold uppercase tracking-widest mb-4">Reliable Performance</p>
-                <Link href="/brands/jeld-wen" className="text-primary hover:text-primary-dark font-bold uppercase tracking-widest text-xs transition-colors">
+                <Link href="/brands/jeld-wen-windows-doors" className="text-primary hover:text-primary-dark font-bold uppercase tracking-widest text-xs transition-colors">
                   Learn More →
                 </Link>
               </div>
@@ -334,7 +334,7 @@ export default function Page() {
             <Link href="/services/doors" className="border-2 border-secondary-dark text-secondary-dark font-black py-5 px-12 uppercase tracking-[0.3em] text-[11px] hover:bg-secondary-dark hover:text-white transition-all">
               All Doors
             </Link>
-            <Link href="/quote" className="bg-primary hover:bg-primary-dark text-white font-black py-5 px-12 uppercase tracking-[0.3em] text-[11px] transition-all shadow-lg shadow-primary/20">
+            <Link href="/contact" className="bg-primary hover:bg-primary-dark text-white font-black py-5 px-12 uppercase tracking-[0.3em] text-[11px] transition-all shadow-lg shadow-primary/20">
               Get Free Quote
             </Link>
           </div>

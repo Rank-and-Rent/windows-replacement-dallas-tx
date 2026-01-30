@@ -69,7 +69,7 @@ export default function DoorsIndex() {
               <p className="text-gray-500 font-medium leading-relaxed mb-8">
                 Our doors are engineered to withstand the Texas elements while providing a stunning first impression and effortless operation for your home.
               </p>
-              <Link href="/quote" className="btn-primary inline-flex">
+              <Link href="/contact" className="btn-primary inline-flex">
                 Start Your Project
               </Link>
             </div>

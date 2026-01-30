@@ -77,7 +77,7 @@ export default function BrandsSection() {
 
                 {/* Action Buttons */}
                 <div className="flex gap-4">
-                  <Link href="/quote" className="flex-1 bg-primary text-white text-sm font-black uppercase tracking-widest py-3 px-4 text-center shadow-lg shadow-primary/10 transition-all hover:bg-primary-dark">
+                  <Link href="/contact" className="flex-1 bg-primary text-white text-sm font-black uppercase tracking-widest py-3 px-4 text-center shadow-lg shadow-primary/10 transition-all hover:bg-primary-dark">
                     Get a Free Quote
                   </Link>
                   <Link href={`/brands/${brand.name === 'JELD-WEN' ? 'jeld-wen-windows-doors' : brand.name === 'Marvin' ? 'marvin-windows-doors' : brand.name.toLowerCase()}-windows-doors`} className="flex-1 bg-gray-200 text-secondary-dark text-sm font-black uppercase tracking-widest py-3 px-4 text-center transition-all hover:bg-gray-300">

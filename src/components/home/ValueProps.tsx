@@ -59,7 +59,7 @@ export default function ValueProps() {
               Proud to bring your home<br/>
               <span className="text-primary italic">The Finest</span> Windows and Doors
             </h3>
-            <Link href="/quote" className="inline-block bg-primary hover:bg-primary-dark text-white font-black py-5 px-12 uppercase tracking-[0.3em] text-[11px] shadow-2xl shadow-primary/40 transition-all active:scale-95">
+            <Link href="/contact" className="inline-block bg-primary hover:bg-primary-dark text-white font-black py-5 px-12 uppercase tracking-[0.3em] text-[11px] shadow-2xl shadow-primary/40 transition-all active:scale-95">
               Request Your Free Quote
             </Link>
           </div>

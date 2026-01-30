@@ -162,7 +162,7 @@ export default function BrandsIndex() {
           <p className="text-white/80 font-bold uppercase tracking-widest text-sm mb-10 max-w-xl mx-auto">
             Our experts can help you choose the perfect material and style for your specific home and budget.
           </p>
-          <Link href="/quote" className="inline-block bg-secondary-dark text-white font-black py-5 px-12 uppercase tracking-[0.2em] text-[11px] shadow-2xl hover:bg-gray-900 transition-colors">
+          <Link href="/contact" className="inline-block bg-secondary-dark text-white font-black py-5 px-12 uppercase tracking-[0.2em] text-[11px] shadow-2xl hover:bg-gray-900 transition-colors">
             Speak With a Specialist
           </Link>
         </div>

@@ -72,7 +72,7 @@ export default function WindowsIndex() {
               <p className="text-gray-500 font-medium leading-relaxed mb-8">
                 Our selection process focuses on durability, energy efficiency, and aesthetic appeal. Every window we install is measured precisely to ensure a perfect fit for your home.
               </p>
-              <Link href="/quote" className="btn-primary inline-flex">
+              <Link href="/contact" className="btn-primary inline-flex">
                 Get a Free Quote
               </Link>
             </div>

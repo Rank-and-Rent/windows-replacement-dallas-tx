@@ -89,7 +89,7 @@ export default function DoorsIndexPage() {
               <p className="text-gray-500 font-medium leading-relaxed mb-8">
                 Our door selection focuses on quality craftsmanship, security features, and aesthetic appeal. Every door we install is measured precisely to ensure perfect fit and optimal performance for your Dallas home.
               </p>
-              <Link href="/quote" className="btn-primary inline-flex">
+              <Link href="/contact" className="btn-primary inline-flex">
                 Get a Free Quote
               </Link>
             </div>

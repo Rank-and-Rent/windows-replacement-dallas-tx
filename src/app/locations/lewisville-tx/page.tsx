@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Window Replacement Lewisville TX | Lake Lewisville Waterfront, Castle Hills, Old Town',
+  description: 'Window replacement for Lewisville waterfront homes on Lake Lewisville with high glass counts, plus Castle Hills, Old Town Lewisville, and Highland Village-adjacent developments along I-35E and FM 3040.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/locations/lewisville-tx' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Window Replacement in Lewisville, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Professional window and door replacement services throughout Lewisville, Texas with premium products and expert installation.
+              Replacement work across Lewisville — Lake Lewisville waterfront homes with unusually high glass counts, the older central neighborhoods, Castle Hills, Old Town Lewisville, and the newer Highland Village-adjacent developments.
             </p>
           </div>
         </div>

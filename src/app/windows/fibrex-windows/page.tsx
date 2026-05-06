@@ -8,7 +8,7 @@ import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
   title: 'Fibrex Windows Replacement Dallas TX | Andersen Premium Composite',
-  description: 'Andersen Fibrex composite replacement windows in Dallas, TX. Premium performance with wood-like beauty engineered for Texas heat and storm seasons. Call (214) 949-8227.',
+  description: 'Andersen Fibrex composite windows for Lakewood Tudors and west-facing Forest Hills elevations where Dallas heat warps wood and cracks lesser vinyl. Renewal by Andersen authorized.',
   keywords: 'Fibrex windows Dallas TX, Andersen Fibrex windows, composite windows, premium replacement windows, energy efficient Fibrex windows, durable composite windows',
   alternates: {
     canonical: 'https://windowreplacementdallastx.com/windows/fibrex-windows',

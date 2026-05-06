@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Window Replacement Carrollton TX | Heritage Park, Old Downtown, Hebron, Castle Hills-Adjacent',
+  description: 'Window replacement for Carrollton 1970s and 1980s ranch stock — Heritage Park, Old Downtown Carrollton, the Hebron-area homes, and the Castle Hills-adjacent developments along the President George Bush Turnpike.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/locations/carrollton-tx' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Window Replacement in Carrollton, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Professional window and door replacement services throughout Carrollton, Texas with premium products and expert installation.
+              Replacement work across Carrollton's older central neighborhoods around Carrollton Heritage Park and Old Downtown, the Hebron-area homes near Hebron Parkway, and the newer subdivisions along the President George Bush Turnpike.
             </p>
           </div>
         </div>

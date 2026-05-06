@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Double-Hung Window Installation Dallas TX | HPISD Tudors, Swiss Avenue, Munger Place',
+  description: 'Double-hung installation for Highland Park Tudor Revivals, Swiss Avenue Historic District, and Munger Place conservation overlay. Tilt-in for second-story Lakewood cleaning, period-correct sash proportions.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/services/windows/double-hung-windows' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Double-Hung Windows
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              The most popular window style in America, combining timeless design with modern performance technology for homes throughout Dallas-Fort Worth.
+              The default specification for HPISD Tudors, Swiss Avenue Historic District, and Munger Place — period-correct sash proportions with modern weatherstripping and Low-E glass tuned to North Texas Climate Zone 3.
             </p>
           </div>
         </div>

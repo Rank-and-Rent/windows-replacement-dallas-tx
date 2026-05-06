@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Pella Windows and Doors Dallas TX | Reserve and Architect Series for Greenway Parks and Bluffview',
+  description: 'Pella Reserve Traditional and Architect Series wood for Greenway Parks Spanish Colonials, Bluffview contemporary, and Preston Hollow custom projects. Between-the-glass blinds for Dallas west exposures.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/brands/pella-windows-doors' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Pella Windows & Doors
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Pella delivers innovative window and door solutions with advanced features like between-the-glass blinds and industry-leading energy performance.
+              Pella Reserve Traditional and Architect Series are mainstays for Greenway Parks Spanish Colonials, Bluffview contemporary remodels, and Preston Hollow custom projects. Between-the-glass blind options solve dust-in-blinds problems on Dallas west elevations.
             </p>
           </div>
         </div>

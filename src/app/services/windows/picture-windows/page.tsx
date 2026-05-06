@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Picture Window Installation Dallas TX | White Rock Lake Views, Bluffview Modern Glass',
+  description: 'Fixed picture window installs for White Rock Lake-facing rooms, Bluffview modern infill, and Preston Hollow great rooms. Solar-control coatings sized for Dallas west elevations under 100-degree sun.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/services/windows/picture-windows' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Picture Windows
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Fixed windows designed to frame your view like artwork while flooding interiors with natural light and delivering maximum energy efficiency.
+              Fixed glass for White Rock Lake-facing rooms, Bluffview great rooms, and Preston Hollow stairwell elevations. Solar-control coatings sized for Dallas west exposures, no operable hardware to fail.
             </p>
           </div>
         </div>

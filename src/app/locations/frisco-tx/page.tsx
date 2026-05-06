@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Window Replacement Frisco TX | Stonebriar, Phillips Creek Ranch, Newman Village, The Trails',
+  description: 'Window replacement for Frisco master-planned communities — Stonebriar, Plantation Resort, Phillips Creek Ranch, Newman Village, and Hollyhock — where 1995-2015 builder windows are aging out.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/locations/frisco-tx' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Window Replacement in Frisco, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Professional window and door replacement services throughout Frisco, Texas with premium products and expert installation.
+              Replacement work for Frisco master-planned communities including Stonebriar, Plantation Resort, Phillips Creek Ranch, Newman Village, the Frisco-side of The Trails, and the newer Hollyhock and Hidden Cove subdivisions.
             </p>
           </div>
         </div>

@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Window Replacement Richardson TX | Telecom Corridor Ranches, Old Town, UTD Neighborhoods',
+  description: 'Window replacement for Richardson 1960s-1980s ranch stock — Telecom Corridor neighborhoods near UTD, Old Town Richardson, and the newer developments along the President George Bush Turnpike.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/locations/richardson-tx' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Window Replacement in Richardson, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Professional window and door replacement services throughout Richardson, Texas with premium products and expert installation.
+              Replacement work across Richardson's 1960s-80s ranch stock — Telecom Corridor neighborhoods near UTD, Old Town Richardson, and the newer developments along the President George Bush Turnpike.
             </p>
           </div>
         </div>

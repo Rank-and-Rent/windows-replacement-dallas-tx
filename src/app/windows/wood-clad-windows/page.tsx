@@ -8,7 +8,7 @@ import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
   title: 'Wood Clad Windows Replacement Dallas TX | Wood Inside, Weather-Tough Outside',
-  description: 'Wood clad replacement windows in Dallas, TX. Real wood interiors paired with aluminum or fiberglass exterior cladding for the look of wood without the Dallas-climate maintenance burden. Call (214) 949-8227.',
+  description: 'Wood-clad windows for Highland Park Tudors, Greenway Parks Spanish Colonials, and Munger Place Craftsman homes. Real wood interior, weather-armored cladding outside.',
   keywords: 'wood clad windows Dallas TX, wood clad replacement windows, aluminum clad wood windows, fiberglass clad wood, traditional windows Dallas',
   alternates: {
     canonical: 'https://windowreplacementdallastx.com/windows/wood-clad-windows',

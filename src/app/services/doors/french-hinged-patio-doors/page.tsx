@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'French Hinged Patio Door Dallas TX | Highland Park Estates, Greenway Parks Spanish Colonial',
+  description: 'Hinged French patio doors for Highland Park estate rear elevations and Greenway Parks Spanish Colonial garden rooms. True divided lite, multipoint security, mortise-and-tenon stiles in mahogany or oak.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/services/doors/french-hinged-patio-doors' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               French Patio Doors
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Classic hinged design for an elegant, high-end architectural look that opens wide for seamless indoor-outdoor flow.
+              Hinged French pairs for Highland Park estate rear elevations and Greenway Parks Spanish Colonial garden rooms. True divided lite glass and multipoint security hardware, with mortise-and-tenon stiles available in mahogany or oak.
             </p>
           </div>
         </div>

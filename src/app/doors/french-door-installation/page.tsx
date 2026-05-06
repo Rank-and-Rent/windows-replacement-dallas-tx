@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'French Door Installation Dallas TX | Highland Park Estates, Devonshire Garden Rooms',
+  description: 'French door installation for Highland Park estate rear elevations, Devonshire Spanish Colonial garden rooms, and Greenway Parks formal interiors. True divided lite, multipoint security, mahogany or oak.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/doors/french-door-installation' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               French Door Installation
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Elegant hinged glass doors that connect indoor and outdoor spaces with timeless beauty and modern performance for Dallas homes.
+              Hinged French pairs for Highland Park estate rear elevations, Devonshire Spanish Colonial garden rooms, and Greenway Parks formal interiors. Mortise-and-tenon stiles in mahogany or oak with true divided lite glass.
             </p>
           </div>
         </div>

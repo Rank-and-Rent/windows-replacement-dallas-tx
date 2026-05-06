@@ -8,7 +8,7 @@ import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
   title: 'Vinyl Windows Replacement Dallas TX | Low Maintenance, Energy Efficient',
-  description: 'Premium vinyl replacement windows in Dallas, TX. Low-maintenance, energy-efficient, and durable. Andersen, Pella & JELD-WEN vinyl options. Everything priced including installation. Call (214) 949-8227.',
+  description: 'Vinyl windows engineered for Lake Highlands ranches, Casa View tracts, and M Streets bungalows. Fusion-welded frames hold shape through 110-degree Dallas summers and hail.',
   keywords: 'vinyl windows Dallas TX, vinyl replacement windows, low maintenance windows, energy efficient vinyl windows, Andersen vinyl windows, Pella vinyl windows, JELD-WEN vinyl windows',
   alternates: {
     canonical: 'https://windowreplacementdallastx.com/windows/vinyl-windows',

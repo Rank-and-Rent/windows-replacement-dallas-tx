@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Entry Door Installation Dallas TX | HPISD Tudor Mahogany, Lakewood Craftsman Originals',
+  description: 'Entry door replacement for Highland Park Tudor mahogany doors, Lakewood Craftsman originals, and Munger Place conservation entries. Multipoint security, weatherstripping rated for Dallas freeze-thaw.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/doors/entry-door-installation' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Entry Door Installation
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Transform your Dallas home with premium entry doors that combine security, energy efficiency, and stunning curb appeal from top manufacturers.
+              Front entries for HPISD Tudor mahogany doors, Lakewood Craftsman originals, and Munger Place conservation overlay homes. Solid wood, fiberglass-clad, or stave-core options with multipoint security hardware.
             </p>
           </div>
         </div>

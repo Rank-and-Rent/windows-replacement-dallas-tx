@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Window Replacement Fort Worth TX | Fairmount, Mistletoe Heights, Ryan Place, Cultural District',
+  description: 'Window replacement for Fort Worth Fairmount Craftsman, Mistletoe Heights Tudor, Ryan Place Spanish Colonial, and Cultural District homes. Period-correct profiles and foundation-aware install on pre-war stock.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/locations/fort-worth-tx' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Window Replacement in Fort Worth, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Professional window and door replacement services throughout Fort Worth, Texas with premium products and expert installation.
+              Replacement work across Fort Worth's pre-war historic districts — Fairmount Craftsman bungalows, Mistletoe Heights Tudor Revivals, Ryan Place and Berkeley Place, the Cultural District, and TCU-adjacent University Place.
             </p>
           </div>
         </div>

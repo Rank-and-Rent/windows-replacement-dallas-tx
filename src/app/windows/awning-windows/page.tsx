@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Awning Windows Dallas TX | Bishop Arts Bungalows, Bathroom and Kitchen Ventilation',
+  description: 'Awning windows for Bishop Arts bungalow bathrooms, Oak Cliff kitchens, and any Dallas opening that needs ventilation during a spring thunderstorm. Top-hinge sheds wind-driven rain.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/windows/awning-windows' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Awning Windows
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Hinged at the top and opening outward, awning windows provide rain-resistant ventilation and contemporary style for Texas homes.
+              Top-hinge ventilation that stays open through a Dallas spring thunderstorm. Common over Bishop Arts and Winnetka Heights bungalow kitchen sinks, Oak Cliff bathroom transoms, and basement-room Lakewood openings.
             </p>
           </div>
         </div>

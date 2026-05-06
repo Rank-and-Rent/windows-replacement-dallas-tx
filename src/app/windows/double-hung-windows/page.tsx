@@ -1,7 +1,14 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+
+export const metadata: Metadata = {
+  title: 'Double-Hung Windows Dallas TX | Period-Correct for Swiss Avenue, Munger Place, M Streets',
+  description: 'Double-hung windows that match Swiss Avenue Historic District profiles and M Streets prairie cottages. Tilt-in sashes for second-story Lakewood cleaning, true divided lite available.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/windows/double-hung-windows' },
+};
 
 export default function Page() {
   return (
@@ -24,7 +31,7 @@ export default function Page() {
               Double-Hung Window Replacement in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              The most popular window style in America, combining timeless design with modern performance technology for homes throughout Dallas, TX.
+              The default specification for Swiss Avenue Historic District, Munger Place, and the M Streets — period-correct sash proportions with modern weatherstripping and Low-E glass tuned to North Texas Climate Zone 3.
             </p>
           </div>
         </div>

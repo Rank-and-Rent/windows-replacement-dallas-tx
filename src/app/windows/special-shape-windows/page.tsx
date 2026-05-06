@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Special Shape Windows Dallas TX | Tudor Arches, Spanish Colonial Quatrefoils, Gable Fans',
+  description: 'Custom-shape windows that match Highland Park Tudor pointed arches, Greenway Parks Spanish Colonial quatrefoils, and Lakewood gable-end fan transoms. Built to original opening templates.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/windows/special-shape-windows' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Special Shape Windows
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Custom geometric windows including circles, arches, triangles, and trapezoids that define your home's unique architectural character.
+              Pointed-arch transoms for Highland Park Tudors, quatrefoils for Greenway Parks Spanish Colonials, and gable-end fan windows for Lakewood eclectic. Templated to the original opening — no compromise patterns.
             </p>
           </div>
         </div>

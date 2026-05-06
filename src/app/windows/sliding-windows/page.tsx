@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Sliding Windows Dallas TX | Mid-Century Casa Linda, Hollywood Heights, Lake Highlands',
+  description: 'Horizontal sliders for Casa Linda mid-century ranches and Hollywood Heights post-war homes where the original openings were wider than tall. Smooth roller hardware, hard-water-tolerant track.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/windows/sliding-windows' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Sliding Windows
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Glide open horizontally on smooth roller systems, providing contemporary style and easy operation for modern Dallas homes.
+              Where the original opening is wider than tall — Casa Linda mid-century ranches, Hollywood Heights post-war, Lake Highlands kitchen-side openings. Roller hardware engineered for Dallas hard-water mineral spotting.
             </p>
           </div>
         </div>

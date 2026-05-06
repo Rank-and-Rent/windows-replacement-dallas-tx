@@ -8,7 +8,7 @@ import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
   title: 'Aluminum Windows Replacement Dallas TX | Thermally Broken, Modern Sightlines',
-  description: 'Thermally broken aluminum replacement windows in Dallas, TX. Narrow sightlines for modern homes, exceptional durability, and ENERGY STAR performance. Call (214) 949-8227.',
+  description: 'Thermally broken aluminum for Bluffview modern infill, Preston Hollow rebuilds, and White Rock Lake contemporaries. Two-inch sightlines, 12-foot glass walls, full ENERGY STAR.',
   keywords: 'aluminum windows Dallas TX, thermally broken aluminum windows, modern aluminum windows, large picture windows, contemporary windows Dallas',
   alternates: {
     canonical: 'https://windowreplacementdallastx.com/windows/aluminum-windows',

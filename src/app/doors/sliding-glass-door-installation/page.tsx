@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Sliding Glass Door Installation Dallas TX | Casa Linda Mid-Century, Lakewood Decks, Lake Highlands Pool Decks',
+  description: 'Sliding glass door installs for Casa Linda mid-century rear elevations, Lakewood deck openings, and Lake Highlands pool decks. Adjustable rollers and ENERGY STAR Zone 3 glass tuned for Dallas heat.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/doors/sliding-glass-door-installation' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Sliding Glass Door Installation
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Space-saving sliding doors with expansive glass views that connect Dallas homes to outdoor living spaces with modern performance.
+              Sliding-track glass doors for Casa Linda mid-century rear elevations, Lakewood deck openings, and Lake Highlands pool-deck retrofits. Hardware that won't seize on Dallas hard-water mineral spotting after years of pool-side service.
             </p>
           </div>
         </div>

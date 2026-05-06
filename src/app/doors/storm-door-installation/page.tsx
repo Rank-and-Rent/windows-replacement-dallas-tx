@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Storm Door Installation Dallas TX | Munger Place, Junius Heights, Conservation District Homes',
+  description: 'Storm door installation that pairs with Munger Place, Junius Heights, and Swiss Avenue historic wood entries. Hail-rated glass and full-view options that protect the original door without altering it.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/doors/storm-door-installation' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Storm Door Installation
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Enhanced security and weather protection for Dallas homes with energy-efficient storm doors that provide year-round comfort.
+              Storm doors that protect Munger Place, Junius Heights, and Swiss Avenue original wood entries from Dallas spring hailstorms and direct UV. Full-view, mid-view, and ventilating options that don't alter the historic door behind them.
             </p>
           </div>
         </div>

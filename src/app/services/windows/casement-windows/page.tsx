@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Casement Window Installation Dallas TX | M Streets, Lakewood, Vickery Place',
+  description: 'Casement window installation for M Streets prairie cottages, Lakewood eclectic 1920s, and Vickery Place Tudor cottages where original wood casements have aged out. True divided lite, multi-point lock.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/services/windows/casement-windows' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Casement Windows
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Hinged on the side and opening outward like a door, casement windows provide unobstructed views and maximum ventilation for modern Texas homes.
+              The right specification for the M Streets prairie-school cottages, Lakewood 1920s eclectics, and Vickery Place Tudor cottages where original wood casements have served their century. Multi-point lock, true-divided-light options.
             </p>
           </div>
         </div>

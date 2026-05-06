@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'JELD-WEN Windows and Doors Dallas TX | Premium Vinyl and Aluminum-Clad Wood for Whole-House Projects',
+  description: 'JELD-WEN vinyl, aluminum-clad wood, and premium options for Casa View, Lake Highlands, and Wilshire Heights whole-house projects. Strong value for 20-plus-opening Dallas replacement scopes.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/brands/jeld-wen-windows-doors' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Jeld-Wen Windows & Doors
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Jeld-Wen offers reliable, versatile window and door solutions with exceptional value, backed by one of the world's largest building products manufacturers.
+              The value-and-volume specification for Casa View, Lake Highlands, and Wilshire Heights whole-house projects where 20-plus openings need to come in under budget without sacrificing the warranty profile or installation tolerances.
             </p>
           </div>
         </div>

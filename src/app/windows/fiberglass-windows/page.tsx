@@ -8,7 +8,7 @@ import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
   title: 'Fiberglass Windows Replacement Dallas TX | Strong, Stable, ENERGY STAR Rated',
-  description: 'Pultruded fiberglass replacement windows in Dallas, TX. Maximum dimensional stability for hot Texas summers, hail resistance for spring storms, and ENERGY STAR efficiency. Call (214) 949-8227.',
+  description: 'Pultruded fiberglass windows that survive Dallas foundation movement and 100-degree thermal cycling. Spec of choice for Lakewood, Preston Hollow, and Devonshire renovations.',
   keywords: 'fiberglass windows Dallas TX, pultruded fiberglass windows, Marvin fiberglass windows, ENERGY STAR fiberglass windows, hail resistant windows Dallas',
   alternates: {
     canonical: 'https://windowreplacementdallastx.com/windows/fiberglass-windows',

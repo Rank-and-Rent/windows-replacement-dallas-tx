@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Patio Door Installation Dallas TX | Lakewood Decks, Forest Hills Pool Decks, Mid-Century Ranches',
+  description: 'Patio door installation for Lakewood decks, Forest Hills pool-deck openings, and Casa Linda mid-century rear elevations. Sliding, French, multi-slide, and bifold options sized to original openings.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/doors/patio-door-installation' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Patio Door Installation
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Connect your indoor and outdoor living spaces with premium patio doors that bring natural light and seamless flow to Dallas homes.
+              Patio doors for Lakewood decks, Forest Hills pool decks, and Casa Linda mid-century rear elevations. Sliding, French-hinged, multi-slide, and bifold options sized to the original opening with foundation-aware shimming.
             </p>
           </div>
         </div>

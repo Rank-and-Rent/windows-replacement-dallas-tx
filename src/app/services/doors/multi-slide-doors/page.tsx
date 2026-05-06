@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Multi-Slide Door Installation Dallas TX | Preston Hollow, Bluffview, Devonshire Estates',
+  description: 'Multi-slide door systems for Preston Hollow estates, Bluffview modern infill, and Devonshire pool-deck openings. 30-foot pocket runs with thermal-broken aluminum frames built for Dallas heat.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/services/doors/multi-slide-doors' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Multi-Slide Doors
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Premium sliding door systems with oversized panels that disappear into wall pockets for expansive luxury living.
+              Pocketing slider runs for Preston Hollow estate rear elevations, Bluffview modern infill, and the Devonshire and Greenway Parks pool-deck openings where 30-foot glass walls disappear entirely into the wall.
             </p>
           </div>
         </div>

@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Casement Windows Dallas TX | M Streets Prairie Cottages, Lakewood Eclectic Originals',
+  description: 'Casement windows for M Streets prairie-school cottages and Lakewood 1920s eclectic homes with original wood casements. Multi-point lock, true divided lite, in-home design.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/windows/casement-windows' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Casement Windows
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Hinged on the side and opening outward like a door, casement windows provide unobstructed views and maximum ventilation for modern Texas homes.
+              The right answer for M Streets prairie cottages and Lakewood 1920s eclectics where original casements are still in service. Multi-point lock, screens to the inside, true-divided-light options.
             </p>
           </div>
         </div>

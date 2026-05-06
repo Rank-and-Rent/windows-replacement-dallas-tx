@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Custom Door Installation Dallas TX | Made-to-Order for Swiss Avenue, Munger Place, Greenway Parks',
+  description: 'Custom doors templated to the original openings on Swiss Avenue, Munger Place, and Greenway Parks homes where stock sizes do not fit. Hand-built in mahogany, oak, or fiberglass with period-correct hardware.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/doors/custom-door-installation' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Custom Door Installation
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Bespoke doors designed specifically for your Dallas home, combining unique craftsmanship with premium performance from top manufacturers.
+              Made-to-order doors for Swiss Avenue Historic District, Munger Place conservation overlay, and Greenway Parks period homes where the original openings do not match stock sizes. Period-correct profiles, hand-built in wood or fiberglass.
             </p>
           </div>
         </div>

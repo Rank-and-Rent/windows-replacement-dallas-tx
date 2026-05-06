@@ -8,7 +8,7 @@ import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
   title: 'Wood Windows Replacement Dallas TX | Authentic Craftsmanship for Historic Homes',
-  description: 'Solid wood replacement windows in Dallas, TX. Period-correct authenticity for Tudor, Craftsman, and Spanish Colonial homes in Highland Park, Lakewood, and the M Streets. Call (214) 949-8227.',
+  description: 'Solid-wood windows for HPISD Tudor Revivals, Junius Heights Craftsman, Swiss Avenue, and Munger Place conservation-district homes. True divided lite, mahogany or white oak.',
   keywords: 'wood windows Dallas TX, solid wood windows, traditional wood windows, historic preservation windows, custom wood windows Dallas',
   alternates: {
     canonical: 'https://windowreplacementdallastx.com/windows/wood-windows',

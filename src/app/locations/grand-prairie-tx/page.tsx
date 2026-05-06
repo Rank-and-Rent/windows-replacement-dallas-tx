@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Window Replacement Grand Prairie TX | Lake Joe Pool, Asia Times Square, Lone Star Park',
+  description: 'Window replacement for Grand Prairie 1960s and 1970s ranch stock near Highway 161 and Belt Line, plus the newer developments around Lake Joe Pool, Asia Times Square, and Lone Star Park.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/locations/grand-prairie-tx' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Window Replacement in Grand Prairie, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Professional window and door replacement services throughout Grand Prairie, Texas with premium products and expert installation.
+              Replacement work across Grand Prairie's 1960s-70s ranch stock near Highway 161 and Belt Line Road, the established neighborhoods near Asia Times Square and Lone Star Park, and the newer developments along the President George Bush Turnpike.
             </p>
           </div>
         </div>

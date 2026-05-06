@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Bay and Bow Window Installation Dallas TX | Tudor Nooks, Spanish Colonial Fronts',
+  description: 'Bay and bow window installation for Highland Park Tudor breakfast rooms and Devonshire Spanish Colonial fronts. Engineered seat and roof support sized for Dallas foundation movement on older homes.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/services/windows/bay-and-bow-windows' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Bay & Bow Windows
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Architectural window systems that project outward from your home, creating additional interior space, panoramic views, and dramatic curb appeal.
+              Projection assemblies for Highland Park Tudor breakfast nooks and Devonshire Spanish Colonial living rooms. Engineered seat and roof support that accounts for Dallas foundation movement on older blocks.
             </p>
           </div>
         </div>

@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign, FaAward } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Andersen Windows and Doors Dallas TX | Fibrex and 400 Series for Lakewood and M Streets',
+  description: 'Andersen 400 Series wood-clad and Fibrex composite for Lakewood Tudors, M Streets prairie cottages, and Forest Hills west-facing elevations. Authorized installer with full warranty registration.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/brands/andersen-windows-doors' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Andersen Windows & Doors
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              For over 120 years, Andersen has set the standard for window and door innovation, combining timeless design with cutting-edge performance technology.
+              The volume choice for Lakewood Tudor restorations, M Streets prairie-school cottages, and Forest Hills west-elevation replacements where Fibrex composite shrugs off Dallas thermal cycling. 400 Series wood-clad for period-correct profiles.
             </p>
           </div>
         </div>

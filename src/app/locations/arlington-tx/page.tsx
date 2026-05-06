@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Window Replacement Arlington TX | UTA Neighborhoods, Lake Arlington, Joe Pool Lake',
+  description: 'Window replacement for Arlington 1960s and 1970s ranches, the UTA-adjacent neighborhoods, the Lake Arlington area, and the entertainment district near AT&T Stadium and Globe Life Field.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/locations/arlington-tx' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Window Replacement in Arlington, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Professional window and door replacement services throughout Arlington, Texas with premium products and expert installation.
+              Replacement work for Arlington's 1960s and 1970s ranch stock — UTA-adjacent neighborhoods, Lake Arlington, the entertainment district near AT&amp;T Stadium and Globe Life Field, and the newer south Arlington subdivisions toward Joe Pool Lake.
             </p>
           </div>
         </div>

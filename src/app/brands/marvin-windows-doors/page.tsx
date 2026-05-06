@@ -1,7 +1,14 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign, FaAward } from 'react-icons/fa';
 import Header from '@/components/layout/Header';
 import Footer from '@/components/layout/Footer';
+
+export const metadata: Metadata = {
+  title: 'Marvin Windows and Doors Dallas TX | Signature Ultimate for HPISD Tudors and Spanish Colonials',
+  description: 'Marvin Signature Ultimate Wood and Modern aluminum-clad lines for Highland Park Tudor Revivals, Devonshire Spanish Colonials, and Bluffview architect-designed projects. In-home design consultation.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/brands/marvin-windows-doors' },
+};
 
 export default function Page() {
   return (
@@ -24,7 +31,7 @@ export default function Page() {
                 Marvin Window & Door Replacement in Dallas, TX
               </h1>
               <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-                Marvin Windows and Doors is synonymous with premium quality and custom craftsmanship. Family-owned since 1912, Marvin specializes in made-to-order windows and doors.
+                The default specification for Highland Park architectural-review submissions, Devonshire Spanish Colonial restorations, and Bluffview architect-designed builds. Signature Ultimate Wood for HPISD historics; Modern aluminum-clad for contemporary glass walls.
               </p>
             </div>
           </div>

@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Sliding Patio Door Installation Dallas TX | Lake Highlands, Casa Linda, Lakewood Decks',
+  description: 'Sliding patio doors for Lake Highlands and Casa Linda mid-century rear elevations and Lakewood deck openings. Adjustable rollers tuned for Dallas hard-water deposits, full ENERGY STAR Zone 3 glass.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/services/doors/sliding-patio-doors' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Sliding Patio Doors
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Space-saving design with maximum light and smooth operation for seamless indoor-outdoor connections.
+              Sliding-track patio doors for Lake Highlands and Casa Linda mid-century rear elevations, Lakewood deck openings, and Forest Hills pool decks. Roller hardware that won't seize on Dallas hard-water mineral deposits.
             </p>
           </div>
         </div>

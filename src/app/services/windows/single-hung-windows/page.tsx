@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Single-Hung Window Installation Dallas TX | Casa View, Wilshire Heights, Lake Highlands',
+  description: 'Single-hung installs for Casa View tracts, Wilshire Heights, and Lake Highlands postwar streets where the original windows were always single-hungs. Whole-house savings, same look.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/services/windows/single-hung-windows' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Single-Hung Windows
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              A cost-effective classic offering the same clean lines as double-hung windows with simplified operation and excellent energy performance.
+              Whole-house value pick for Casa View, Wilshire Heights, and the postwar streets of Lake Highlands where the original openings were always single-hungs. Saves real money across 20+ openings without changing the look.
             </p>
           </div>
         </div>

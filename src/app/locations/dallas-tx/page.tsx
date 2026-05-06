@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Window Replacement Dallas TX | HPISD Tudors, M Streets Prairies, Lakewood, Bishop Arts',
+  description: 'Window replacement across Dallas — Highland Park Tudor Revivals, M Streets prairie cottages, Lakewood eclectic, Bishop Arts craftsman, and Preston Hollow estates. Foundation-aware install on older homes.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/locations/dallas-tx' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Window Replacement in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Professional window and door replacement services throughout Dallas, Texas with premium products and expert installation.
+              Window and door replacement across the full city — Highland Park and University Park (HPISD), Swiss Avenue, Munger Place, Lakewood, M Streets, Bishop Arts, Preston Hollow, and Bluffview. Foundation-aware install on the older blocks where it matters.
             </p>
           </div>
         </div>

@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Bifold Door Installation Dallas TX | Knox-Henderson Townhomes, Uptown Lofts, Bluffview Modern',
+  description: 'Bifold folding door walls for Knox-Henderson townhomes, Uptown loft conversions, and Bluffview modern rear yards. Stack-open panels engineered to handle Dallas wind and 100-degree thermal load.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/services/doors/bifold-doors' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Bifold Doors
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Elegant folding glass walls that seamlessly connect indoor and outdoor spaces with stunning multi-panel designs.
+              Folding glass walls for Knox-Henderson townhomes, Uptown loft conversions, and Bluffview modern rear elevations. Panels stack open in a 90-degree Dallas summer without binding on the foundation movement that affects older homes.
             </p>
           </div>
         </div>

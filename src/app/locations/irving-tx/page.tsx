@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Window Replacement Irving TX | Las Colinas Urban Center, Valley Ranch, South Irving Originals',
+  description: 'Window replacement for Las Colinas Urban Center high-rises and townhomes, Valley Ranch master-planned community, and South Irving 1960s and 1970s ranch stock between Love Field and DFW.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/locations/irving-tx' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Window Replacement in Irving, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Professional window and door replacement services throughout Irving, Texas with premium products and expert installation.
+              Replacement work across Irving's full housing range — South Irving 1960s ranches, the Las Colinas Urban Center, the master-planned Valley Ranch development, and the established neighborhoods around the original downtown.
             </p>
           </div>
         </div>

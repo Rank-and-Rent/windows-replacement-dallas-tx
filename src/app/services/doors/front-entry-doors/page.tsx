@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Front Entry Door Installation Dallas TX | HPISD Tudors, Munger Place, Lakewood Originals',
+  description: 'Front entry doors for Highland Park Tudor Revivals, Munger Place craftsman entries, and Lakewood originals. Solid mahogany or fiberglass-clad with weatherstripping rated for Dallas freeze-thaw cycles.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/services/doors/front-entry-doors' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Front Entry Doors
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Make a statement with secure and beautiful premium entryways that combine uncompromising security with stunning design.
+              Front entries for HPISD Tudor Revivals, Munger Place Craftsman, and Lakewood originals where the door is part of the historic character. Solid mahogany, fiberglass-clad, or stave-core options with multipoint security hardware.
             </p>
           </div>
         </div>

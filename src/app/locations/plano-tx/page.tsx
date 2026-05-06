@@ -1,5 +1,12 @@
 import Link from 'next/link';
+import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Window Replacement Plano TX | Willow Bend, Legacy West, West Plano Builder Tract',
+  description: 'Window replacement for Plano West Willow Bend, Legacy West corporate-corridor neighborhoods, and 1980s/1990s tract homes whose builder-grade windows are now 25-40 years old and seal-failing.',
+  alternates: { canonical: 'https://windowreplacementdallastx.com/locations/plano-tx' },
+};
 
 export default function Page() {
   return (
@@ -20,7 +27,7 @@ export default function Page() {
               Window Replacement in Plano, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
-              Professional window and door replacement services throughout Plano, Texas with premium products and expert installation.
+              Replacement work for Plano's 1980s and 1990s tract subdivisions — Willow Bend, the Sam Rayburn Tollway corridor, Legacy West-adjacent neighborhoods, and the original Plano downtown grid where builder-grade windows are now seal-failing.
             </p>
           </div>
         </div>

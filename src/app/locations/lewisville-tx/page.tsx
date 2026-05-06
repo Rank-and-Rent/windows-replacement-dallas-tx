@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Lewisville is a charming city in the Dallas-Fort Worth metroplex, known for its lakefront properties, excellent schools, and family-friendly communities. With a population exceeding 100,000, Lewisville offers a mix of established neighborhoods and modern developments along Lake Lewisville.</p>
+                <p>Lewisville sits along the southern shore of Lake Lewisville in the northern part of the metroplex, with a housing stock ranging from 1970s and 1980s ranch homes in the older central neighborhoods through newer master-planned communities along I-35E and FM 3040. Lake-adjacent properties on the eastern edge of the city often have unusually high window counts and larger glass spans to take advantage of waterfront views, which makes glass specification especially important. We work the entire city including Castle Hills, the Old Town Lewisville area, and the newer Highland Village-adjacent developments.</p>
 
-                <p>Our window and door replacement services serve Lewisville's varied housing landscape, providing installations that enhance comfort, energy efficiency, and property values. As Lewisville specialists, we understand the unique characteristics of this waterfront community.</p>
+                <p>Lewisville shares the same cooling-dominated climate as the rest of North Texas with ENERGY STAR Climate Zone 3 requirements applying. Spring hail tracks regularly hit Denton County, and we routinely specify laminated impact-rated glass on storm-exposed elevations. Lake-adjacent homes often face direct west exposure across open water, which intensifies afternoon solar load and makes low-SHGC Low-E coatings particularly important for cooling-season comfort.</p>
 
-                <p>Lewisville homes range from established neighborhoods to contemporary builds near the lake. Many homeowners seek energy-efficient upgrades that reduce utility bills while enjoying the city's scenic beauty and community atmosphere.</p>
+                <p>Architectural styles range from traditional brick ranches to contemporary stone-and-stucco homes in the master-planned developments. Lake-front properties sometimes feature large sliding or multi-slide doors that benefit from thermally broken aluminum frames with engineered glass packages tuned for direct sun exposure. We help homeowners select between premium vinyl, fiberglass, Fibrex, and aluminum based on architectural fit, lake exposure, and any HOA design guidelines.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,21 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Lake Lewisville Exposure and Glass Specification</h3>
+                <p>Homes along Lake Lewisville's southern shore face direct west exposure across open water, which intensifies afternoon solar gain dramatically compared to homes with shading from neighboring properties. We routinely specify the lowest-SHGC Low-E coatings available, often paired with laminated inboard lites that combine thermal performance with hail protection. The view glass on lake-front homes sometimes runs large enough that aluminum or fiberglass frames are the right structural choice over vinyl.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Energy Performance for Cooling Loads</h3>
+                <p>Lewisville cooling season runs from April into October. Replacing original aluminum or worn-out builder vinyl with modern Low-E glass typically reduces cooling-season energy use by twenty-five to thirty-five percent on homes with average glass exposure. Lake-front properties with high glass counts and direct west exposure can see even larger improvements when the original glazing was undersized for the actual solar load.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hail Protection and Storm Considerations</h3>
+                <p>Denton County is on the spring hail track and Lewisville takes regular damage in storm seasons. Pairing replacement frames with laminated or impact-rated glass on exposed elevations dramatically reduces breakage risk and qualifies many homeowners for insurance premium credits. We coordinate replacement work with insurance carriers when storm-driven claims are involved.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Service Coverage Across Lewisville</h3>
+                <p>We serve Lewisville homeowners across the entire city, from the Castle Hills neighborhoods on the eastern edge through Old Town Lewisville to the lake-adjacent developments and newer subdivisions along FM 3040. Lewisville is within our regular service area from our Dallas base, and adjacent communities including Highland Village, Flower Mound, and The Colony are also served from the same operational footprint.</p>
               </div>
 
               {/* CTA Block */}

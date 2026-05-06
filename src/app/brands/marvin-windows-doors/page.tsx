@@ -38,11 +38,11 @@ export default function Page() {
               {/* Left Column: Content */}
               <div className="lg:w-3/5">
                 <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                  <p>Marvin Windows and Doors is synonymous with premium quality and custom craftsmanship. Family-owned since 1912, Marvin specializes in made-to-order windows and doors that combine timeless design with cutting-edge performance. Their extensive product lines, including Marvin Signature, Marvin Elevate, and Marvin Essential collections, offer unparalleled customization options in materials, finishes, and hardware.</p>
+                  <p>Marvin is the family-owned Minnesota manufacturer that has, for over a century, defined the upper tier of residential windows and doors in North America. Family-owned since 1912 and still headquartered in Warroad, Minnesota, Marvin manufactures every product to order rather than holding finished inventory, which means every Marvin window or door installed in a Dallas home is built specifically for that opening, in that specific configuration, with that specific finish. The result is unmatched dimensional precision, broader customization than any competitor offers, and a quality reputation that explains why Marvin is the most-specified premium window brand on Highland Park, University Park, and Conservation District projects across Dallas.</p>
 
-                  <p>For Dallas homeowners seeking luxury, durability, and architectural distinction, Marvin delivers exceptional value. Every Marvin window and door is custom-built to your exact specifications, ensuring perfect fit and finish for your home. Their commitment to quality extends from the initial design consultation through installation and ongoing support.</p>
+                  <p>The Marvin product portfolio spans three primary lines that cover most residential applications. Marvin Signature Ultimate is the flagship wood and wood-clad line, built for custom homes, historic restorations, and the architectural review boards of Highland Park, University Park, Munger Place, Junius Heights, and Hollywood Heights. Marvin Elevate is the pultruded fiberglass line that delivers most of the Signature performance with significantly lower maintenance, ideal for Lakewood Tudor remodels, M Streets bungalow restorations, and Devonshire Spanish Colonial work where ownership horizon argues for fiberglass over wood. Marvin Essential is the value-tier fiberglass line for projects where premium performance matters but the Signature price point does not fit the budget.</p>
 
-                  <p>As a certified Marvin dealer, we provide expert consultation on their extensive product lines and ensure proper installation according to Marvin's rigorous standards. This guarantees your Marvin products perform as promised for generations.</p>
+                  <p>For contemporary remodels in Bluffview, Preston Hollow, and East Dallas, Marvin Modern is the aluminum-exterior line offering some of the narrowest sightlines in the residential market. As a certified Marvin dealer for the Dallas metro, we install across the full lineup with manufacturer-trained installation teams, factory warranty registration, and ongoing service support.</p>
                 </div>
 
                 {/* Benefits Grid */}
@@ -140,6 +140,24 @@ export default function Page() {
                       </li>
                     </ul>
                   </div>
+                </div>
+
+                {/* Additional Body Sections */}
+                <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                  <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Marvin Signature Ultimate for Dallas Historic Architecture</h3>
+                  <p>Marvin Signature Ultimate is our most-specified line for the architecturally significant homes of Highland Park, University Park, and the Dallas Conservation Districts. The line uses real wood interiors with extruded aluminum cladding, custom sizing, true divided lite muntin patterns, and the broadest color and profile selection on the market. For 1920s Tudor Revivals around Lakewood and Greenway Parks, Spanish Colonials in Devonshire, Craftsman bungalows in Junius Heights, and Prairie-style homes in the M Streets, Signature Ultimate delivers period-correct authenticity with modern performance.</p>
+
+                  <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Marvin Elevate for Performance-Driven Replacements</h3>
+                  <p>Marvin Elevate is the pultruded fiberglass line, formerly the Marvin Integrity brand. The fiberglass frame holds dimensional stability across the brutal Dallas thermal cycle, eliminates the maintenance burden of pure wood, and delivers comparable energy performance to Signature at a more accessible price point. Elevate works particularly well on Lakewood, M Streets, and Devonshire homes where the homeowner wants the wood look without the maintenance commitment, and on Lake Highlands and Casa Linda mid-century remodels where contemporary aesthetics are appropriate.</p>
+
+                  <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Marvin Modern for Contemporary Remodels</h3>
+                  <p>Marvin Modern is the aluminum-exterior line built for modern architectural vocabulary. Narrow sightlines, factory-applied multi-coat fluoropolymer finishes, and engineered structural performance for wide spans make it the right specification for the modern infill and remodel projects reshaping Bluffview, Preston Hollow, and select East Dallas blocks. Marvin Modern handles the multi-slide and lift-and-slide door systems that define indoor-outdoor architecture on these projects.</p>
+
+                  <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Custom Manufacturing and Lead Times</h3>
+                  <p>Every Marvin product is built to order. Standard lead times run six to eight weeks from order confirmation, with more elaborate custom configurations running ten to sixteen weeks. We schedule projects with manufacturing lead time built into the timeline so the order does not become the bottleneck. The custom-build approach means Marvin can match virtually any historic profile, divided lite pattern, or shape, which is why the brand dominates architectural review-required projects across Dallas.</p>
+
+                  <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Warranty Support and Local Service</h3>
+                  <p>Marvin warranties run 20 years on most products with transferable coverage available. We register every install on the homeowner's behalf and manage warranty claims directly through our certified-dealer relationship with Marvin. The brand maintains strong service relationships across the Dallas-Fort Worth market, and parts availability for warranty service is typically fast.</p>
                 </div>
 
                 {/* FAQ Section */}

@@ -38,11 +38,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Double-hung windows feature two operable sashes that slide vertically, allowing you to open either the top or bottom sash for flexible ventilation control. This classic design has been refined over centuries and remains the most requested style for residential replacement projects.</p>
+                <p>Double-hung windows are the most-installed style across Dallas residential construction, and for good reason. The two operable sashes that slide vertically deliver flexible ventilation, easy interior cleaning through tilt-in sashes, and an architectural profile that fits the prairie-style bungalows of the M Streets, the brick colonials of Preston Hollow, the mid-century ranches of Lake Highlands and Casa View, and the postwar tract homes of Wilshire Heights and Devonshire equally well. Modern double-hung construction has solved most of the operational and energy issues that plagued the original 1920s wood double-hungs in Dallas's pre-war neighborhoods, while preserving the proportions and look that make this style historically appropriate.</p>
 
-                <p>Modern double-hung windows incorporate advanced weatherstripping, dual-pane low-E glass, and tilt-in sashes for effortless cleaning from inside your home. The combination of traditional aesthetics with contemporary energy efficiency makes them ideal for both historic renovations and new construction in the Texas climate.</p>
+                <p>The vertical sliding action means double-hungs do not project into pathways, decks, or landscaping, which makes them practical for Dallas homes with tight side-yard clearances or front-elevation porches. The tilt-in sash feature on quality lines lets homeowners clean both sides of the glass from inside the home, which is a meaningful convenience for two-story houses across Devonshire, Preston Hollow, and the older streets of Lakewood where ladder access is awkward.</p>
 
-                <p>Our certified installation teams ensure proper sealing and alignment, which is critical for maximizing energy savings and preventing air infiltration. Every window is custom-measured to fit your existing opening precisely, eliminating the gaps that lead to drafts and energy waste.</p>
+                <p>We install double-hungs in vinyl, fiberglass, Fibrex, and wood-clad. The right material depends on architectural style, ownership horizon, and elevation exposure. Premium lines from Andersen, Marvin, Pella, and JELD-WEN all carry strong warranties and Climate Zone 3-tuned glass packages that meet or beat ENERGY STAR requirements for Dallas conditions.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -113,6 +113,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Architectural Fit Across Dallas Neighborhoods</h3>
+                <p>Double-hungs are the historically correct specification for prairie-style and Craftsman bungalows in the M Streets, Junius Heights, Vickery Place, and Hollywood Heights, where the original architecture used double-hung wood sashes with one-over-one or three-over-one divided lite patterns. They also fit the brick colonials of Highland Park, University Park, and Preston Hollow, the mid-century ranches of Lake Highlands and Casa Linda, and the Tudor accents that show up across Lakewood and Greenway Parks. For these contexts, narrow-profile double-hungs with simulated divided lites in dark exterior colors typically read most accurately.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Energy Performance and Air Infiltration</h3>
+                <p>The traditional weakness of double-hungs is air leakage through the meeting rail where the upper and lower sashes overlap. Modern lines have largely solved that problem with engineered weatherstripping, multi-fin meeting-rail seals, and balance-spring hardware that holds the sash firmly in place. Premium double-hungs achieve U-factor values in the 0.27 to 0.30 range with multi-pane Low-E glass packages, comfortably meeting ENERGY STAR Climate Zone 3 requirements for Dallas. The right glass package on west and south elevations cuts cooling-season energy use by twenty-five to thirty-five percent compared to original aluminum or builder vinyl.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Tilt-In Sashes and Long-Term Maintenance</h3>
+                <p>Tilt-in sash hardware lets homeowners pivot each sash inward to clean exterior glass from inside the home. On two-story Dallas homes in Devonshire, Lakewood, and Preston Hollow where ladder access to second-floor windows is awkward, this feature pays back its small cost premium quickly. The hardware itself adds modest complexity and a few moving parts to the sash, but premium lines from Andersen, Marvin, and Pella have refined the mechanisms over decades and reliability is excellent on quality products.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hail Protection and Storm Performance</h3>
+                <p>Double-hung sashes do not project outward, which means they cannot be damaged by wind or hail in the way that an open casement or awning sash can. The vertical-only geometry also stays sealed effectively under wind-driven rain. We routinely specify laminated impact-rated glass on west and south elevations for Dallas homes in hail-prone neighborhoods, and many insurance carriers in Dallas County offer premium credits for impact-rated glazing. Pairing a quality double-hung frame with laminated inboard glass produces a window assembly that performs well across the full North Texas storm season.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Installation, Sizing, and Egress</h3>
+                <p>Double-hung windows install as pocket replacements in existing rough openings without changing structure. Standard sizes range widely, and double-hungs are an excellent egress window choice for bedrooms because the lower operable sash provides a single unobstructed opening that meets the 5.7-square-foot egress minimum required by Texas building code. We field-measure each opening, verify egress compliance for bedroom locations, and size accordingly. Most Dallas double-hung replacement projects complete within three to five working days for a full-house installation of fifteen to twenty windows.</p>
               </div>
 
               {/* CTA Block */}

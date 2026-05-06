@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Storm doors provide essential protection for Dallas homes, combining security enhancement with weather resistance and energy efficiency. These secondary doors install over existing entry doors, creating an additional barrier against intruders, severe weather, and energy loss.</p>
+                <p>Storm doors install over an existing entry door to add a secondary weather barrier, a sacrificial layer for hail and impact protection, and a screen function for spring and fall ventilation. In Dallas, where afternoon thunderstorms drop suddenly and homeowners want to keep front and back doors open for daylight and airflow during shoulder seasons, a quality storm door is one of the most practical small-budget upgrades available. They also extend the practical service life of premium entry doors by absorbing UV exposure, hail strikes, and accumulated weathering that would otherwise drive entry-door refinishing schedules.</p>
 
-                <p>Modern storm doors from quality manufacturers offer durable construction, smooth operation, and design options that complement any home style while providing practical benefits that justify their modest cost.</p>
+                <p>The right storm door for a Lakewood Tudor or a University Park Georgian is different from the right storm door for a Lake Highlands ranch or a Bishop Arts bungalow. We help Dallas homeowners select among glass-panel, ventilating, and full-view storm doors based on the architectural style of the entry, the orientation of the front elevation, and the practical use patterns of the household. Premium storm doors from Andersen, LARSON, and Pella all offer durable aluminum frames, tempered glass options, and engineered closer hardware that holds up across the Dallas humidity and heat range.</p>
 
-                <p>During Texas summers, storm doors protect your primary entry door from hail damage and sun exposure. In winter, they add insulation value that reduces heat loss through entry areas. The combination of security, weather protection, and energy efficiency makes storm doors a smart investment for Dallas homeowners.</p>
+                <p>Storm door installations are typically straightforward retrofits that complete in two to four working hours per door. The installation includes mounting the storm door frame to the existing entry casing, fitting the closer hardware, adjusting the threshold sweep, and verifying smooth operation across the full door swing.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Storm Door Types and Architectural Fit</h3>
+                <p>Full-view storm doors with single-pane tempered glass deliver maximum daylight and unobstructed views, fitting modern remodels and contemporary homes. Mid-view storm doors with a ventilating bottom panel work well on traditional homes including Tudor Revivals, Spanish Colonials, and Craftsman bungalows where some bottom screen ventilation is desired. Self-storing or retractable-screen storm doors integrate the screen and glass into a single unit, eliminating the seasonal swap of glass and screen panels. We help select the right configuration based on architectural style and practical use patterns.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hail Protection for the Primary Entry Door</h3>
+                <p>Storm doors provide a sacrificial layer that absorbs hail impact before it reaches the primary entry door beneath. For Dallas homes with premium entry doors in fiberglass or stained wood, the storm door functions as a long-term protection mechanism that extends the entry door's service life and reduces refinishing burden. The tempered glass on quality storm doors handles most hail impacts without breaking, and the aluminum frame absorbs and distributes impact energy.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Color Matching and Hardware Coordination</h3>
+                <p>Premium storm door manufacturers offer factory-applied finishes in dozens of colors, allowing close matching to the primary entry door, exterior trim, or shutter color. Hardware finishes including brass, satin nickel, oil-rubbed bronze, and matte black coordinate with the entry door hardware for visual consistency. We pay attention to these details because the storm door is a visible architectural element rather than purely functional hardware.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Closer Hardware and Long-Term Reliability</h3>
+                <p>The hydraulic closer is the wear point on most storm doors. Premium lines use heavy-duty closers with adjustable tension that hold up across the Dallas humidity range and the seasonal temperature swings that can affect closer hydraulics. We adjust the closer during installation for the appropriate close speed and verify that the door closes fully without slamming. Routine maintenance is limited to occasional adjustment if the closer drifts over time.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Service Coverage and Free Quotes</h3>
+                <p>We install storm doors across the full Dallas metro service area including Highland Park, University Park, Lakewood, the M Streets, Devonshire, Preston Hollow, Bluffview, Lake Highlands, Casa Linda, Bishop Arts, Oak Cliff, and the surrounding suburbs. Storm door installations are typically a half-day project per door, and we coordinate scheduling around the homeowner's needs. Free in-home quotes are available across the service area.</p>
               </div>
 
               {/* CTA Block */}

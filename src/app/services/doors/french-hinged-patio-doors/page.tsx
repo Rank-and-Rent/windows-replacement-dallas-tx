@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>French doors feature two hinged panels that swing inward or outward, with glass extending nearly the full height of the door. The classic design includes divided light patterns—either true divided lites or simulated grilles—creating the elegant appearance that has made French doors a favorite for centuries.</p>
+                <p>Our French hinged patio door installation service across Dallas covers the architectural choice that defines so many of the city's most-loved homes. French doors carry the classical proportions that suit Tudor Revivals around Lakewood and Greenway Parks, Spanish Colonials in Devonshire and Bluffview, and the Mediterranean homes scattered through Highland Park-adjacent neighborhoods. The two hinged operable panels with full-height glass create a visually dramatic threshold to backyards, courtyards, and side patios.</p>
 
-                <p>The wide opening created when both panels swing open provides superior access for moving furniture, entertaining, or simply enjoying unobstructed views. French doors complement traditional, transitional, and even contemporary architecture when specified with clean, minimal grille patterns.</p>
+                <p>French patio doors come in two primary swing configurations. In-swing units open into the home, which is the traditional installation but requires interior clearance for the swing path. Out-swing units open outward, which protects the threshold from wind-driven rain and keeps interior space free for furniture. We help select the right swing direction based on the specific application, weather exposure, and adjacent interior layout.</p>
 
-                <p>Modern French doors combine classic aesthetics with contemporary performance, featuring multi-point locking systems, insulated glass, and weatherstripping that delivers energy efficiency while maintaining the timeless look.</p>
+                <p>Premium French patio doors from Andersen, Pella, Marvin, and JELD-WEN all carry Climate Zone 3-tuned glass packages, multi-point locking, and engineered hinges that hold up across the Dallas humidity range. Frame material options span fiberglass, wood-clad, and solid wood, with the right material depending on architectural fit and weather exposure. Lead times typically run six to twelve weeks on premium lines.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Architectural Fit Across Dallas Neighborhoods</h3>
+                <p>French patio doors are particularly appropriate for Dallas's traditional architecture. Tudor Revivals in Lakewood, Greenway Parks, and around Highland Park frequently used French doors as the original specification on rear and side elevations. Spanish Colonial and Mediterranean homes in Devonshire and Bluffview often have arched French doors with hand-forged hardware as part of the original design. Munger Place, Junius Heights, and Hollywood Heights Conservation District homes typically retain or restore French doors as a defining architectural element. We match profiles, divided lite patterns, and exterior colors to the architectural intent.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Active-Active vs. Active-Inactive Configurations</h3>
+                <p>French patio doors come in two operational configurations. Active-active means both panels are operable, with the active panel using a multi-point lock against the inactive panel. Active-inactive uses a flush bolt to lock one panel to the threshold and head, with the active panel locking against that fixed inactive panel. Active-active is more flexible for moving large furniture and entertaining; active-inactive is structurally tighter and slightly more secure. We help select based on use pattern.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Glass and Divided Lite Specification</h3>
+                <p>The glass panels are what makes French doors French. Six-over-six and ten-over-ten true divided lite patterns are the period-correct call for pre-war Dallas architecture. Simulated divided lites with applied muntins both inside and outside the glass deliver the same visual effect with significantly better energy performance. We specify Low-E glass packages tuned for Climate Zone 3 with low SHGC on west and south exposures and laminated impact-rated glass on storm-exposed elevations across hail-prone neighborhoods.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hardware and Threshold Detail</h3>
+                <p>Modern French patio doors use multi-point locking systems that engage the active panel against the inactive panel and the frame at three or more points. Hardware finishes including brass, satin nickel, oil-rubbed bronze, and matte black coordinate with adjacent windows and exterior light fixtures. The threshold is the critical wear point, and adjustable thresholds with compression-fit weatherstripping prevent the air leakage that drives up cooling bills. We field-adjust thresholds during installation for tight sealing.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Service Coverage and Project Timeline</h3>
+                <p>We install French patio doors across the full Dallas metro service area. Installation typically completes in one to two working days per opening including threshold adjustment and final operation testing. The City of Dallas generally does not require permits for like-for-like patio door replacements that do not change opening size. Free in-home consultations are available across the service area.</p>
               </div>
 
               {/* CTA Block */}

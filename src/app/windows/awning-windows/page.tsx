@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Awning windows are hinged at the top and open outward from the bottom using a crank mechanism. This unique design allows them to remain open during light rain, as the outward-opening sash acts as an awning to deflect water away from the interior.</p>
+                <p>Awning windows are hinged at the top and open outward from the bottom using a crank mechanism, with the sash acting as a small overhang that lets the window stay open during the typical Dallas afternoon thunderstorm. That single design feature, ventilation that survives rain, makes awning windows uniquely useful in North Texas where summer storms drop suddenly and homeowners want to keep airflow without closing every window in the house. The compression seal that engages when the sash closes also delivers some of the best air infiltration numbers in residential window construction, often hitting performance ratings half of what a comparable double-hung achieves.</p>
 
-                <p>The design makes awning windows particularly valuable in Texas, where afternoon thunderstorms are common but ventilation remains desirable. They're frequently installed above doors, in bathrooms for privacy while maintaining airflow, or stacked vertically to create dramatic window walls.</p>
+                <p>Across Dallas, awning windows show up most often in three contexts. They are stacked vertically as a window wall in modern Bluffview and Preston Hollow remodels where the design wants horizontal sight lines. They are installed high on bathroom and kitchen walls in Lakewood, M Streets, and Junius Heights bungalows where ventilation matters but privacy from neighboring lots is important. And they are paired below large picture windows in Lake Highlands and Devonshire homes to create a fixed-glass-over-operable-vent configuration that delivers daylight and airflow without compromising views.</p>
 
-                <p>Like casement windows, awning units create a compression seal when closed, delivering exceptional energy performance and weather resistance.</p>
+                <p>Premium awning windows from Andersen, Marvin, Pella, and JELD-WEN all offer Low-E glass packages tuned for Climate Zone 3, multi-point locking systems, and integrated insect screens. Frame material options span vinyl, fiberglass, Fibrex, and wood-clad, and the right material depends on architectural style and ownership horizon.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Where Awning Windows Work Best in Dallas Homes</h3>
+                <p>The most common awning window applications we install in Dallas are bathroom egress and ventilation, kitchen-corner ventilation above counters, and stacked window walls in modern remodels. In Tudor Revivals around Lakewood and Greenway Parks, awning windows often sit as transom units above larger fixed picture units, opening to release rising heat from second-story bedrooms during shoulder-season weather. In contemporary Bluffview and Preston Hollow homes, awning units stack three or four high to create vented glass walls that bring outside air in at multiple levels of the room.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Compression Seal Performance and Energy Numbers</h3>
+                <p>The compression seal on a quality awning window achieves air infiltration ratings of around 0.10 cubic feet per minute per square foot of frame, compared to 0.30 or higher on typical double-hung sliders. That tighter seal translates directly into lower cooling-season energy waste, which matters in Dallas where afternoon temperatures regularly push past 100 degrees from June through September. Pairing awning frames with triple-silver Low-E glass on west and south elevations delivers some of the lowest U-factor and SHGC numbers available in residential glazing.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Material and Hardware Selection</h3>
+                <p>Awning hardware lives outside under direct UV exposure, so material selection matters more than on a typical double-hung. Premium manufacturers use stainless steel and powder-coated zinc-aluminum alloys for the operator and stay arms to prevent corrosion in the Dallas summer humidity. We routinely specify Marvin, Andersen, and Pella for awning installations because their crank mechanisms and lock systems hold up over the typical fifteen-year ownership horizon. Vinyl, fiberglass, Fibrex, and wood-clad frames are all viable; the right choice depends on architectural fit and exterior color requirements.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Storm and Hail Considerations</h3>
+                <p>Awning windows project outward when open, which makes them slightly more vulnerable to wind-driven hail than fixed glass. We recommend keeping awning units closed during storm warnings, and we routinely specify laminated impact-rated glass on awning installations facing west or southwest exposures across Lake Highlands, Casa Linda, and East Dallas. The compression seal performs better than slider seals during high-wind events, but the operator hardware should not be open during severe weather.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Installation Approach and Sizing</h3>
+                <p>Awning windows typically install as pocket replacements into existing rough openings without changing structure. Standard sizes range from 24 inches wide by 16 inches tall up to 48 inches by 36 inches. Larger units are available but the operator hardware capacity becomes a limiting factor on big sashes. For Dallas custom homes that want a stacked window wall, individual awning units are typically combined with mullions to create the full assembly, which preserves the operability of each unit while reading as a single architectural element.</p>
               </div>
 
               {/* CTA Block */}

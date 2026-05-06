@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Picture windows are non-operable fixed units designed exclusively to provide unobstructed views and maximum natural light. With no moving parts, sashes, or hardware, picture windows offer the cleanest sightlines and the highest energy efficiency ratings available.</p>
+                <p>Picture windows are fixed-glass units that exist for one purpose: to deliver an unobstructed view and maximum daylight without operability. The absence of sashes, locks, or operating hardware translates directly into the lowest air infiltration ratings and the highest energy performance available in residential glazing. For Dallas homes facing White Rock Lake, the ravines of Forest Hills, the wooded slopes of Kessler Park, or the open backyards typical of Preston Hollow and Bluffview, a properly placed picture window often defines the room around it.</p>
 
-                <p>The absence of operable components means picture windows can be manufactured in larger sizes than typical operable units, making them ideal for showcasing dramatic views, creating architectural focal points, or brightening dark interior spaces.</p>
+                <p>Architecturally, picture windows fit a wide range of Dallas housing. They appear as large fixed centers in bay window assemblies on Tudor Revivals around Lakewood and Greenway Parks. They sit alone as massive view glass in modern Bluffview and Preston Hollow remodels. They run as window walls in contemporary East Dallas infill, paired with operable casement or awning flankers above and below. The same picture window assembly can read as historically appropriate or aggressively contemporary depending on profile width, divided-lite specification, and exterior color selection.</p>
 
-                <p>Picture windows are frequently combined with operable flanking units—such as casements or double-hungs—to create stunning window walls that balance ventilation needs with expansive glass areas.</p>
+                <p>Premium picture windows are available in vinyl, fiberglass, Fibrex, wood-clad, and thermally broken aluminum. Larger spans, anything beyond about 60 square feet of glass, typically push specification toward fiberglass or aluminum because of the structural rigidity those frames provide. The right specification depends on the architectural context, the size of the opening, and the elevation exposure.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Energy Performance Without Operable Hardware</h3>
+                <p>The single biggest advantage of picture windows is the elimination of every air leak path that operable windows have to compensate for through weatherstripping. There is no meeting rail, no sash gap, no operator hardware penetration, and no compression seal to wear out. Quality picture windows achieve U-factor values in the 0.25 to 0.28 range and SHGC values down to 0.18 with the right Low-E coating, beating any operable window in the same product line. For Dallas homes where cooling load drives the energy bill, picture windows on west and south elevations deliver measurably lower afternoon solar load than operable equivalents.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Glass Specification for Dallas Solar Conditions</h3>
+                <p>The lack of operable hardware also means picture windows can carry more aggressive glass specifications than operable units. Triple-pane glass packages, krypton gas fills, dynamic electrochromic glass, and laminated impact glass are all easier to deploy on fixed units because the operable hardware does not need to be sized to support the heavier sash assembly. We routinely specify triple-silver Low-E with low SHGC on west-facing picture windows in Lakewood, Forest Hills, and Lake Highlands homes facing afternoon sun, which makes a noticeable difference in interior comfort during August afternoons.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Frame Material Selection for Large Spans</h3>
+                <p>Picture window frames carry heavier glass loads than operable units, especially in the larger spans common to Dallas modern remodels. Above about 40 square feet of glass, fiberglass and aluminum are usually the right structural choice because they hold dimensional stability under the weight without requiring oversized frame profiles. Vinyl and Fibrex work well at small to medium sizes but require thicker frames at large spans, which works against the clean-glass aesthetic that often drives picture window selection. Marvin Modern, Pella Architect Series Aluminum, and Andersen E-Series cover the upper end of the size range.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Window Wall Composition and Mullion Details</h3>
+                <p>Most large picture window installations in Dallas are not single units but composed assemblies of one fixed center plus two operable flankers, three fixed lights mulled together for a horizontal window wall, or stacked assemblies that combine fixed picture units with awning or casement vents. The mullion details, how the units are joined structurally and visually, determine how the assembly reads architecturally. We design these compositions carefully on a per-project basis rather than treating each window as a standalone item.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hail Considerations for Large Glass</h3>
+                <p>Larger glass surface area means greater absolute risk of hail impact during a Dallas storm. We routinely specify laminated impact-rated glass on picture window installations facing west or southwest in hail-prone neighborhoods. The laminated inboard layer holds the pane together if the outer light is broken, dramatically reducing the risk of a damaged window becoming a damaged interior. Insurance carriers in Dallas County offer premium credits for laminated impact glazing on most picture window applications.</p>
               </div>
 
               {/* CTA Block */}

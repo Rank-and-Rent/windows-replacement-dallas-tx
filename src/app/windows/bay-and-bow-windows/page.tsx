@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Bay and bow windows are multi-unit assemblies that extend beyond the exterior wall plane, creating both additional interior space and striking architectural presence. Bay windows typically consist of three units arranged at angles, while bow windows feature four or more units arranged in a gentle curve.</p>
+                <p>Bay and bow windows are multi-unit assemblies that project outward from the exterior wall, creating interior space, panoramic views, and curb appeal that no flat window can deliver. A bay window is typically three units in a 30 or 45 degree configuration with a flat fixed center and operable double-hung or casement flankers. A bow window is four to six units arranged in a gentle arc, almost always all fixed, designed for visual impact rather than ventilation. In Dallas, both forms appear most often in Tudor Revivals around Lakewood and Greenway Parks, the larger Craftsman bungalows of Junius Heights and Vickery Place, and the older homes along Swiss Avenue and the Munger Place historic district.</p>
 
-                <p>These window systems transform ordinary rooms into distinctive spaces with panoramic views and abundant natural light from multiple angles. The projected interior space is ideal for window seats, display areas, or simply creating a sense of spaciousness in smaller rooms.</p>
+                <p>The architectural impact of a properly designed bay or bow projection is significant. Inside the home, the recess creates space for a window seat, a breakfast nook, or simply a visual depth that breaks up flat interior walls. From the curb, the projection adds dimensional interest and reads as a deliberate architectural feature rather than a builder afterthought. For homes being staged for sale in competitive Dallas neighborhoods, a well-executed bay or bow window often shows up in MLS photos as the defining exterior detail.</p>
 
-                <p>Professional installation is critical for bay and bow windows due to their structural requirements, including proper support, roofing, and integration with your home's framing. Our certified teams ensure proper load distribution and weatherproofing for decades of trouble-free performance.</p>
+                <p>Bay and bow windows are not standard replacement projects. They involve structural framing, exterior cladding, roofing, flashing, and interior trim work that go well beyond simple window replacement. We approach every bay and bow project as a coordinated design-and-build engagement with proper structural review, careful integration into existing exterior surfaces, and detailed weatherproofing that holds up to Dallas storm seasons over decades of service.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Bay vs. Bow: Which Configuration Fits Your Home</h3>
+                <p>Bay windows work well on Tudor Revivals, Spanish Colonials, and traditional brick colonials where the angular projection reads architecturally. The flat fixed center provides a focal view and the angled flankers can be operable for ventilation. Bow windows fit Victorian-influenced homes, certain Craftsman applications, and contemporary remodels where the gentler curve carries a softer visual line. For Dallas's older Lakewood, M Streets, and Junius Heights neighborhoods, bay windows are typically the more appropriate specification because the architecture leans angular rather than curvilinear.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Structural and Roofing Integration</h3>
+                <p>The projection of a bay or bow window requires structural support. On Dallas homes, that typically means engineered cables or knee braces concealed within the lower projection, or a load-bearing extension of the foundation depending on the size of the unit. The top of the projection needs roofing tied properly into the existing house roof system, typically a hip-roof or gable arrangement with matching shingle or copper standing-seam material. Flashing, ice-and-water shield, and proper drip edge details prevent the water intrusion that can otherwise plague these projections through years of Dallas thunderstorms.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Glass Specification for Cooling Performance</h3>
+                <p>Bay and bow windows present multiple glass faces at different angles, which means each unit may face different solar exposure across the day. We model the assembly carefully and often specify different SHGC ratings on different faces of the same bay, with the most aggressive low-SHGC coatings on the west-facing flank and slightly higher values on the north-facing flank. The projection itself can serve as a self-shading device for adjacent walls, which is a small but real benefit on west and south elevations during Dallas summers.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Frame Material and Brand Selection</h3>
+                <p>For the architecturally significant Dallas homes that benefit most from bay and bow windows, premium materials matter. Marvin Signature Ultimate, Andersen A-Series, and Pella Architect Series Reserve all manufacture purpose-built bay and bow assemblies with matched units, integrated head and seat boards, and color-matched cladding. We rarely specify vinyl for bay or bow projects because the structural and aesthetic stakes argue for upgraded materials. Wood-clad with custom color matching is usually the right call on traditional homes; thermally broken aluminum can work on certain contemporary applications.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Project Timeline and Permitting</h3>
+                <p>Bay and bow projects typically run two to four weeks of working time including structural prep, the projection build-out, exterior cladding integration, and interior trim finishing. The City of Dallas Department of Sustainable Development and Construction generally requires a permit for projection installations because they involve structural and exterior envelope changes. We handle permitting and any HOA architectural review on the homeowner's behalf, and we coordinate with structural engineers when load calculations require it.</p>
               </div>
 
               {/* CTA Block */}

@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Irving is a dynamic city in the Dallas-Fort Worth metroplex, known for its corporate headquarters, Las Colinas development, and diverse residential communities. With a population exceeding 240,000, Irving offers a mix of established neighborhoods and modern developments.</p>
+                <p>Irving covers a large footprint between Dallas Love Field and DFW International Airport, with a housing stock that ranges from 1960s and 1970s ranch homes in the original Irving neighborhoods through the master-planned Las Colinas development to newer subdivisions on the city's western edge. We work the entire city including the established neighborhoods around the original downtown, the Las Colinas Urban Center, the Valley Ranch master-planned community, and the South Irving neighborhoods near Texas Stadium's former site.</p>
 
-                <p>Our window and door replacement services serve Irving's varied housing landscape, providing installations that enhance comfort, energy efficiency, and property values. As Irving specialists, we understand the unique characteristics of this business-forward city.</p>
+                <p>Irving homeowners face the same hot-summer cooling-dominated climate as the rest of the metroplex, with ENERGY STAR Climate Zone 3 requirements applying to new replacement windows. Spring hailstorms and the proximity to DFW Airport flight paths both factor into specification decisions. Homes near the airport and along major corridors sometimes benefit from acoustic laminated glass that delivers a meaningful interior noise reduction in addition to the standard energy and storm performance.</p>
 
-                <p>Irving homes range from established neighborhoods to contemporary builds in growing areas. Many homeowners seek energy-efficient upgrades that reduce utility bills while maintaining the city's architectural diversity.</p>
+                <p>Architectural styles in Irving range from traditional brick ranches and colonials to the contemporary stone-and-stucco of Las Colinas to the upscale modern homes scattered through Valley Ranch. We help homeowners select between premium vinyl, fiberglass, Fibrex, and wood-clad based on architectural fit, ownership horizon, and any HOA design guidelines. Las Colinas in particular has active architectural review for many of its sub-developments.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,21 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">DFW Airport Proximity and Acoustic Glass</h3>
+                <p>Irving homes situated under DFW flight paths or near major arterials like Highway 114, Belt Line Road, or LBJ Freeway often benefit substantially from acoustic laminated glass packages. The laminated inboard layer dampens aircraft and traffic noise by 5 to 10 STC points compared to standard dual-pane glazing, which translates to a noticeable interior comfort improvement. We routinely specify acoustic laminated glass on Las Colinas, Valley Ranch, and South Irving projects where ambient noise is a quality-of-life factor.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Energy Performance for Climate Zone 3</h3>
+                <p>Replacing original aluminum or worn-out builder vinyl with modern dual-pane Low-E glass typically reduces cooling-season energy use by twenty-five to thirty-five percent on Irving homes. We routinely specify triple-silver Low-E coatings with low Solar Heat Gain Coefficients on west and south elevations, which is the critical lever for cooling-dominated North Texas climate. ENERGY STAR Climate Zone 3 compliance is the minimum standard for the products we install.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hail Protection and Las Colinas Architectural Review</h3>
+                <p>Irving sits along the spring hail track and takes regular damage in storm seasons. Pairing replacement frames with laminated impact-rated glass on exposed elevations dramatically reduces breakage risk and qualifies many homeowners for insurance premium credits. Las Colinas sub-developments often have architectural review committees that approve replacement window specifications, and we navigate those approvals on the homeowner's behalf.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Service Coverage Across Irving</h3>
+                <p>We serve Irving homeowners across the entire city, from the original neighborhoods around the historic downtown through Las Colinas and the Urban Center to Valley Ranch and the South Irving area. Irving is in the heart of the metroplex and well within our regular service radius from our Dallas base. Adjacent communities including Coppell, Euless, and Bedford are also served from the same operational footprint.</p>
               </div>
 
               {/* CTA Block */}

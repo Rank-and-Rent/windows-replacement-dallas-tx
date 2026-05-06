@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Casement windows are hinged at the side and open outward using a crank mechanism, providing 100% of the window opening for ventilation—more than any other operable window style. The compression seal created when closed makes casement windows among the most energy-efficient options available.</p>
+                <p>Casement windows hinge at the side and crank outward, delivering 100 percent of the window opening for ventilation, more than any other operable style and substantially better than the 50 percent maximum on a comparable double-hung. The compression seal that engages when the sash closes also produces some of the tightest air infiltration ratings available in residential glazing, which matters in Dallas where afternoon temperatures regularly exceed 100 degrees and even small leaks add up across the long cooling season. Across our service area, casements appear most often in modern Bluffview and Preston Hollow remodels, in Tudor Revival kitchens around Lakewood and Greenway Parks, and as paired flankers around large picture units in contemporary Lake Highlands and East Dallas builds.</p>
 
-                <p>The crank operation allows for precise control and easy opening even when furniture is placed directly beneath the window. This makes casement windows ideal for hard-to-reach areas above kitchen sinks, behind bathtubs, or in high-ceiling applications.</p>
+                <p>Architecturally, the casement is a clean rectangle of unobstructed glass that fits both traditional and contemporary vocabularies depending on profile selection and divided-lite specification. Tudor and Spanish Colonial casements traditionally carried diamond or rectangular leaded-glass divided-lite patterns; modern casements often run as plain fixed-and-operable rectangles with no muntins. The same casement frame can read as a 1920s Greenway Parks original or a 2020 Bluffview contemporary depending on grille selection, exterior color, and hardware finish.</p>
 
-                <p>Because the entire sash opens outward, casement windows excel at catching side breezes and directing fresh air into your home. The unobstructed glass area also provides expansive views of your outdoor spaces.</p>
+                <p>Premium casements from Andersen, Marvin, Pella, and JELD-WEN offer Low-E glass packages tuned for Climate Zone 3, multi-point locking systems, and integrated insect screens mounted on the interior side. Frame materials span vinyl, fiberglass, Fibrex, and wood-clad. Selection depends on architectural fit, ownership horizon, and elevation exposure.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Where Casement Windows Belong in Dallas Architecture</h3>
+                <p>Casement windows are the historically correct specification for Tudor Revivals around Lakewood and Greenway Parks, where the original 1920s and 1930s sashes were almost always casements with leaded-glass divided lites. They also fit Spanish Colonial homes in Devonshire and Bluffview where the original architecture used wood casements with simulated divided lite patterns. In modern construction, casements suit contemporary remodels in Preston Hollow and Bluffview where unobstructed glass and minimal sightlines are part of the design language. They are less appropriate for prairie-style and Craftsman bungalows in the M Streets and Junius Heights, where double-hungs are the period-correct call.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Compression Seal Performance and Energy Numbers</h3>
+                <p>The compression seal on a quality casement window achieves air infiltration ratings around 0.10 cubic feet per minute per square foot of frame, dramatically tighter than the 0.30 typical of slider-style windows. Combined with triple-silver Low-E glass, casements regularly achieve U-factor values in the 0.27 to 0.30 range and SHGC values down to 0.20, well above ENERGY STAR Climate Zone 3 minimums. For Dallas homes where cooling load drives the annual energy bill, those tighter numbers translate to measurable savings over a typical ownership window.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Crank Hardware and Long-Term Reliability</h3>
+                <p>The single most-cited concern about casement windows is hardware reliability over time. The crank mechanism, the hinges, and the multi-point lock all work harder than the equivalent components on a double-hung. Premium manufacturers use stainless steel and corrosion-resistant alloys to handle the Dallas summer humidity, and we routinely specify Andersen, Marvin, and Pella for casement work because their hardware holds up over the typical fifteen-year ownership horizon. Lower-tier casements can develop sloppy crank operation within five to seven years; the premium lines we install are still operating cleanly at year fifteen and beyond.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Storm Considerations and Sash Projection</h3>
+                <p>Casement sashes project outward when open, which makes them slightly more vulnerable to wind-driven hail than fixed glass. We recommend keeping casements closed during storm warnings, and we routinely specify laminated impact-rated glass on casement installations facing west or southwest exposures across hail-prone neighborhoods. The compression seal performs better than slider seals during high-wind events, but the sash position should not be open during severe weather. Insurance carriers in Dallas County often offer premium credits for laminated impact glazing on casement installations.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Installation, Sizing, and Egress</h3>
+                <p>Casement windows install as pocket replacements into existing rough openings without changing structure. Standard sizes run from 16 inches wide by 24 inches tall up to 36 inches wide by 60 inches tall. Casements are an excellent egress window choice for Dallas bedrooms because they provide a single unobstructed opening that meets the 5.7-square-foot egress minimum required by Texas building code. We field-measure each opening, verify egress compliance for bedroom locations, and spec the sash size accordingly.</p>
               </div>
 
               {/* CTA Block */}

@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Your entry door is the first impression visitors have of your Dallas home, a critical security feature, and a major factor in energy efficiency. Premium entry doors from Andersen, Pella, JELD-WEN, or Marvin combine stunning aesthetics, robust security, and superior insulation.</p>
+                <p>The entry door is the most-seen, most-touched, and most-judged element of any Dallas home. It carries the first impression at the curb, shapes the threshold experience for everyone who visits, and serves the critical practical roles of weather barrier, security barrier, and energy barrier. The right entry door for a 1920s Lakewood Tudor is fundamentally different from the right entry door for a 1995 Preston Hollow custom or a 2020 Bluffview modern remodel, and we approach each replacement project as a coordinated specification rather than a stock-door swap.</p>
 
-                <p>In Dallas's extreme climate, choosing the right entry door material matters. Fiberglass doors resist warping and rotting while providing exceptional energy efficiency. Steel doors offer maximum security and insulation. Wood doors deliver natural beauty with modern protective treatments.</p>
+                <p>Material choice drives most of the long-term performance. Fiberglass entry doors deliver the warmth of wood with dramatically better stability across Dallas humidity swings, no warping, no rotting, and superior insulation. Steel doors offer maximum security and the best fire rating but read more institutional than residential, which limits their architectural fit. Solid wood doors remain the right answer for the architecturally significant homes of Highland Park, University Park, and the Conservation Districts, where authenticity matters and homeowners are prepared to budget for periodic refinishing.</p>
 
-                <p>Modern entry doors feature multi-point locking systems, impact-resistant glass, and smart technology integration. They create an airtight seal that reduces energy costs and enhances comfort in your Dallas home.</p>
+                <p>We install entry doors from Andersen, Pella, JELD-WEN, and Therma-Tru, all carrying multi-point locking, weather-tested adjustable thresholds, and Climate Zone 3-tuned glass packages on side-light and transom configurations. Most installations include sidelights, transoms, or both, and we approach the threshold as a complete weatherproofed assembly rather than a single-door swap.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Material Selection for Dallas Conditions</h3>
+                <p>Fiberglass entry doors are our most-installed material in the Dallas metro because they balance authenticity, performance, and practicality. The pultruded fiberglass skin holds dimensional stability across the brutal thermal cycle Dallas summers impose on south and west elevations, and modern wood-grain textures read convincingly as authentic wood at normal viewing distance. Solid wood remains the right call for Highland Park-area Tudors, Lakewood historic homes, and Conservation District projects where authenticity is the priority. Steel works well for back-of-house service entries where security is the priority and aesthetics are secondary.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Sidelights, Transoms, and Whole-Threshold Design</h3>
+                <p>Most Dallas entry doors are not single-door installations but integrated assemblies that include sidelights flanking the door, a transom above, or both. Tudor Revivals around Lakewood and Greenway Parks often carry single sidelights with leaded-glass divided lites. Spanish Colonial homes in Devonshire and Bluffview frequently use semi-circular transom arches above the main door. Contemporary remodels in Preston Hollow and the modern infill of East Dallas favor flanking double sidelights with minimal grille patterns. We design the assembly as a coordinated architectural element rather than specifying each piece in isolation.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hardware, Multi-Point Locks, and Smart Locks</h3>
+                <p>Premium entry doors use multi-point locking systems that engage the frame at three or more points along the door height, dramatically improving both security and weatherstripping compression. Smart lock compatibility is now standard on most premium lines, allowing integration with home automation systems, keyless entry, and remote access. Brass, satin nickel, oil-rubbed bronze, and matte black hardware finishes are all available, and we coordinate finish selection with existing exterior light fixtures and house numbers for visual consistency.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Energy Performance and Threshold Sealing</h3>
+                <p>Entry door energy performance depends as much on the threshold and weatherstripping as on the door itself. Adjustable thresholds, compression-fit weatherstripping, and integrated sweep gaskets prevent the air leakage that drives up cooling bills on Dallas homes. We field-adjust every threshold during installation to achieve a tight compression seal across the full door perimeter. The energy improvement from a properly installed premium entry door versus a leaky original door is often substantial.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Installation Workflow and Permitting</h3>
+                <p>Entry door installations typically complete in four to eight working hours including removal of the original door and frame, preparation of the rough opening, installation of the new pre-hung unit, exterior trim and brick mold work, threshold adjustment, hardware installation, and operation testing. The City of Dallas generally does not require permits for like-for-like entry door replacements that do not change opening size. Conservation District projects sometimes require architectural review approval, which we handle on the homeowner's behalf.</p>
               </div>
 
               {/* CTA Block */}

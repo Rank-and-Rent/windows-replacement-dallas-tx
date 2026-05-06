@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>French doors have graced Dallas homes for generations, combining timeless elegance with functional beauty. These classic hinged doors with expansive glass panels create stunning visual connections between indoor and outdoor spaces.</p>
+                <p>French doors are the architectural choice when the threshold between interior space and outdoor patio, courtyard, or garden should read as a deliberate design moment rather than a utilitarian opening. The two hinged operable panels with full-height glass panes create a visually dramatic connection that suits Dallas's traditional architecture beautifully. Tudor Revivals around Lakewood and Greenway Parks, Spanish Colonials in Devonshire and Bluffview, and the Mediterranean homes scattered through Highland Park-adjacent neighborhoods all carry French doors as part of their original architectural language. Modern French doors deliver the same classical proportions with dramatically improved energy and security performance compared to the original 1920s and 1930s wood units.</p>
 
-                <p>Modern French doors from Andersen, Pella, JELD-WEN, and Marvin maintain the traditional aesthetic while incorporating contemporary performance features like superior energy efficiency, enhanced security, and low-maintenance materials that stand up to Texas weather.</p>
+                <p>French doors come in two primary configurations: in-swing for interior or covered-porch applications, and out-swing for exterior weather-exposed locations where in-swing operation would interfere with interior furniture or rugs. Active-active configurations let both panels open for full opening width; active-inactive configurations have one fixed panel with a flush bolt that can be opened occasionally for moving large furniture. We help select the right configuration based on the use pattern, weather exposure, and adjacent interior layout.</p>
 
-                <p>Unlike sliding patio doors, French doors swing completely open, allowing natural breezes to flow through your home. They feature insulated glass units, weather-resistant frames, and robust security features that make them perfect for Dallas living.</p>
+                <p>Premium French doors from Andersen, Pella, Marvin, and JELD-WEN all carry Climate Zone 3-tuned glass packages, multi-point locking, and engineered hinges that hold up across the Dallas humidity range. Frame material options span fiberglass, wood-clad, and solid wood, with the right material depending on architectural fit and weather exposure.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">In-Swing vs. Out-Swing for Dallas Conditions</h3>
+                <p>Out-swing French doors handle Dallas weather better in most exterior applications because the door swing pushes water and wind-driven rain away from the threshold rather than allowing it to be carried inside. Out-swing also keeps interior space free for furniture and rugs that would otherwise need to clear the door swing. In-swing doors work better on covered porch applications, breezeways, and locations where exterior obstructions would interfere with the swing path. We assess the specific application and recommend accordingly.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Glass Specification and Divided Lite Patterns</h3>
+                <p>French doors are defined visually by their glass panels and the divided lite patterns within them. Six-over-six and ten-over-ten true divided lite patterns are the period-correct call for pre-war Dallas architecture, while clean two-pane configurations suit contemporary remodels. Simulated divided lites with applied muntins both inside and outside the glass deliver the same visual effect as true divided lites with significantly better energy performance. We specify Low-E glass packages tuned for Climate Zone 3 with low Solar Heat Gain Coefficient on west and south exposures.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Multi-Point Locking and Security</h3>
+                <p>Modern French doors use multi-point locking systems that engage the active panel against the inactive panel and the frame at three or more points. The result is dramatically improved security and weather sealing compared to the single-point latches on older French doors. Smart lock compatibility allows integration with home automation systems and keyless entry. Laminated impact-rated glass adds another layer of security on doors that homeowners sometimes view as a vulnerability point.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Threshold and Weatherstripping Detail</h3>
+                <p>The threshold is where most French door performance issues originate. Premium lines use adjustable thresholds with compression-fit weatherstripping that achieves a tight seal across the door bottom. We field-adjust thresholds during installation to verify proper sealing across the full width of both panels. The energy improvement from a properly installed premium French door versus a leaky original is substantial, particularly during the Dallas cooling season when air infiltration drives up cooling bills.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Installation Workflow and Permitting</h3>
+                <p>Most French door installations are pocket replacements into existing rough openings without structural changes. Larger custom installations or new openings cut into existing walls do trigger permitting through the City of Dallas, and we handle that paperwork on the homeowner's behalf. Installation typically completes in one to two working days per opening including threshold adjustment and final operation testing. Free in-home consultations are available across the Dallas metro service area.</p>
               </div>
 
               {/* CTA Block */}

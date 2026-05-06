@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Since 1925, Pella has been at the forefront of window innovation, introducing features that have become industry standards. Their most recognizable innovation is the between-the-glass blinds and shades—eliminating dust collection and damage while providing integrated privacy control.</p>
+                <p>Pella is the Iowa-based manufacturer that has, since 1925, defined much of the modern residential window category. The company introduced between-the-glass blinds in the 1990s, pioneered fiberglass residential windows in their Impervia line, and remains one of the largest premium window manufacturers in North America. For Dallas homeowners, Pella delivers a deep portfolio that covers most architectural and budget contexts, from the value-tier Encompass line through the Lifestyle Series and into the premium Architect Series Reserve and Architect Series collections.</p>
 
-                <p>Pella's product lines include the premium Architect Series featuring authentic wood interiors, the Lifestyle Series offering vinyl durability, and the Encompass Series providing excellent value. Each line incorporates advanced glass packages with multiple low-E coatings optimized for specific climates.</p>
+                <p>The Pella Architect Series Reserve is the company's flagship wood and wood-clad line, often specified for Highland Park-area Tudors, Spanish Colonials in Devonshire and Bluffview, and the historic homes of Munger Place and Junius Heights. Architect Series and Architect Series Reserve carry deep customization, true divided lite muntin patterns, and authentic profile details that hold up to architectural review board scrutiny. Pella Lifestyle Series offers a more accessible upper-mid tier with strong performance and broad architectural fit. Pella 250 and 350 vinyl lines fill the value-to-mid-range slot for whole-house replacement projects across Dallas.</p>
 
-                <p>Our Pella certification means we're trained on proper installation techniques specific to each product line, ensuring your windows perform as engineered. Pella's comprehensive warranty and our certified installation work together to protect your investment.</p>
+                <p>For Dallas summers, Pella's NaturalSun and SunDefense Low-E glass packages are specifically engineered for Sun Belt cooling-dominated climates. The lower SHGC numbers on these packages dramatically reduce afternoon solar heat gain on west and south elevations. As a Pella-certified installer for the Dallas metro, we install across the full lineup with manufacturer-trained installation teams and factory warranty registration.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Pella Architect Series and Architect Series Reserve</h3>
+                <p>The Architect Series sits at the top of Pella's wood lineup, with Reserve as the most-customizable tier. Both lines use authentic wood interiors with EnduraClad fluoropolymer-coated extruded aluminum cladding on the exterior, delivering wood character inside and weather-resistant performance outside. Reserve adds true divided lite options, custom shapes, and architectural profile selections that match the period vocabulary of pre-war Dallas neighborhoods. We specify these lines on Highland Park, University Park, Lakewood, and Conservation District projects where architectural authenticity is the priority.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Pella Impervia for Pultruded Fiberglass Performance</h3>
+                <p>Pella Impervia is the company's fiberglass line, delivering the strength, dimensional stability, and energy performance benefits of pultruded fiberglass with Pella's design vocabulary. Impervia works particularly well on contemporary remodels, mid-century ranch updates in Lake Highlands and Casa Linda, and traditional homes where the homeowner wants the wood look without the maintenance commitment. The factory-applied finishes carry strong color-fastness warranties for the Dallas climate.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Pella Lifestyle, 250, and 350 Vinyl Lines</h3>
+                <p>For whole-house replacement projects in postwar Dallas neighborhoods, Pella's vinyl lines offer strong value. The Lifestyle Series sits at the upper end of vinyl with reinforced sashes, premium hardware, and EnduraClad-protected exteriors. The 250 and 350 Series cover mid-range and value-tier vinyl with engineered glass packages tuned for North Texas climate. Lifetime frame warranties and twenty-year glass coverage are standard across these lines.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Between-the-Glass Blinds and Privacy Options</h3>
+                <p>Pella's signature innovation is the integrated between-the-glass blind, available across most product lines. The blinds sit inside the insulated glass unit, eliminating dust accumulation, cord and child safety concerns, and the visual clutter of separate window treatments. For Dallas homeowners with bathrooms, kitchens, and street-facing rooms where privacy matters, the integrated blinds eliminate the need for separate window coverings. The technology works particularly well on bathroom and bedroom installations where standard blinds are awkward.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Warranty and Local Service</h3>
+                <p>Pella's warranty terms run twenty years on most components with lifetime coverage on premium frame materials. We register every install on the homeowner's behalf and manage warranty claims directly through our certified-installer relationship with Pella. The Dallas-Fort Worth Pella service network is established and parts availability for warranty service is typically fast.</p>
               </div>
 
               {/* CTA Block */}

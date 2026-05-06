@@ -7,9 +7,9 @@ import CtaBanner from '@/components/cta-banner'
 import ContactSection from '@/components/contact-section'
 
 export const metadata: Metadata = {
-  title: 'Aluminum Windows Replacement Dallas TX | Durable, Modern Design',
-  description: 'High-quality aluminum replacement windows in Dallas, TX. Durable, sleek, and energy-efficient. Andersen, Pella & JELD-WEN aluminum options. Everything priced including installation. Call 817-592-8870.',
-  keywords: 'aluminum windows Dallas TX, aluminum replacement windows, durable windows, modern aluminum windows, Andersen aluminum windows, Pella aluminum windows, JELD-WEN aluminum windows',
+  title: 'Aluminum Windows Replacement Dallas TX | Thermally Broken, Modern Sightlines',
+  description: 'Thermally broken aluminum replacement windows in Dallas, TX. Narrow sightlines for modern homes, exceptional durability, and ENERGY STAR performance. Call (214) 949-8227.',
+  keywords: 'aluminum windows Dallas TX, thermally broken aluminum windows, modern aluminum windows, large picture windows, contemporary windows Dallas',
   alternates: {
     canonical: 'https://windowreplacementdallastx.com/windows/aluminum-windows',
   },
@@ -18,90 +18,116 @@ export const metadata: Metadata = {
 export default function AluminumWindowsPage() {
   const content = {
     title: 'Aluminum Windows Replacement in Dallas, TX',
-    subtitle: 'Sleek, Durable Performance with Modern Thermal Efficiency',
+    subtitle: 'Thermally Broken Aluminum for Modern Dallas Homes and Wide-Glass Architecture',
     heroImage: '/window-types/aluminum-dallas-tx.jpg',
 
-    intro: "Dallas&apos;s urban sophistication and business district proximity make modern aluminum windows an ideal choice for homeowners seeking professional-grade durability. As a major metropolitan area with upscale residential developments, Dallas attracts professionals who appreciate aluminum windows' combination of sleek contemporary styling, exceptional strength, and thermal break efficiency. Whether in downtown-adjacent neighborhoods or suburban developments, aluminum windows provide the modern aesthetic and lasting performance that Dallas homeowners demand. With the city&apos;s focus on urban living and quality construction, aluminum windows offer sophisticated design that enhances Dallas&apos;s cosmopolitan character.",
+    intro:
+      "Aluminum has come a long way from the leaky single-pane sliders that builders installed across Dallas in the 1960s and 1970s. Modern thermally broken aluminum is now the frame of choice for contemporary Bluffview infill, Preston Hollow rebuilds, and the wave of modernist remodels reshaping Lakewood, Devonshire, and the streets around White Rock Lake. The reason is simple: nothing else lets you carry a 12-foot wall of glass with sightlines under two inches and structural performance that holds up to hail, wind, and the brutal thermal cycling of a Dallas summer. Today's aluminum windows from premium manufacturers use polyamide thermal breaks, factory-applied multi-coat finishes, and engineered glazing that hits ENERGY STAR Climate Zone 3 numbers. For homeowners who want a true modern look without compromising on energy performance or storm durability, thermally broken aluminum is the right answer.",
 
     sections: [
       {
-        heading: 'Thermal Break Technology for Urban Efficiency',
-        content: "Dallas&apos;s urban climate with hot summers and cool winters benefits greatly from aluminum windows' advanced thermal break technology. A thermal break is a non-conductive material inserted between aluminum sections, creating an insulating barrier that dramatically improves energy performance. This prevents heat conduction through the metal, achieving U-factors comparable to vinyl windows while maintaining aluminum&apos;s sleek appearance. In Dallas&apos;s variable climate, thermally broken aluminum windows reduce heating and cooling costs by 25-35%, providing measurable savings for urban homeowners. Many models qualify for ENERGY STAR certification, appealing to Dallas&apos;s environmentally conscious community.",
+        heading: 'Thermal Breaks Solve the Old Aluminum Problem',
+        content:
+          "The reason older aluminum windows were so cold to the touch in winter and dripped condensation onto Dallas window sills was thermal bridging: heat moves through bare aluminum hundreds of times faster than through wood or vinyl. The fix is a polyamide thermal break, an insulating strip molded between the interior and exterior aluminum extrusions that prevents that conduction path. Modern thermal-break designs deliver U-factors in the 0.30 to 0.35 range, comparable to mid-grade vinyl while preserving aluminum's structural advantages. For Dallas homeowners considering aluminum on west-facing or south-facing elevations where surface temperatures climb past 140 degrees in August, the thermal break is the difference between a window that drives up the cooling bill and one that quietly holds the load.",
       },
       {
-        heading: 'Professional-Grade Durability and Strength',
-        content: "Aluminum&apos;s fundamental properties make it exceptionally well-suited for Dallas&apos;s urban environment. The material never rusts, rots, or warps, maintaining structural integrity indefinitely. Aluminum windows are virtually indestructible—they resist impact damage from urban activity, vandalism, or severe weather far better than alternatives. This makes them ideal for Dallas properties where durability and security are priorities. The frames are extruded to precise tolerances, ensuring smooth operation and perfect alignment. Aluminum&apos;s strength enables larger window units and thinner sightlines that maximize views while maintaining structural stability. With proper maintenance, quality aluminum windows provide 40+ years of service in Dallas&apos;s competitive real estate market.",
+        heading: 'Why Modern Dallas Architecture Specifies Aluminum',
+        content:
+          "Drive through Bluffview, Preston Hollow, or the modern infill blocks of Lakewood and Casa Linda and you will see what aluminum makes possible: floor-to-ceiling glass walls, narrow horizontal sightlines, multi-slide patio openings stretching twenty feet across, and clean rectangular geometries that vinyl simply cannot replicate. Aluminum's tensile strength means a frame member can be much smaller than a vinyl or wood equivalent while carrying the same glass weight. For the increasingly common contemporary remodel where homeowners want to dissolve the wall between living room and pool deck, aluminum is the only material that carries the look. It also pairs naturally with the smooth stucco, board-formed concrete, and standing-seam metal cladding popular on modern Dallas builds.",
       },
       {
-        heading: 'Contemporary Aesthetics for Urban Dallas',
-        content: "Aluminum windows excel at delivering the clean, minimalist aesthetic that complements Dallas&apos;s urban and contemporary architecture. The material&apos;s ability to be extruded into thin, precise profiles creates narrow sightlines that maximize glass area with minimal framing. Aluminum accepts a wide range of exterior finishes, from natural silver tones to custom powder-coated colors that match Dallas&apos;s architectural sophistication. Unlike wood windows that can swell or shrink, aluminum maintains perfectly straight lines year-round. For Dallas homeowners seeking sophisticated, low-maintenance windows that reflect the city&apos;s cosmopolitan character, aluminum provides the perfect balance of form and function.",
+        heading: 'Performance Against Hail, UV, and Storm Loads',
+        content:
+          "Dallas weather is unforgiving on building exteriors. Spring hail, summer UV, sudden winter ice events, and the year-round wind exposure across open neighborhoods all stress window systems. Aluminum frames do not warp under heat, do not become brittle in a winter freeze, and do not flex or shift in high winds the way some lighter frames can. They will dent under direct hail impact, but the structural integrity of the assembly remains intact. Pairing aluminum with laminated or impact-rated glass, common practice in our high-end residential work, dramatically improves storm performance. Most quality aluminum lines carry a Design Pressure rating well above what Dallas County building code requires, which matters on tall walls and wide spans.",
       },
       {
-        heading: 'Low Maintenance with Urban Appeal',
-        content: "While aluminum windows require more maintenance than vinyl options, they offer excellent long-term value with manageable care requirements for Dallas&apos;s urban lifestyle. Exterior surfaces benefit from periodic refinishing (typically every 8-12 years) to maintain appearance and protect the metal. The frames themselves never corrode or degrade, and interior surfaces require no maintenance beyond occasional cleaning. This maintenance schedule aligns with Dallas&apos;s professional standards, where homeowners expect quality materials. Compared to wood windows that require annual maintenance, aluminum windows represent a significant time and cost savings for busy urban professionals.",
+        heading: 'Finishes, Colors, and the Black-Frame Look',
+        content:
+          "The dark-frame aesthetic that has dominated modern Dallas architecture for the last decade was built around aluminum. Factory-applied fluoropolymer finishes, the same coatings used on commercial high-rise glazing, deliver an essentially permanent black, bronze, or charcoal exterior that will not fade or chalk in the Texas sun. Custom anodized finishes are available for projects that want the raw industrial look popular in East Dallas converted-warehouse spaces. Interior aluminum can be color-matched or specified with a wood interior on dual-finish frames for homeowners who want warmth on the inside and the modern frame on the exterior. Custom RAL color matches are routine on the high-end lines we install, which is useful when matching trim packages on Bluffview and Devonshire architect-designed homes.",
       },
       {
-        heading: 'Versatility for Dallas\&apos;s Architectural Diversity',
-        content: "Aluminum&apos;s workability allows it to be formed into virtually any window configuration, making it ideal for Dallas&apos;s diverse architectural landscape. From contemporary high-rises to traditional homes, aluminum adapts beautifully. The material accommodates all major glass types, from single-pane for cost-conscious applications to triple-pane insulated units for maximum energy efficiency. In Dallas, aluminum windows excel in urban applications that demand durability and style. The material&apos;s compatibility with impact-resistant glass makes it suitable for downtown areas. Whether for new construction or replacement in established homes, aluminum provides the design flexibility required in Dallas&apos;s dynamic market.",
+        heading: 'Glass Packages Tuned for Texas Heat',
+        content:
+          "On a typical west elevation in Forest Hills or the streets around Lakewood Country Club, west-facing glass takes a thermal beating from roughly two in the afternoon until sunset. The right glass package is what controls cooling load. We routinely specify low-SHGC triple-silver Low-E coatings on these elevations, often paired with argon or krypton gas fills, to drop solar heat gain into the 0.18 to 0.22 range. North-facing elevations can run a higher SHGC for daylighting without paying a cooling penalty. Aluminum frames accept all the same advanced glass packages that wood and vinyl frames do, including laminated impact glass, acoustic laminated glass for homes near Mockingbird or Northwest Highway, and electrochromic dynamic glass on premium contemporary projects.",
       },
       {
-        heading: 'Sustainable Investment for Urban Professionals',
-        content: "Aluminum represents one of the most environmentally responsible building materials available, perfectly aligning with Dallas&apos;s urban environmental consciousness. The material is 100% recyclable without loss of quality—recycled aluminum requires just 5% of the energy needed to produce new aluminum. Many aluminum window manufacturers use significant amounts of recycled content in their products. The material&apos;s longevity reduces the environmental impact of replacement over time. Aluminum windows contribute to sustainable living by enabling larger glass areas that maximize natural light and reduce artificial lighting needs. For environmentally aware Dallas professionals, aluminum windows provide premium performance with significantly lower ecological footprint.",
+        heading: 'Maintenance Reality in Dallas Conditions',
+        content:
+          "A common myth is that aluminum needs constant repainting in the Dallas climate. That was true for older anodized and painted aluminum, but the modern multi-coat fluoropolymer finishes used on premium lines carry twenty- to thirty-year color-fastness warranties. The finishes resist UV fading, chalking, and the hard-water spotting that builds up around Dallas sprinkler systems. Real-world maintenance is limited to occasional washing with mild detergent, periodic inspection of weatherstripping and gaskets, and lubrication of operable hardware. Compared to wood, which still requires refinishing on a Dallas exterior every few years, aluminum is functionally maintenance-free across a normal ownership window.",
+      },
+      {
+        heading: 'When Aluminum Is the Right Choice and When It Is Not',
+        content:
+          "Aluminum is the right answer when architectural style demands narrow sightlines, when you are spanning unusually wide or tall openings, or when you are matching the contemporary vocabulary of a modern Dallas remodel. It is not always the right answer for traditional Tudors in Highland Park-adjacent blocks, Spanish Colonials in Greenway Parks, or Craftsman bungalows in Junius Heights, where wood, fiberglass, or wood-clad windows are usually the better fit for both architecture and HOA design guidelines. We will tell you honestly when aluminum is not the right material for your project, even if it is the more expensive option. The goal is the right window for your house, not the most expensive line in the catalog.",
+      },
+      {
+        heading: 'Brand Selection and Local Service',
+        content:
+          "We install aluminum systems from manufacturers with established service networks in Dallas-Fort Worth so warranty support is not an export problem. Andersen, Pella, Marvin Modern, and select architectural lines all carry product offerings that meet our quality threshold for thermal performance, finish durability, and structural rating. Smaller boutique aluminum shops produce beautiful systems but can leave homeowners stranded if a sash needs warranty service three years after installation. We balance design ambition with serviceability so the window you love at year one still performs at year fifteen. Free in-home consultations include a frame-by-frame walk-through with material options and honest tradeoffs.",
       },
     ],
 
     features: [
-      'Thermal break technology for energy efficiency',
-      'Exceptional strength and impact resistance',
-      'Sleek, contemporary appearance',
-      'Narrow sightlines maximize glass area',
-      'Available in unlimited color options',
-      '40+ year lifespan with proper maintenance',
-      'Resists rust, rot, and corrosion',
-      'Compatible with all glass types',
-      'Smooth, precise operation',
-      'Environmentally recyclable',
+      'Polyamide thermal breaks for Climate Zone 3 performance',
+      'Narrow sightlines for contemporary Dallas architecture',
+      'Factory-applied fluoropolymer finishes with 20+ year color-fastness',
+      'Black, bronze, and custom RAL color options',
+      'Compatible with laminated and impact-rated glass packages',
+      'Engineered for wide spans and tall walls',
+      'Resists warping, cracking, and dimensional movement',
+      'Dual-finish wood interior options on premium lines',
+      'High Design Pressure ratings for storm and wind exposure',
+      'Recyclable material with sustainable manufacturing options',
     ],
 
     brands: [
       {
-        name: 'Andersen Aluminum Series',
-        description: 'Andersen combines their expertise in window design with advanced aluminum extrusion technology. Their aluminum windows feature comprehensive thermal breaks and premium hardware for exceptional performance and longevity.',
+        name: 'Marvin Modern',
+        description:
+          "Marvin's aluminum-exterior modern line offers some of the narrowest sightlines in the residential market, with structural performance suited to wide multi-slide and lift-and-slide configurations. A natural fit for contemporary remodels in Bluffview, Preston Hollow, and the modern infill blocks of Lakewood and East Dallas.",
       },
       {
-        name: 'Pella Aluminum Windows',
-        description: 'Pella\&apos;s aluminum windows incorporate their signature EnduraClad protection system and advanced thermal barrier systems. The result is aluminum performance with superior weather resistance and energy efficiency.',
+        name: 'Pella Architect Series Aluminum',
+        description:
+          "Pella's commercial-grade architectural aluminum, adapted for upscale residential use. EnduraClad fluoropolymer finishes, full thermal breaks, and engineered glass packages tuned for Dallas heat. Strong service network across the metroplex.",
       },
       {
-        name: 'JELD-WEN Aluminum Collection',
-        description: 'JELD-WEN offers premium aluminum windows with fusion-welded construction and comprehensive thermal breaks. Their extensive color selection ensures you can match any design aesthetic.',
+        name: 'Andersen Architectural Aluminum',
+        description:
+          "Andersen's premium aluminum systems combine thermal performance with custom configurability and the warranty backing of one of the most established window manufacturers in North America. Available in custom colors and dual-finish frame options.",
       },
     ],
 
     faq: [
       {
-        question: 'Do aluminum windows need painting in Dallas?',
-        answer: 'Yes, aluminum windows require periodic exterior painting (typically every 8-12 years) to maintain their appearance and protect the metal from oxidation. However, the frames never rust or corrode, and the maintenance is far less frequent than wood windows.',
+        question: 'Are modern aluminum windows energy efficient enough for Dallas summers?',
+        answer:
+          'Yes. Thermally broken aluminum with quality Low-E glass packages hits ENERGY STAR Climate Zone 3 targets and reduces cooling-season energy use by 25 to 35 percent compared to older single-pane or non-thermally-broken frames. The polyamide thermal break is the critical detail.',
       },
       {
-        question: 'Are aluminum windows energy efficient for urban Dallas homes?',
-        answer: 'Modern aluminum windows with thermal breaks are highly energy efficient, achieving U-factors comparable to vinyl windows. They can reduce heating and cooling costs by 25-35% in Dallas\&apos;s climate when properly specified with insulated glass.',
+        question: 'Will aluminum frames dent in a Dallas hailstorm?',
+        answer:
+          'Direct hail impact can dent aluminum frames, but structural integrity of the window assembly remains intact. Pairing aluminum with laminated or impact-rated glass, which we routinely specify, dramatically reduces overall storm damage risk. Insurance carriers in Dallas County often offer premium credits for impact-rated glazing.',
       },
       {
-        question: 'How long do aluminum windows last in Dallas?',
-        answer: 'Quality aluminum windows last 40+ years with proper maintenance. The frames never degrade like wood or vinyl, and with periodic repainting, they maintain their appearance and performance indefinitely.',
+        question: 'Do aluminum windows need repainting in the Dallas climate?',
+        answer:
+          'Premium aluminum windows use factory-applied fluoropolymer finishes carrying 20 to 30 year color-fastness warranties. They do not require repainting in the Dallas climate. Older anodized or painted aluminum from decades past is a different product entirely.',
       },
       {
-        question: 'Are aluminum windows suitable for downtown Dallas?',
-        answer: 'Absolutely. Aluminum windows are perfect for urban Dallas with their exceptional durability, strength, and contemporary styling that complements downtown architecture and provides security in busy urban environments.',
+        question: 'Are aluminum windows right for traditional Dallas homes?',
+        answer:
+          'Usually not. Tudors in Highland Park-adjacent areas, Spanish Colonials in Greenway Parks, and Craftsman bungalows in Junius Heights are typically better served by wood, wood-clad, or fiberglass. Aluminum shines on contemporary architecture and modern remodels where narrow sightlines and wide spans matter.',
       },
       {
-        question: 'Can aluminum windows be recycled?',
-        answer: 'Yes, aluminum is 100% recyclable without loss of quality. Many aluminum windows contain recycled content, and the frames can be recycled at the end of their service life, making them an environmentally responsible choice.',
+        question: 'Can aluminum carry the wide multi-slide doors common in modern Dallas remodels?',
+        answer:
+          'Yes. Aluminum is the standard frame material for multi-slide and lift-and-slide door systems precisely because of its strength-to-sightline ratio. Spans of 12 to 30 feet are routine, and the engineered hardware on premium lines carries large panel weights smoothly for decades.',
       },
       {
-        question: 'How much do aluminum windows cost with installation?',
-        answer: 'Aluminum window costs with installation vary by style and features. Everything is priced including installation. Pricing starts at around $850 for small vinyl windows and goes up to $3500 per window depending on frame material. We do not sell windows without installation.',
+        question: 'How much do aluminum windows cost installed in Dallas?',
+        answer:
+          'Everything is priced including installation. Aluminum is generally a premium-tier product, with pricing per opening varying based on size, glass package, finish color, and configuration. We provide detailed transparent quotes after an in-home measurement.',
       },
     ],
   }

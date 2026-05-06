@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Patio doors serve as the gateway between your Dallas home's interior and outdoor living spaces, fundamentally shaping how you experience your property. Modern patio doors deliver expansive glass areas for unobstructed views, smooth operation, and energy efficiency.</p>
+                <p>Patio doors define how Dallas homeowners experience the threshold between interior living space and the outdoor patios, pool decks, and garden areas that anchor backyard life. The choice between sliding patio doors, French patio doors, multi-slide systems, and lift-and-slide configurations comes down to architectural style, opening size, and intended use pattern. Each type delivers different tradeoffs in opening width, weatherstripping geometry, and per-unit cost. We help Dallas homeowners think through the decision rather than defaulting to a single product type across every project.</p>
 
-                <p>Whether you choose sliding doors for space-efficient operation or hinged French-style doors for dramatic openings, premium patio doors from Andersen, Pella, JELD-WEN, and Marvin provide the performance and beauty that enhance Texas living.</p>
+                <p>Patio doors carry the highest glass area of any door type in a typical home, often 40 to 80 square feet of glass on a single opening. That makes glass specification the single most important variable in long-term performance. Triple-silver Low-E coatings with low Solar Heat Gain Coefficients are essential on west and south patio door installations where afternoon Dallas sun drives serious cooling load. Argon gas fills, warm-edge spacers, and laminated impact-rated glass are standard upgrades on most projects we quote.</p>
 
-                <p>With advanced glass technologies, superior weatherstripping, and robust construction, modern patio doors keep your home comfortable despite Dallas's temperature extremes while connecting you seamlessly to outdoor spaces.</p>
+                <p>Premium patio doors from Andersen, Pella, JELD-WEN, and Marvin all carry Climate Zone 3-tuned glass packages, multi-point locking, and engineered hardware that holds up across the Dallas humidity range. We register every install with the manufacturer for warranty support and manage warranty claims directly when needed.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Patio Door Type Selection</h3>
+                <p>Sliding patio doors are the most-installed type in Dallas because they maximize opening width without requiring swing clearance. French patio doors deliver dramatic full-opening but require more interior or exterior clearance for the door swing. Multi-slide systems open openings of 12 to 20 feet by stacking panels into a pocket, which is increasingly popular on Bluffview and Preston Hollow modern remodels. Lift-and-slide hardware uses a quarter-turn handle that lifts the panel off the seal before sliding, enabling much larger panel weights with smoother operation.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Energy Performance and Cooling-Season Savings</h3>
+                <p>Patio doors are often the largest single source of heat gain on a Dallas home, particularly when the door faces west or south across an unshaded backyard. The cooling-season energy improvement from replacing original aluminum sliders with modern dual-pane Low-E patio doors is typically substantial. We model each project against the home's orientation and any shading from existing oaks and pecans before specifying glass. ENERGY STAR Climate Zone 3 compliance is the minimum standard.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hail Protection and Storm Performance</h3>
+                <p>Patio doors take direct hail exposure during Dallas spring storm seasons because they are typically on the back elevation of the home, often facing west or southwest. Pairing patio door frames with laminated impact-rated glass dramatically reduces breakage risk and qualifies many homeowners for insurance premium credits through carriers serving Dallas County. The laminated inboard layer holds the pane together if the outer light is broken, dramatically reducing the risk of a damaged door becoming a damaged interior.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Security Hardware and Access Control</h3>
+                <p>Patio doors are sometimes viewed as a security vulnerability, and modern patio door hardware addresses that directly. Multi-point locking systems engage the frame at three or more points along the active panel. Smart lock compatibility allows integration with home security systems and keyless entry. Foot bolts on French patio doors lock the inactive panel to the threshold for added structural strength. We discuss security upgrades during the initial consultation rather than treating them as add-ons after install.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Service Coverage and Project Timeline</h3>
+                <p>We install patio doors across the full Dallas metro service area. Installation typically completes in one to two working days for standard sliders and French doors and two to four days for larger multi-slide systems. The City of Dallas generally does not require permits for like-for-like patio door replacements that do not change opening size, but new openings or enlargements do trigger permitting and we handle that paperwork. Free in-home consultations are available across the service area.</p>
               </div>
 
               {/* CTA Block */}

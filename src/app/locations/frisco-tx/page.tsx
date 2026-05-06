@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Frisco is one of the Dallas-Fort Worth metroplex's fastest-growing suburbs, known for its excellent schools, master-planned communities, and high quality of life. With a population exceeding 200,000, Frisco offers modern residential developments and family-friendly communities.</p>
+                <p>Frisco sits at the northern edge of the Dallas-Fort Worth metroplex and has grown explosively over the past two decades into one of the largest cities in Collin and Denton counties. Most homes in Frisco were built between 1995 and 2015, meaning the original windows are now fifteen to thirty years old and many are reaching the end of their practical service life. We work across the entire city including the master-planned communities of Stonebriar and Plantation Resort, the Phillips Creek Ranch and Newman Village developments, the Frisco-side of The Trails, and the newer Hollyhock and Hidden Cove subdivisions.</p>
 
-                <p>Our window and door replacement services serve Frisco's contemporary housing landscape, providing installations that enhance comfort, energy efficiency, and property values. As Frisco specialists, we understand the unique characteristics of this rapidly growing suburb.</p>
+                <p>Frisco shares the same hot-summer cooling-dominated climate as the rest of North Texas, with ENERGY STAR Climate Zone 3 requirements applying to new replacement windows. The original builder-grade dual-pane windows installed across most of Frisco's housing stock are now showing seal failures, foggy glass, and degraded weatherstripping. Replacement projects with modern Low-E glass and fusion-welded frames typically deliver substantial cooling-season energy savings on Frisco homes that often have above-average window count due to open-concept floor plans and large two-story great-room glass.</p>
 
-                <p>Frisco homes often feature modern designs with large windows that benefit greatly from energy-efficient upgrades. The city's family-oriented nature means many homeowners prioritize quality and durability in their home improvement projects.</p>
+                <p>The architectural vocabulary in Frisco runs from traditional brick colonials and prairie-style stone-and-stucco homes to contemporary new construction with large window walls. Frisco has active HOA design guidelines across most subdivisions, and we navigate those approvals during the specification phase. The City of Frisco generally does not require permits for like-for-like window replacements that do not change opening size.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,21 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Energy Performance for Frisco Cooling Loads</h3>
+                <p>Most Frisco homes have relatively high window counts, with two-story great rooms and open-concept floor plans driving up the glass-to-wall ratio compared to older Dallas neighborhoods. That makes the glass specification especially important for cooling-season energy performance. We routinely specify triple-silver Low-E coatings with low SHGC values on west and south elevations, particularly on the large front-elevation glass that defines many Frisco architectural styles. The energy savings on whole-house replacement projects in Frisco are often substantial because of the volume of glass involved.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hail Protection and Insurance Considerations</h3>
+                <p>Frisco takes spring hail damage in most years. Pairing replacement frames with laminated or impact-rated glass dramatically reduces breakage risk and qualifies many Frisco homeowners for insurance premium credits through carriers serving Collin and Denton counties. Storm-driven replacement claims are common, and we coordinate replacement scheduling with carriers and adjusters when claims are involved.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">HOA Design Guidelines and Architectural Approvals</h3>
+                <p>Most Frisco subdivisions have active HOAs with specific guidelines on exterior window color, grille patterns, and frame material visibility. We have completed projects through the major homeowner associations across Frisco including Stonebriar, Plantation Resort, Phillips Creek Ranch, Newman Village, and The Trails. For traditional brick-and-stone homes, almond or cream exterior with appropriate divided-lite patterns is typically the standard. Contemporary homes in newer developments sometimes specify dark exterior colors with minimal grille patterns.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Service Coverage Across Frisco</h3>
+                <p>We serve Frisco homeowners across the entire city from the established Stonebriar and Plantation Resort areas through the central neighborhoods around Frisco High School to the newer Hidden Cove and Hollyhock developments on the far north side. Frisco is well within our regular service area from our Dallas base, and we maintain consistent scheduling and pricing across the metroplex. Adjacent communities including Plano, McKinney, Little Elm, and The Colony are also served from the same operational footprint.</p>
               </div>
 
               {/* CTA Block */}

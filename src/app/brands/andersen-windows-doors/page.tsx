@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Andersen is America's most recognized window and door brand, trusted by homeowners and builders for over a century. Their commitment to innovation has resulted in numerous industry firsts, including the first vinyl-clad wood window and the first composite material specifically engineered for windows.</p>
+                <p>Andersen is the most-recognized residential window and door brand in North America, with over 120 years of manufacturing history and a presence in essentially every market in the United States. Founded in 1903 and headquartered in Bayport, Minnesota, the company manufactures across multiple product lines that cover the full range of residential applications, from value-tier vinyl through premium custom wood. For Dallas homeowners, Andersen offers the depth of product portfolio and warranty backing that few competitors match.</p>
 
-                <p>The Andersen product line spans from the premium A-Series custom wood windows to the value-oriented 100 Series vinyl windows, with the popular 400 Series representing the sweet spot of performance and value. Each line is engineered to meet specific needs while maintaining the craftsmanship Andersen is known for.</p>
+                <p>The Andersen product lineup is organized around a series numbering system. The 100 Series is the all-Fibrex composite line at the most accessible price point. The 200 Series and 400 Series are the wood-based value and mid-range lines. The A-Series is the flagship architectural line, with custom configurations, premium wood interiors, and factory-finished exteriors that hold up to architectural review on Highland Park, University Park, and Conservation District projects. The E-Series is the custom architectural line for high-end residential and commercial work. Renewal by Andersen is the company's branded replacement division using Fibrex throughout.</p>
 
-                <p>As a certified Andersen contractor, we maintain factory training and have access to their full product line, technical support, and warranty backing. This ensures your Andersen windows are installed to factory specifications, protecting your investment and ensuring decades of performance.</p>
+                <p>For Dallas summers, Andersen's High-Performance Low-E4 SmartSun glass is engineered specifically for Sun Belt cooling-dominated climates and is one of the most-specified glass packages on west and south elevations across our service area. As a certified Andersen contractor, we install across the full lineup with manufacturer-trained installation teams, factory warranty registration, and ongoing service support across the Dallas metro.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Andersen 100 Series Fibrex Composite</h3>
+                <p>The Andersen 100 Series is the all-Fibrex composite line, built on the proprietary blend of reclaimed wood fiber and thermoplastic polymer that Andersen pioneered in the 1990s. The frame holds dimensional stability across the brutal Dallas thermal cycle, accepts dark exterior colors that are off-limits to most vinyl lines, and delivers strong energy performance with a 20-year warranty. We install the 100 Series on whole-house replacement projects across postwar Dallas neighborhoods including Lake Highlands, Casa Linda, Casa View, and the older blocks of East Dallas where budget and durability both matter.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Andersen 400 Series for Mid-Range Replacements</h3>
+                <p>The Andersen 400 Series is the most-installed line across the broader Dallas market because it balances wood character, performance, and value. The line uses solid wood interiors with vinyl exterior cladding (the "Perma-Shield" system), Andersen's High-Performance Low-E4 glass, and proven hardware that holds up across decades of operation. The 400 Series fits a wide range of Dallas architecture from traditional brick colonials in Preston Hollow to mid-century ranches in Lake Highlands.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Andersen A-Series for Architectural Projects</h3>
+                <p>The A-Series is Andersen's flagship architectural line, with Fibrex exteriors, real wood interiors, custom sizing, and authentic profile options that meet architectural review board requirements. We specify the A-Series on Lakewood Tudor remodels, M Streets bungalow restorations, Devonshire Spanish Colonial work, and the Highland Park-area homes where authenticity matters. The line carries Andersen's strongest warranty terms with 20-year frame and glass coverage.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Andersen Glass Technology for Dallas Climate</h3>
+                <p>Andersen's High-Performance Low-E4 SmartSun glass is one of the most aggressive cooling-climate glass packages on the residential market. SmartSun blocks 95 percent of damaging UV rays and reduces solar heat gain by roughly 70 percent compared to standard dual-pane glass. For Dallas west and south elevations where afternoon solar load drives serious cooling demand, SmartSun is often the right specification regardless of which Andersen frame line is selected. We model each project before recommending the glass package.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Warranty and Long-Term Service</h3>
+                <p>Andersen's warranty terms are among the strongest in the industry, with 20-year frame and glass coverage on most product lines and transferable warranty options. We register every install on the homeowner's behalf and manage warranty claims directly through our certified-contractor relationship with Andersen. Parts availability for warranty service is excellent across the Dallas-Fort Worth market.</p>
               </div>
 
               {/* CTA Block */}

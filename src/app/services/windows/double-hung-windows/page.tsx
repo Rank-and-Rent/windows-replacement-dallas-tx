@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Double-hung windows feature two operable sashes that slide vertically, allowing you to open either the top or bottom sash for flexible ventilation control. This classic design has been refined over centuries and remains the most requested style for residential replacement projects.</p>
+                <p>Our double-hung window installation service across Dallas covers the most-requested window style in the metroplex. Double-hungs make up a substantial majority of replacement work we do because they fit the architectural language of so much of Dallas's housing stock, from prairie-style bungalows in the M Streets and Junius Heights to brick colonials in Preston Hollow and Highland Park to mid-century ranches in Lake Highlands and Casa Linda. The two vertically-sliding sashes deliver flexible ventilation, easy interior cleaning through tilt-in mechanisms, and an architectural profile that holds up across decades.</p>
 
-                <p>Modern double-hung windows incorporate advanced weatherstripping, dual-pane low-E glass, and tilt-in sashes for effortless cleaning from inside your home. The combination of traditional aesthetics with contemporary energy efficiency makes them ideal for both historic renovations and new construction in the Texas climate.</p>
+                <p>Our service workflow handles whole-house replacement projects involving fifteen to twenty-five openings as efficiently as single-room retrofits. Each project starts with an in-home consultation covering measurement, product selection, glass package recommendations, and exterior color matching. We provide detailed itemized quotes before any deposit and register every install with the manufacturer for warranty support. Installations typically complete in three to five working days for a full-house project.</p>
 
-                <p>Our certified installation teams ensure proper sealing and alignment, which is critical for maximizing energy savings and preventing air infiltration. Every window is custom-measured to fit your existing opening precisely, eliminating the gaps that lead to drafts and energy waste.</p>
+                <p>We work with Andersen, Marvin, Pella, and JELD-WEN double-hung lines because their warranties stand behind the product over realistic Dallas ownership periods. Frame material options span vinyl, fiberglass, Fibrex, and wood-clad, with the right material depending on architectural fit and ownership horizon. We help homeowners think through that decision rather than pushing a single product line on every project.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Service Coverage Across Dallas</h3>
+                <p>We install double-hung windows across the full Dallas metro service area including Highland Park and University Park, Lakewood and East Dallas, the M Streets and Munger Place, Preston Hollow and Devonshire, Bluffview and Inwood, Lake Highlands and Casa Linda, Bishop Arts and Oak Cliff, and the surrounding suburbs of Plano, Frisco, Richardson, Carrollton, Irving, and Las Colinas. Our base in Dallas keeps us within consistent service range of every neighborhood in the metroplex.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Whole-House Replacement Projects</h3>
+                <p>Most of our double-hung work is whole-house replacement on homes built between 1940 and 2005, where the original aluminum or builder-grade vinyl windows have reached the end of their practical service life. We handle the project as a coordinated installation rather than one window at a time, which keeps the schedule tight and minimizes disruption to the household. Project timelines typically run three to five working days for fifteen to twenty openings, and we can phase larger projects when scheduling demands it.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Glass Package Selection</h3>
+                <p>Glass selection drives most of the long-term energy performance, and we specify on a per-elevation basis. West and south elevations on Lakewood Tudors, Devonshire colonials, or Lake Highlands ranches typically get triple-silver Low-E with low Solar Heat Gain Coefficient. North elevations can run higher SHGC values to preserve daylight. Acoustic laminated glass works well on homes near major Dallas arterials. Storm-exposed elevations across hail-prone neighborhoods get laminated impact-rated glass that qualifies many homeowners for insurance premium credits.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Architectural Color and Profile Matching</h3>
+                <p>We match exterior color and profile to the architectural style of the home rather than defaulting to white vinyl across every project. Tudor and Mediterranean homes around Lakewood and Greenway Parks typically call for dark exterior colors with simulated divided lite patterns. Spanish Colonials and Mission-style homes in Bluffview and Devonshire fit cream and terra-cotta exteriors. Mid-century ranches in Lake Highlands and Casa Linda often look right with bronze or black exteriors and minimal grille patterns.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Pricing, Financing, and Free Quotes</h3>
+                <p>We provide free in-home consultations and detailed itemized quotes covering product, installation, trim, and warranty registration. Everything is priced including installation. Pricing per opening varies based on size, material, glass package, and exterior color, and we explain the tradeoffs honestly. We offer financing through established home-improvement lenders for whole-house projects without pressuring financing on customers who prefer to pay in full.</p>
               </div>
 
               {/* CTA Block */}

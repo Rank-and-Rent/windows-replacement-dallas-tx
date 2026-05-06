@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Special shape windows encompass any non-rectangular configuration—circles, half-rounds, ellipses, octagons, triangles, trapezoids, and custom geometric designs. These architectural elements serve as focal points that define your home's character and style.</p>
+                <p>Special shape windows are the custom-geometry units that define some of the most recognizable architectural details across Dallas's residential landscape. The eyebrow arches over the front entries of Tudor Revivals in Lakewood and Greenway Parks, the half-round windows in the gable ends of Spanish Colonial homes in Devonshire and Bluffview, the rake-cut trapezoids in Lake Highlands and Casa Linda contemporary remodels, and the round porthole windows that occasionally appear on bungalow attics in Junius Heights and Hollywood Heights all fall into this category. Replacing these units requires custom manufacturing, careful template work, and installation skill that goes beyond standard rectangular replacements.</p>
 
-                <p>While most special shape windows are fixed (non-operable) to maintain their unique geometry, some configurations can incorporate operable sections when ventilation is required. Modern manufacturing technology allows for precise custom fabrication to match any architectural design.</p>
+                <p>Most special shape windows are fixed-glass units because operable hardware cannot accommodate curved or angled geometry. The exception is some larger custom assemblies where a quarter-circle operable casement can be paired with a fixed half-round to provide both architectural geometry and ventilation. Premium manufacturers offer extensive special shape catalogs, and we work primarily with Marvin, Andersen, and Pella for these specifications because their custom departments have the expertise and quality control to deliver units that match historic profiles or contemporary architectural intent.</p>
 
-                <p>Special shapes are commonly used in gable ends, stairwell landings, foyers, and cathedral ceilings. They transform blank wall spaces into dramatic design statements while flooding previously dark areas with natural light.</p>
+                <p>Frame material options span vinyl, fiberglass, Fibrex, and wood-clad, but in practice we lean toward fiberglass and wood-clad for special shapes because the tighter dimensional stability holds the unique geometry without the slight movement that vinyl can show in extreme heat. The aesthetic stakes are also higher on a focal-point window, which usually argues for the upgraded material.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Where Special Shapes Appear in Dallas Architecture</h3>
+                <p>Tudor Revivals around Lakewood, Greenway Parks, and the Highland Park-adjacent blocks of Devonshire often carry eyebrow arches over front entries and pointed-arch transoms above leaded-glass casements. Spanish Colonials in the older neighborhoods of Bluffview and University Park feature half-round and segmental arched windows in gable ends. Craftsman bungalows in Junius Heights, Vickery Place, and Hollywood Heights occasionally include octagonal or round porthole windows on attic dormers. Mid-century ranch homes in Lake Highlands and Casa Linda sometimes have rake-cut trapezoidal windows under cathedral ceilings or in clerestory bands. Each architectural style calls for specific shape vocabulary, and replacement work needs to match the original geometry precisely.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Custom Templating and Field Measurement</h3>
+                <p>Standard window replacements rely on rough-opening dimensions; special shapes require physical templates to capture the exact geometry. We make field templates from the existing opening using thin plywood or rigid template material, then transfer those templates to the manufacturer for custom fabrication. The lead time on special shapes typically runs eight to twelve weeks, longer than the four to six weeks for standard rectangular units, because of the custom manufacturing process. We schedule special shape orders early in the project timeline to keep installations on track.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Glass Specification and Energy Performance</h3>
+                <p>Fixed-glass special shapes can carry the same Low-E glass packages as standard picture windows, including triple-silver Low-E with low SHGC for west and south elevations across hot Dallas afternoons. Many special shapes serve as gable-end or stairwell daylighting that brings light into otherwise-dark interior spaces, and the right glass package controls solar heat gain without compromising the daylighting function. We routinely specify laminated impact-rated glass on special shapes facing west or southwest exposures across hail-prone Dallas neighborhoods.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Installation Approach and Structural Considerations</h3>
+                <p>Special shape installations sometimes involve structural modifications to the rough opening, particularly when replacing original wood-frame openings with units that have slightly different overall dimensions. We coordinate with structural framing where required and handle exterior trim, flashing, and waterproofing details that prevent water intrusion at the unique perimeter geometry. Round and arched windows have unique flashing requirements that benefit from custom-fabricated metal flashing or self-adhered membrane systems.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Conservation District and HOA Considerations</h3>
+                <p>Special shape windows on historic Dallas homes often face architectural review during replacement. Conservation districts including Munger Place, Junius Heights, Swiss Avenue, and Hollywood Heights all have design guidelines that govern eyebrow arches, half-rounds, and similar period-correct details. Highland Park and University Park architectural review boards typically expect special shapes to match the original profile and divided lite pattern. We navigate these approvals on the homeowner's behalf and have completed projects through every major review process in the city.</p>
               </div>
 
               {/* CTA Block */}

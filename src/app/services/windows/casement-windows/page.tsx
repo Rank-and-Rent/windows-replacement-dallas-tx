@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Casement windows are hinged at the side and open outward using a crank mechanism, providing 100% of the window opening for ventilation—more than any other operable window style. The compression seal created when closed makes casement windows among the most energy-efficient options available.</p>
+                <p>Our casement window installation service across Dallas covers the full project scope from in-home measurement through final operation testing. Casements hinge at the side and crank outward, delivering 100 percent of the window opening for ventilation and producing some of the tightest air infiltration ratings available in residential glazing through their compression-seal geometry. They are particularly well-suited to Dallas Tudor Revivals around Lakewood and Greenway Parks, contemporary remodels in Bluffview and Preston Hollow, and the historic homes of Munger Place, Swiss Avenue, and Junius Heights where the original architecture used casement windows.</p>
 
-                <p>The crank operation allows for precise control and easy opening even when furniture is placed directly beneath the window. This makes casement windows ideal for hard-to-reach areas above kitchen sinks, behind bathtubs, or in high-ceiling applications.</p>
+                <p>We handle casement projects of every scale, from single-opening retrofits in kitchens and bathrooms through whole-house replacements involving fifteen to twenty-five openings. Each project starts with a detailed in-home consultation covering product line, glass package, exterior color, and architectural fit. We provide itemized quotes before any deposit and register every install with the manufacturer on the homeowner's behalf for warranty support.</p>
 
-                <p>Because the entire sash opens outward, casement windows excel at catching side breezes and directing fresh air into your home. The unobstructed glass area also provides expansive views of your outdoor spaces.</p>
+                <p>Premium casements from Andersen, Marvin, Pella, and JELD-WEN all carry Climate Zone 3-tuned glass packages and corrosion-resistant operator hardware that holds up across the Dallas humidity range. Lead times typically run four to six weeks from order confirmation, and most casement installations complete in one to two days per opening including final hardware adjustment.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">In-Home Consultation Process</h3>
+                <p>Our service workflow starts with a free in-home consultation where we measure each opening, evaluate existing trim and exterior cladding, and walk through product options. We bring physical samples of frame profiles, glass packages, and exterior colors so homeowners can see and feel the actual product before specifying. The consultation typically takes 60 to 90 minutes for a whole-house project and produces an itemized quote within a few business days.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Glass Specification on a Per-Elevation Basis</h3>
+                <p>We do not apply uniform glass packages across an entire Dallas home. West and south elevations call for triple-silver Low-E with low Solar Heat Gain Coefficients, while north and shaded east elevations can run higher SHGC values to preserve daylight. Bathroom and second-story bedroom casements often benefit from acoustic laminated glass on homes near major arterials. Storm-exposed casements in hail-prone neighborhoods get laminated impact-rated glass.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Installation Workflow and Quality Control</h3>
+                <p>Most casement installations are pocket replacements into existing rough openings without structural changes. We protect interior surfaces, remove the existing sash and frame as a unit, prepare the opening, install the new frame to factory specs, complete interior and exterior trim, and test operation before completing each opening. Every install ends with a punch-list walkthrough so any operation, lock, or seal concerns are corrected before final payment.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Warranty Registration and Long-Term Service</h3>
+                <p>We register every casement install with the manufacturer on the homeowner's behalf and manage warranty claims directly when needed. Quality casement lines from Andersen, Marvin, and Pella carry 20-year frame and glass warranties, with operator hardware coverage typically running 10 years. Our ongoing service relationships with these manufacturers keep parts and replacements moving quickly when warranty service is needed.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Project Pricing and Financing</h3>
+                <p>Everything we quote includes installation, exterior trim restoration, interior trim, weatherproofing, and warranty registration. There are no surprise add-ons after the initial quote. We offer financing options for whole-house replacement projects through several established home-improvement lending partners, with monthly payment structures that work for most homeowners. We do not pressure financing on customers who prefer to pay in full.</p>
               </div>
 
               {/* CTA Block */}

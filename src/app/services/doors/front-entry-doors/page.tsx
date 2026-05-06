@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Your front entry door is the focal point of your home's exterior and the primary barrier between your family and the elements. Modern entry doors combine advanced security features, superior insulation, and beautiful design to create welcoming entries that perform for decades.</p>
+                <p>Our front entry door installation service across Dallas covers premium fiberglass, steel, and wood entries from Andersen, Pella, JELD-WEN, and Therma-Tru. The front entry is the most-seen architectural element of any Dallas home, and we approach replacement work as a coordinated specification involving the door, sidelights, transom, hardware, and threshold rather than a single-component swap. Lakewood Tudors typically need stained mahogany with leaded-glass sidelights, Spanish Colonials in Greenway Parks call for hand-carved Knotty Alder with appropriate carving, contemporary Bluffview remodels favor minimal modern doors with side-mounted handle hardware.</p>
 
-                <p>Materials range from fiberglass and steel—offering low maintenance and maximum security—to solid wood and wood composite for traditional elegance. Advanced manufacturing techniques now allow fiberglass to replicate wood grain textures with remarkable authenticity while providing superior durability in harsh weather.</p>
+                <p>Most front entry installations involve replacing the entire pre-hung unit including the frame, threshold, weatherstripping, and door slab. We field-measure the existing opening, document any structural considerations, and recommend the right combination of door, sidelights, and transom for the specific architecture. The City of Dallas generally does not require permits for like-for-like replacements that do not change opening size, though Conservation District and architectural review approvals are sometimes needed for historic-district homes.</p>
 
-                <p>Proper installation is critical for entry doors to perform as designed. Our installers ensure perfect alignment, proper weatherstripping, and secure attachment to prevent air leakage, water intrusion, and security vulnerabilities.</p>
+                <p>Premium front entry doors carry frame and slab warranties of 10 to 20 years with hardware coverage typically running 5 to 10 years. We register every install on the homeowner's behalf and handle warranty claims directly when needed. Installation typically completes in four to eight working hours per door including threshold adjustment and final hardware testing.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Material Selection for Dallas Architecture</h3>
+                <p>Fiberglass entry doors are our most-installed material because they balance authenticity, performance, and practicality for the Dallas climate. The pultruded fiberglass skin holds dimensional stability across the brutal thermal cycle Dallas summers impose on south and west elevations. Steel entries work well for back-of-house service entries where security is the priority. Solid wood remains the right call for Highland Park-area Tudors and Conservation District projects where authenticity is the priority and homeowners are prepared to budget for periodic refinishing.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Sidelights, Transoms, and Decorative Glass</h3>
+                <p>Most Dallas front entries are not single-door installations but integrated assemblies including sidelights, transoms, or both. We coordinate the glass selection across the entire assembly: clear glass for maximum daylight, obscure or textured glass for privacy on street-facing entries, leaded or stained glass for period-correct historic homes, decorative inserts for upscale custom entries. The glass design dramatically affects both interior daylighting and exterior curb appeal.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hardware and Smart Lock Integration</h3>
+                <p>Premium front entry doors use multi-point locking systems that engage the frame at three or more points along the door height. Smart lock compatibility allows integration with home automation systems including Ring, August, Yale, and Schlage Encode platforms. Hardware finishes including brass, satin nickel, oil-rubbed bronze, matte black, and aged bronze coordinate with existing exterior light fixtures and house numbers. We discuss hardware selection during the initial consultation rather than treating it as an afterthought.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Threshold, Weatherstripping, and Energy Performance</h3>
+                <p>Front entry energy performance depends as much on the threshold and weatherstripping as on the door itself. Adjustable thresholds with compression-fit weatherstripping prevent the air leakage that drives up cooling bills on Dallas homes. We field-adjust every threshold during installation to achieve a tight compression seal across the full door perimeter. Premium doors carry ENERGY STAR Climate Zone 3 ratings, and the energy improvement from a properly installed door versus a leaky original is often substantial.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Service Coverage and Free Quotes</h3>
+                <p>We install front entry doors across the full Dallas metro service area including Highland Park, University Park, Lakewood, the M Streets, Devonshire, Preston Hollow, Bluffview, Lake Highlands, Casa Linda, Bishop Arts, Oak Cliff, Kessler Park, and the surrounding suburbs of Plano, Frisco, Richardson, Carrollton, Irving, and Las Colinas. Free in-home consultations cover product selection, hardware, glass options, and detailed itemized quotes with no obligation.</p>
               </div>
 
               {/* CTA Block */}

@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Sliding glass doors have become a staple in modern Dallas homes, offering seamless transitions between indoor and outdoor living spaces. These space-saving doors glide horizontally on smooth tracks, maximizing usable space without requiring clearance for door swing.</p>
+                <p>Sliding glass doors are the most common patio door type across Dallas residential construction, and replacing original 1970s and 1980s aluminum sliders with modern dual-pane Low-E units is one of the highest-impact energy improvements available on a typical home. The horizontal sliding geometry keeps the door panels parallel to the wall, which works well in tight backyards, on second-story balconies, and adjacent to outdoor furniture. Standard sizes run 6-foot through 12-foot widths in two-panel and three-panel configurations, with custom sizing available for projects that need wider openings.</p>
 
-                <p>Modern sliding glass doors from Andersen, Pella, JELD-WEN, and Marvin combine large glass areas for unobstructed views with superior energy efficiency and security features. Stainless steel rollers and precision-engineered tracks ensure smooth, quiet operation that lasts for decades.</p>
+                <p>The architectural fit varies by home style. Mid-century ranches in Lake Highlands, Casa Linda, and the Disney Streets typically had original aluminum sliders that suit modern aluminum or fiberglass replacements with thin sightlines. Contemporary remodels in Bluffview and Preston Hollow often want larger custom sliders or multi-slide systems with three or more panels. Traditional homes in Devonshire and Greenway Parks sometimes specify French sliders with wider stiles and divided lite glass to match the architectural language. We help select the right configuration based on the existing opening and the architectural intent.</p>
 
-                <p>With insulated frames, multi-pane glass, and comprehensive weatherstripping, sliding glass doors provide the thermal performance needed for Texas climate while maintaining the expansive views that make them so appealing.</p>
+                <p>Premium sliding glass doors from Andersen, Pella, JELD-WEN, and Marvin all offer Climate Zone 3-tuned glass packages, multi-point locking, and engineered roller hardware that holds up across the Dallas humidity range. Lead times typically run six to ten weeks on premium lines, and most installations complete in one to two working days per opening.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Glass Specification for Dallas Heat and Solar Load</h3>
+                <p>Sliding glass doors carry significant glass area, often facing west or south in homes with backyards oriented toward open lots, pools, or pool decks. That orientation drives serious cooling-season solar load on Dallas afternoons, and glass specification matters more on patio doors than on most other windows in the home. We routinely specify triple-silver Low-E coatings with low Solar Heat Gain Coefficients on west and south patio door installations, which dramatically reduces afternoon solar heat gain and improves interior comfort during August afternoons. Argon gas fills and laminated impact glass are standard upgrades on most projects.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Roller Hardware and Long-Term Operation</h3>
+                <p>The roller mechanism on a sliding patio door is the primary wear point, and Dallas conditions are tough on it. Hard-water sprinkler over-spray, dust, and humidity all contribute to track gunk that can cause sliders to drag or jam over time. Premium manufacturers use stainless steel ball-bearing rollers and self-cleaning track geometry that minimize these issues. We routinely specify Andersen, Pella, Marvin, and JELD-WEN sliders for Dallas applications because their roller hardware reliably operates cleanly at year fifteen and beyond. Track maintenance is limited to occasional vacuuming.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Multi-Slide and Lift-and-Slide Upgrades</h3>
+                <p>For Dallas homeowners renovating with backyards or pool decks that should feel continuous with the interior, multi-slide and lift-and-slide door systems offer dramatic openings. Multi-slide doors stack panels into a pocket, creating openings of 12 to 20 feet that disappear entirely when fully open. Lift-and-slide hardware uses a quarter-turn handle that lifts the panel off the seal before sliding, enabling much larger panel weights with smoother operation. Both systems require thermally broken aluminum frames and engineered hardware, and they sit at the premium tier of patio door specification.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Security Hardware and Multi-Point Locking</h3>
+                <p>Modern sliding patio doors use multi-point locking systems that engage the frame at top, middle, and bottom of the active panel, dramatically improving security versus the single-point latches on older sliders. Smart lock compatibility, integrated alarm sensors, and laminated impact-rated glass all add layers of security on doors that are otherwise a recognized point of entry concern. We discuss security upgrades during the initial consultation rather than treating them as add-ons after install.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Installation Workflow and Permitting</h3>
+                <p>Most sliding patio door installations are pocket replacements into existing rough openings without structural changes. Larger custom installations or new openings cut into existing walls do trigger permitting through the City of Dallas Department of Sustainable Development and Construction, and we handle that paperwork on the homeowner's behalf. Installation typically completes in one to two working days for standard sizes and two to four days for larger multi-slide systems. Free in-home consultations are available across the Dallas metro service area.</p>
               </div>
 
               {/* CTA Block */}

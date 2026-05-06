@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Awning windows are hinged at the top and open outward from the bottom using a crank mechanism. This unique design allows them to remain open during light rain, as the outward-opening sash acts as an awning to deflect water away from the interior.</p>
+                <p>Awning windows install our service teams across Dallas in a service-focused workflow that handles everything from initial measurement through final cleanup. The top-hinged geometry that opens outward from the bottom is uniquely useful in North Texas, where summer thunderstorms drop suddenly and homeowners want ventilation without closing every window in the house. The compression seal that engages when the sash closes also delivers air infiltration ratings as low as 0.10 cubic feet per minute per square foot, dramatically tighter than slider-style windows.</p>
 
-                <p>The design makes awning windows particularly valuable in Texas, where afternoon thunderstorms are common but ventilation remains desirable. They're frequently installed above doors, in bathrooms for privacy while maintaining airflow, or stacked vertically to create dramatic window walls.</p>
+                <p>Our awning service work covers the entire Dallas metro, from the Tudor Revivals around Lakewood and Greenway Parks where transom awnings often sit above leaded-glass picture units, to contemporary Bluffview and Preston Hollow remodels where awnings stack three or four high to create vented glass walls. We field-measure every opening before quoting, specify the right glass package for the elevation exposure, and handle all the trim and weatherproofing work that keeps the assembly performing for decades.</p>
 
-                <p>Like casement windows, awning units create a compression seal when closed, delivering exceptional energy performance and weather resistance.</p>
+                <p>Premium awning lines from Andersen, Marvin, Pella, and JELD-WEN all carry Climate Zone 3-tuned glass and corrosion-resistant operator hardware. Most Dallas awning installations involve pocket replacements into existing rough openings without structural changes, with the project typically completing in a single day per opening including final adjustment and operation testing.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Service Workflow from Quote to Completion</h3>
+                <p>Our awning installation service starts with an in-home measurement and architectural fit consultation, where we walk through each opening, evaluate existing trim and exterior cladding conditions, and recommend the right product line, glass package, and exterior color for the home. We provide a detailed itemized quote covering product, installation, trim, and warranty registration before any deposit. Lead times on premium awning lines run four to six weeks from order confirmation, with installation typically completing in one or two working days for most Dallas projects.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Common Dallas Applications We Install</h3>
+                <p>Bathroom and laundry-room awnings are among the most-installed configurations in our service area because they deliver privacy at high-mounted positions while still allowing ventilation. Kitchen-corner awnings above counters work well in Lakewood and M Streets bungalow remodels. Stacked awning walls show up frequently in modern Bluffview and Preston Hollow remodels. Awning transoms above large fixed picture units appear regularly in mid-century ranch remodels across Lake Highlands and Casa Linda.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Glass Package Selection for Dallas Climate</h3>
+                <p>We specify glass on a per-elevation basis. West and south elevations call for triple-silver Low-E with low SHGC values that block afternoon solar heat gain. North-facing awnings can run a slightly higher SHGC to preserve daylight without paying a cooling penalty. Acoustic laminated glass is worth specifying for Dallas homes near major arterials like Mockingbird, Northwest Highway, or Greenville Avenue. Laminated impact-rated glass is standard on storm-exposed elevations across hail-prone neighborhoods.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Warranty Service and Long-Term Support</h3>
+                <p>Premium awning windows from the manufacturers we install carry frame and glass warranties of 20 years or more, with operator hardware coverage typically running 10 years. We register every install on the homeowner's behalf and manage warranty claims directly so any future seal failure or hardware issue is handled without the homeowner having to navigate the manufacturer warranty department. Our service relationship with Andersen, Pella, Marvin, and JELD-WEN means we can get parts and replacements moving quickly when needed.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Free In-Home Consultation</h3>
+                <p>We offer free in-home consultations across the Dallas metro for any window or door replacement project. The consultation covers product selection, glass package recommendations, exterior color matching, and a detailed itemized quote. There is no obligation, no high-pressure sales process, and no charge for the time. Reach out by phone or through our contact form to schedule.</p>
               </div>
 
               {/* CTA Block */}

@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Richardson is a vibrant suburb in the Dallas-Fort Worth metroplex, renowned for its excellent schools, telecommunications industry, and diverse residential communities. With a population of over 120,000, Richardson offers a mix of established neighborhoods and modern developments.</p>
+                <p>Richardson sits along the northern edge of Dallas with a deep stock of 1960s and 1970s ranch homes that defined the original Telecom Corridor neighborhoods, plus newer construction along the President George Bush Turnpike. The city is home to the University of Texas at Dallas and a substantial population of long-term homeowners with mature housing stock. Most replacement work here addresses original aluminum windows from the 1960s through 1980s that have aged through five decades of Texas summers and spring storms.</p>
 
-                <p>Our window and door replacement services serve Richardson's varied housing types, from single-family homes in family neighborhoods to contemporary builds in newer communities. As Richardson specialists, we understand the unique characteristics of this technology-forward suburb.</p>
+                <p>Richardson shares the same hot-summer cooling-dominated climate as the rest of the metroplex, with ENERGY STAR Climate Zone 3 requirements applying. Spring hailstorms regularly track across the city, and we routinely specify laminated impact-rated glass on storm-exposed elevations. The neighborhoods near US-75 and Central Expressway sometimes benefit from acoustic laminated glass that delivers measurable interior noise reduction.</p>
 
-                <p>Richardson homes often feature contemporary designs that benefit from modern, energy-efficient window and door solutions. The city's family-oriented nature means many homeowners want reliable, low-maintenance upgrades.</p>
+                <p>Architectural styles in Richardson run from traditional brick ranches in established neighborhoods through prairie-style and contemporary homes in newer developments. The original Richardson homes built between 1960 and 1980 often have unusually large window openings for their era, which makes the replacement glass package especially important for cooling-season comfort. We help homeowners select between premium vinyl, fiberglass, Fibrex, and wood-clad based on architectural fit, ownership horizon, and any HOA design guidelines.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,21 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Energy Performance for Richardson Cooling Loads</h3>
+                <p>The original aluminum windows installed across Richardson in the 1960s and 1970s are now five decades into their service life and fall well short of modern ENERGY STAR requirements. Replacing those frames with modern dual-pane Low-E glass typically reduces cooling-season energy use by twenty-five to thirty-five percent. We model west and south elevations against orientation and shading from the mature pecans and oaks that line many established Richardson streets, then recommend glass packages with appropriately low Solar Heat Gain Coefficients.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hail Protection and Storm Considerations</h3>
+                <p>Richardson sits along a regular hail track and takes spring storm damage in most years. Pairing replacement frames with laminated or impact-rated glass on storm-exposed elevations dramatically reduces breakage risk. Insurance carriers serving Dallas and Collin counties offer premium credits for impact-rated glazing, which can offset the upgrade cost over the policy life.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">US-75 Corridor and Acoustic Glass Considerations</h3>
+                <p>Homes near US-75 (Central Expressway) and the President George Bush Turnpike often benefit from acoustic laminated glass that reduces traffic noise transmission. The laminated inboard layer dampens highway noise by 5 to 10 STC points, which translates to a meaningful interior comfort improvement for homes within several blocks of major arterial corridors.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Service Coverage Across Richardson</h3>
+                <p>We serve Richardson homeowners across the entire city, from the established Telecom Corridor neighborhoods on the eastern side near UTD through Old Town Richardson to the newer developments along the President George Bush Turnpike. Richardson is in the heart of our regular service area, and adjacent communities including Plano, Garland, and northern Dallas neighborhoods are also served from the same operational footprint.</p>
               </div>
 
               {/* CTA Block */}

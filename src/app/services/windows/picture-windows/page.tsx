@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Picture windows are non-operable fixed units designed exclusively to provide unobstructed views and maximum natural light. With no moving parts, sashes, or hardware, picture windows offer the cleanest sightlines and the highest energy efficiency ratings available.</p>
+                <p>Our picture window installation service across Dallas covers fixed-glass units of every scale, from the modest 4-by-5-foot focal windows in living rooms and dining rooms to the wall-sized assemblies that define modern Bluffview, Preston Hollow, and East Dallas remodels. Picture windows have no operable hardware, no weatherstripping wear, and no sash gaps to leak air, which translates to the lowest U-factor and SHGC numbers of any window in a given product line. They are a smart specification for any room where ventilation comes from adjacent operable windows or doors and the goal is maximum daylight and view.</p>
 
-                <p>The absence of operable components means picture windows can be manufactured in larger sizes than typical operable units, making them ideal for showcasing dramatic views, creating architectural focal points, or brightening dark interior spaces.</p>
+                <p>We approach larger picture window installations as composed assemblies rather than single units. A 12-foot horizontal window wall in a Bluffview great room is typically three or four mulled units rather than a single oversized pane, which simplifies handling, lowers cost, and improves serviceability if a single unit ever needs replacement. We design these compositions on a per-project basis, considering elevation exposure, structural framing, and architectural fit before specifying the assembly.</p>
 
-                <p>Picture windows are frequently combined with operable flanking units—such as casements or double-hungs—to create stunning window walls that balance ventilation needs with expansive glass areas.</p>
+                <p>Premium picture windows from Andersen, Marvin, Pella, and JELD-WEN all carry Climate Zone 3-tuned glass packages and 20-year frame and glass warranties. Frame material selection on larger spans tends toward fiberglass, Fibrex, or thermally broken aluminum, while smaller spans accept any of the premium frame options. We help homeowners select the right material for the specific application.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Common Picture Window Configurations We Install</h3>
+                <p>The most-installed picture window configurations in our service area are large fixed centers in bay window assemblies on Tudor and Mediterranean homes, single oversized fixed lights in great rooms and dining rooms of 1990s and 2000s Preston Hollow homes, and stacked assemblies combining fixed picture units with operable awning or casement vents on contemporary remodels. We also install transom picture units above sliding patio doors and entry doors to add daylight without compromising security.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Glass Specification for Maximum Performance</h3>
+                <p>Picture window glass packages can run more aggressive than operable equivalents because there is no operable hardware to support the heavier sash. We routinely specify triple-pane glass with krypton gas fills on west and south elevations of high-end Dallas projects where energy performance is the priority. Triple-silver Low-E coatings, electrochromic dynamic glass, and laminated impact glass are all easier to deploy on fixed picture units. The result is single units that deliver U-factor values as low as 0.20 and SHGC values down to 0.18.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Structural Considerations for Large Spans</h3>
+                <p>Picture windows over about 40 square feet of glass start to push the structural limits of standard residential framing. We coordinate with structural engineers when load calculations are required, and we field-verify rough opening conditions before specifying oversized units. The frame material choice matters at large spans because heavier glass loads need rigid frames; vinyl can deflect over time, while fiberglass and aluminum hold dimension across decades.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hail Protection and Insurance Considerations</h3>
+                <p>Larger glass surface area means greater absolute risk of hail impact during Dallas storm events. We routinely specify laminated impact-rated glass on picture windows facing west or southwest in hail-prone neighborhoods. The laminated inboard layer holds the pane together if the outer light is broken, dramatically reducing the risk of a damaged window becoming a damaged interior. Insurance carriers in Dallas County offer premium credits for laminated impact glazing, which we document for the carrier's underwriting review.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Installation Workflow and Free Quotes</h3>
+                <p>Our picture window installation workflow starts with a detailed in-home consultation covering measurement, glass package recommendations, structural review for larger units, and architectural fit. We provide itemized quotes before any deposit. Lead times typically run six to ten weeks on premium picture windows because the larger units are often custom manufactured. Installation typically completes in one to three working days per unit depending on size and complexity.</p>
               </div>
 
               {/* CTA Block */}

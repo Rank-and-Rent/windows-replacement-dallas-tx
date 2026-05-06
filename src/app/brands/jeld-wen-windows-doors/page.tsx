@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Jeld-Wen has grown to become one of the world's largest door and window manufacturers, offering an extensive range of styles and materials to fit virtually any project and budget. Their focus on reliable performance and accessible pricing has made them a favorite among both homeowners and builders.</p>
+                <p>JELD-WEN is one of the largest window and door manufacturers in North America, with a deep portfolio that covers virtually every residential application from value-tier vinyl through premium custom wood. The company's manufacturing scale delivers consistent quality and product availability across the lineup, which matters for whole-house replacement projects in Dallas where lead times affect overall project scheduling. JELD-WEN windows and doors install across the full Dallas metro service area, from Highland Park and University Park through Lakewood, Lake Highlands, Casa Linda, Devonshire, Preston Hollow, and the surrounding suburbs.</p>
 
-                <p>The Jeld-Wen product portfolio includes vinyl, wood, aluminum-clad, and composite windows in styles ranging from traditional to contemporary. Their V-2500 and Premium vinyl series deliver excellent energy performance at competitive price points, while the Siteline wood and AuraLast composite lines serve the premium market.</p>
+                <p>The JELD-WEN product portfolio is organized around several primary lines. Premium Vinyl is the upper-tier vinyl line, with fusion-welded frames, advanced glass packages, and lifetime warranties. The V-2500 line covers mid-range vinyl applications. The Siteline collection is the wood and wood-clad line for architectural projects requiring authentic wood character. The AuraLast pine treatment system is JELD-WEN's signature wood preservation technology, and it appears across both wood and wood-clad products to extend service life in challenging climates like Dallas.</p>
 
-                <p>As an authorized Jeld-Wen dealer, we offer their full product range with factory-backed warranties and technical support. Jeld-Wen's manufacturing scale ensures product availability and consistent quality across their extensive lineup.</p>
+                <p>For Dallas summers, JELD-WEN's Low-E glass packages meet ENERGY STAR Climate Zone 3 requirements with appropriate SHGC values for cooling-dominated climates. As an authorized JELD-WEN dealer, we install across the full lineup with manufacturer-trained installation teams, factory warranty registration, and ongoing service support across the Dallas metro.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">JELD-WEN Premium Vinyl for Whole-House Projects</h3>
+                <p>JELD-WEN Premium Vinyl is the line we install most often for whole-house replacement projects in postwar Dallas neighborhoods. Fusion-welded frame corners eliminate the gasket-and-joint failure points common on lower-tier vinyl. Advanced multi-pane glass packages deliver Climate Zone 3 performance. Lifetime frame warranties and twenty-year glass coverage protect the investment over realistic Dallas ownership periods. The line comes in multiple exterior color options that suit traditional and contemporary architecture.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">JELD-WEN Siteline Wood and Wood-Clad</h3>
+                <p>The Siteline collection is JELD-WEN's wood and wood-clad line for architectural projects. Real wood interiors, AuraLast pine preservation treatment, and aluminum or fiberglass exterior cladding deliver authentic wood character with weather-resistant performance. We specify Siteline on Lakewood Tudor remodels, Devonshire Spanish Colonial work, Greenway Parks restorations, and historic district projects across Munger Place and Junius Heights where authenticity meets practical maintenance considerations.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">AuraLast Pine Preservation System</h3>
+                <p>The AuraLast pine treatment system is JELD-WEN's signature wood preservation technology, applied throughout the wood substrate rather than as a surface coating. The treatment dramatically extends wood window service life in challenging climates by preventing wood rot, water damage, and termite intrusion across the full thickness of the wood. AuraLast carries a 20-year warranty against rot, which is meaningful in the Dallas climate where seasonal humidity swings can challenge wood window longevity.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Door Lineup and Patio Door Options</h3>
+                <p>JELD-WEN manufactures a deep door lineup that includes entry doors, sliding patio doors, French patio doors, and bifold systems. The IWP Aurora and Custom Wood entry doors compete in the upper tier of the residential entry market. JELD-WEN sliding patio doors and French patio doors integrate well with their window product lineup for Dallas projects that include both window and door replacement.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Warranty and Service Network</h3>
+                <p>JELD-WEN warranty terms run lifetime on premium frame materials and twenty years on glass seals across most product lines. We register every install on the homeowner's behalf and manage warranty claims directly. The brand maintains a substantial Dallas-Fort Worth distribution network, which keeps lead times competitive and parts availability strong for warranty service.</p>
               </div>
 
               {/* CTA Block */}

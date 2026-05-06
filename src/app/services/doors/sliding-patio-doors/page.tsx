@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Sliding patio doors feature large glass panels that glide horizontally on precision roller systems, providing easy access to outdoor spaces without requiring clearance for door swing. This makes them ideal for areas where space is limited or furniture placement would interfere with swinging doors.</p>
+                <p>Our sliding patio door installation service across Dallas covers replacement of original aluminum sliders from the 1970s and 1980s as well as new installations for additions and remodels. Sliding patio doors are the most-installed patio door type in Dallas because they maximize opening width without requiring swing clearance, which suits the typical Dallas backyard layout where furniture, grills, and pool decks compete for space. Modern dual-pane Low-E sliders deliver dramatically better energy performance than the original aluminum units they typically replace.</p>
 
-                <p>Modern sliding doors incorporate advanced weatherstripping, multi-point locking systems, and low-E insulated glass to deliver energy performance comparable to the walls around them. The large glass area creates visual continuity between indoor and outdoor spaces while flooding interiors with natural light.</p>
+                <p>Standard sliding patio doors run 6-foot through 12-foot widths in two-panel configurations. Three-panel sliders extend openings to 12 to 18 feet, with the center panel fixed and the two outer panels operable. Four-panel and larger custom configurations push into the multi-slide product category. We help homeowners select the right configuration based on the existing opening, the architectural intent, and the desired opening width.</p>
 
-                <p>Quality varies dramatically in sliding doors—inferior products can develop roller failures, air leakage, and difficult operation. Our premium products feature stainless steel rollers, welded frames, and engineered track systems designed for decades of effortless operation.</p>
+                <p>Premium sliders from Andersen, Pella, JELD-WEN, and Marvin all carry Climate Zone 3-tuned glass packages, multi-point locking, stainless steel ball-bearing rollers, and engineered track hardware that holds up across the Dallas humidity range. Lead times typically run six to ten weeks on premium lines, and most installations complete in one to two working days per opening.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Why Original Aluminum Sliders Need Replacement</h3>
+                <p>The aluminum sliders builders installed across Dallas in the 1970s and 1980s have largely failed both energy and operational performance. The frames conduct heat and cold dramatically, the rollers are typically plastic and seized after decades of dust and humidity, the meeting-rail seals have hardened and shrunk, and the single-pane glass delivers essentially zero insulation. Replacing those units with modern dual-pane Low-E sliders typically cuts patio door heat gain by sixty to seventy percent during the Dallas cooling season.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Glass Specification for West-Facing Sliders</h3>
+                <p>Dallas backyards often face west or southwest, which means the patio sliders take direct afternoon solar exposure during the hottest months of the year. We routinely specify triple-silver Low-E coatings with low Solar Heat Gain Coefficients on west-facing slider installations. Argon gas fills, warm-edge spacers, and laminated impact-rated glass are standard upgrades. The right glass package on a west-facing slider can drop interior surface temperatures by ten to fifteen degrees during the hottest part of the afternoon.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Roller Hardware and Track Maintenance</h3>
+                <p>The roller mechanism is the primary wear point on sliding patio doors. Premium manufacturers use stainless steel ball-bearing rollers and self-cleaning track geometry that minimize the gunk buildup from Dallas hard-water sprinkler over-spray and accumulated dust. Routine maintenance is limited to occasional vacuuming. Lower-tier sliders use plastic rollers that can crack and seize over time, requiring difficult roller replacement that often becomes a service call.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hail Protection and Storm Performance</h3>
+                <p>Sliding patio doors take direct hail exposure on most Dallas homes because they typically face the back yard, often west or southwest. Pairing slider frames with laminated impact-rated glass dramatically reduces breakage risk and qualifies many homeowners for insurance premium credits through carriers serving Dallas County. We document the laminated glass specification for the carrier's underwriting review.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Service Coverage and Project Timeline</h3>
+                <p>We install sliding patio doors across the full Dallas metro service area. Installation typically completes in one working day for standard 6 to 8 foot sliders and one to two days for larger 10 to 12 foot configurations. The City of Dallas generally does not require permits for like-for-like patio door replacements that do not change opening size. Free in-home consultations cover product selection, glass package recommendations, and detailed itemized quotes.</p>
               </div>
 
               {/* CTA Block */}

@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Dallas, the ninth-largest city in the United States, is a vibrant metropolis of over 1.3 million residents, renowned for its business district, cultural attractions, and diverse neighborhoods. From historic districts in East Dallas to modern developments in North Dallas, our window and door replacement services serve the entire spectrum of Dallas housing.</p>
+                <p>Dallas is one of the most architecturally diverse cities in Texas, and replacing windows here means understanding a housing stock that ranges from 1920s Tudor Revivals along Swiss Avenue to mid-century ranches in Lake Highlands, prairie-style bungalows in the M Streets, Spanish Colonial homes in Greenway Parks, and modern infill in Bluffview and Preston Hollow. Our work covers the full city, from Highland Park and University Park out through Lakewood, Casa Linda, Forest Hills, Junius Heights, Hollywood Heights, Lower Greenville, Knox-Henderson, Uptown, Oak Lawn, Bishop Arts and Oak Cliff, Kessler Park, Winnetka Heights, Devonshire, and Preston Hollow.</p>
 
-                <p>We understand that Dallas homeowners have unique needs—from energy-efficient upgrades to combat the Texas heat to stylish installations that complement the city's architectural diversity. Our comprehensive services ensure every Dallas property can benefit from improved comfort, security, and energy performance.</p>
+                <p>Climate is the constant factor across that range. Dallas summers routinely push past 100 degrees with relentless UV exposure on west and south elevations, while spring brings hailstorms that drive the second-largest insurance loss category in the metroplex. Winter cold fronts can drop temperatures into the 20s for days at a time, and the occasional ice event tests window seals that have weathered a long cooling season. We specify glass packages and frame materials with that full thermal cycle in mind, not the gentler conditions that drive product testing in other regions.</p>
 
-                <p>As Dallas specialists, we recognize this city's unique characteristics and homeowner priorities. Dallas experiences intense summer heat and occasional winter freezes, making energy-efficient windows and doors crucial investments. We work extensively with Dallas's varied housing stock to deliver optimal results for Dallas living.</p>
+                <p>Most of the homes we replace windows on are between 30 and 100 years old. Pre-war neighborhoods like Junius Heights, Munger Place, and the Swiss Avenue Historic District have original wood sashes that often deserve restoration rather than replacement, and we will tell you when that is the right path. Postwar tract housing in Casa View, Wilshire Heights, and parts of Lake Highlands is typically a clean replacement candidate where modern vinyl or fiberglass dramatically improves comfort and operating cost. Newer Preston Hollow and Bluffview homes from the 1990s onward often have failed builder-grade dual-pane units and are excellent candidates for premium fiberglass or wood-clad replacement.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,21 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Dallas Climate and Glass Specification</h3>
+                <p>Dallas falls inside ENERGY STAR Climate Zone 3, which calls for a maximum U-factor of 0.30 and a Solar Heat Gain Coefficient (SHGC) below 0.25 on most exposures. Cooling, not heating, drives the energy bill in Dallas, and SHGC is the lever that matters most. We routinely specify triple-silver Low-E coatings on west and south elevations across Lakewood, Forest Hills, and Lake Highlands where afternoon solar load is significant, then loosen the SHGC slightly on shaded north exposures to preserve daylighting. Argon gas fills, warm-edge spacers, and laminated impact glass on hail-exposed elevations are standard upgrades on most Dallas projects we quote.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hail, Storm Season, and Insurance Considerations</h3>
+                <p>North Texas hail is a real factor in window selection. The April-through-June storm season regularly drops golf-ball to baseball-sized hail across Lake Highlands, Casa Linda, Lakewood, Lower Greenville, and East Dallas. We pair frames with laminated or impact-rated glass on exposed elevations, particularly west-facing walls and properties along open ravines, golf courses, or White Rock Lake exposure. Many insurance carriers in Dallas County offer premium credits for impact-rated glazing, which can offset the upgrade cost over the policy life. We coordinate with your insurance carrier when storm-driven replacements are part of a claim.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Neighborhood Architectural Fit</h3>
+                <p>Replacement windows have to read correctly on the architecture. Tudor Revivals around Lakewood and Greenway Parks usually need narrow-profile double-hungs with simulated divided lites in dark exterior colors. Spanish Colonials in Devonshire and Bluffview want cream or terra-cotta exteriors with appropriate sash proportions. Craftsman bungalows in Junius Heights, Vickery Place, and Hollywood Heights look right with cottage three-over-one configurations in fiberglass or wood-clad. Mid-century ranches in Lake Highlands, Casa Linda, and the Disney Streets carry low-profile sliders or picture units in bronze or black. Modern infill in Bluffview and Preston Hollow calls for thermally broken aluminum with narrow sightlines and large glass spans. We match material, profile, and finish to the home rather than pushing a single product.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Permits, HOAs, and Conservation Districts</h3>
+                <p>The City of Dallas Department of Sustainable Development and Construction generally does not require permits for like-for-like window replacements that do not change opening size or structural framing. Enlargements, egress modifications, and structural changes do trigger permitting and we handle that paperwork. Conservation Districts including Munger Place, Junius Heights, Swiss Avenue, and Hollywood Heights have design guidelines that typically favor wood or wood-clad replacements. Highland Park and University Park architectural review boards expect period-appropriate specifications on pre-war homes. We navigate those approvals on the homeowner's behalf and have completed projects through every major conservation district in the city.</p>
               </div>
 
               {/* CTA Block */}

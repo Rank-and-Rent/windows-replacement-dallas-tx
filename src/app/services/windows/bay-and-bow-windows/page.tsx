@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Bay and bow windows are multi-unit assemblies that extend beyond the exterior wall plane, creating both additional interior space and striking architectural presence. Bay windows typically consist of three units arranged at angles, while bow windows feature four or more units arranged in a gentle curve.</p>
+                <p>Our bay and bow window service in Dallas covers the full design-and-build scope: structural review, custom unit fabrication, exterior cladding integration, roofing tie-in, and interior trim finishing. Bay assemblies typically use three units arranged at 30 or 45 degrees with a flat fixed center and operable casement or double-hung flankers. Bow assemblies use four to six units in a gentle arc, almost always all fixed glass. Both create projecting interior space, panoramic views, and meaningful curb-appeal impact on the homes where they are installed.</p>
 
-                <p>These window systems transform ordinary rooms into distinctive spaces with panoramic views and abundant natural light from multiple angles. The projected interior space is ideal for window seats, display areas, or simply creating a sense of spaciousness in smaller rooms.</p>
+                <p>Across our service area, bay and bow windows show up most often in Tudor Revivals and English Revivals around Lakewood, Greenway Parks, and the Highland Park-adjacent blocks of Devonshire. They also fit well on Spanish Colonials in Bluffview, larger Craftsman bungalows in Junius Heights and Vickery Place, and selected mid-century ranches where the architecture supports a projecting window. We help homeowners assess whether a bay or bow projection is the right architectural call for the specific home before committing to the project.</p>
 
-                <p>Professional installation is critical for bay and bow windows due to their structural requirements, including proper support, roofing, and integration with your home's framing. Our certified teams ensure proper load distribution and weatherproofing for decades of trouble-free performance.</p>
+                <p>Bay and bow projects are not standard window swaps. They typically run two to four weeks of working time including structural prep, the projection build-out, exterior cladding integration, and interior finish work. Permitting through the City of Dallas is generally required because the work involves structural and exterior envelope changes. We handle all permitting and HOA architectural review on the homeowner's behalf.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Project Discovery and Architectural Review</h3>
+                <p>Every bay or bow window project starts with an in-home consultation where we evaluate the wall structure, exterior cladding type, interior framing, and roofline above the proposed projection. Some Dallas homes are excellent candidates for projecting windows, others are not, and we will tell you honestly when the architectural fit is not right. Tudor and English Revival homes around Lakewood typically work well; ranch homes with low rooflines often do not have the elevation to accommodate a properly proportioned bay projection.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Structural Engineering and Roofing Tie-In</h3>
+                <p>The projection of a bay or bow window has to support its own weight plus snow and wind loads through engineered support, typically concealed cables, knee braces, or a foundation extension. The top needs proper roofing with hip or gable framing tied into the existing roof system. Flashing details, ice-and-water shield, drip edge, and self-adhered membrane all matter for keeping water out across decades of Dallas thunderstorms. We coordinate with structural engineers when load calculations are required and handle all roofing integration as part of the project scope.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Premium Manufacturers for Bay and Bow Service</h3>
+                <p>We work primarily with Marvin, Andersen, and Pella for bay and bow projects because their custom departments have the expertise and quality control needed for projecting assemblies. Marvin Signature Ultimate, Andersen A-Series, and Pella Architect Series Reserve all manufacture purpose-built bay and bow assemblies with matched units, integrated head and seat boards, and color-matched exterior cladding. We rarely specify vinyl for bay or bow work because the structural and aesthetic stakes argue for upgraded materials.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Glass and Energy Performance</h3>
+                <p>Bay and bow units present multiple glass faces at different angles, and each face may see different solar exposure across the day. We model the assembly carefully and specify glass packages on a per-face basis, using lower SHGC coatings on west and south faces and slightly higher values on north faces to preserve daylighting. Quality bay assemblies with proper glass specification meet or beat ENERGY STAR Climate Zone 3 requirements for Dallas.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Permitting, HOAs, and Project Timeline</h3>
+                <p>Bay and bow installations typically require a permit from the City of Dallas Department of Sustainable Development and Construction because of the structural and envelope changes involved. Conservation Districts, Highland Park, and University Park architectural review boards often have additional approval requirements. We handle all permitting and review processes as part of the project scope. Total timeline from initial consultation through final installation typically runs eight to twelve weeks including custom manufacturing lead time.</p>
               </div>
 
               {/* CTA Block */}

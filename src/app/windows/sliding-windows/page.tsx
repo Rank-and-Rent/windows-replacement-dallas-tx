@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Sliding windows operate horizontally on precision roller systems, making them effortless to open with minimal effort—ideal for locations that are difficult to reach or for homeowners seeking simple, reliable operation.</p>
+                <p>Sliding windows operate horizontally on roller tracks, with one fixed sash and one operable sash that glides side to side, or in some larger configurations, two operable sashes that meet at a center. The horizontal geometry suits the long, low proportions of mid-century ranch homes that fill Lake Highlands, Casa Linda, the Disney Streets, and parts of Casa View, where the original windows were almost always sliders. They also fit contemporary remodels in Bluffview and Preston Hollow where horizontal lines and minimal hardware are part of the design vocabulary. For Dallas homeowners replacing original aluminum sliders from the 1960s and 1970s, modern vinyl, fiberglass, and aluminum sliders deliver dramatically better energy performance with the same operational pattern.</p>
 
-                <p>The horizontal design maximizes glass area while maintaining a low profile, making sliding windows perfect for ranch-style homes, contemporary architecture, and any application where wall space is limited but you want generous natural light.</p>
+                <p>The advantage of sliders over double-hungs is operability without projection. The sash slides parallel to the wall, never extending into walkways, decks, or landscaping. That makes sliders well-suited to bathroom and laundry-room applications, kitchen openings above counters, and side-yard openings on tight Dallas lots in older neighborhoods like Lower Greenville and Knox-Henderson. The disadvantage is the weatherstripping geometry: sliders rely on bulb-and-fin seals that have to flex against motion rather than the compression seals of casements and awnings, which translates to slightly higher air infiltration rates in real-world testing.</p>
 
-                <p>Modern sliding windows feature advanced track systems that prevent air and water infiltration while ensuring smooth, quiet operation for decades. The absence of cranks or hardware makes them particularly appealing in minimalist interiors.</p>
+                <p>Premium sliders from Andersen, Pella, JELD-WEN, and Marvin all carry Climate Zone 3-tuned glass packages, multi-point locks, and engineered roller systems that hold up across the Dallas humidity range. Frame material choice depends on architectural fit, ownership horizon, and elevation exposure.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Where Sliders Belong in Dallas Architecture</h3>
+                <p>Sliders fit the architectural language of mid-century ranches that line Lake Highlands, Casa View, the Disney Streets, the older blocks of Casa Linda and Hollywood Heights, and the postwar tract neighborhoods of Wilshire Heights. The horizontal proportions match the long roof lines and low ceiling heights typical of these homes. Modern slider profiles in low-profile aluminum or fiberglass also fit contemporary Bluffview and Preston Hollow remodels where the architecture wants horizontal sight lines. They are less appropriate for traditional Tudor Revivals around Lakewood and Greenway Parks, prairie-style bungalows in the M Streets and Junius Heights, or Spanish Colonials where casements or double-hungs are the period-correct call.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Roller Hardware and Long-Term Operation</h3>
+                <p>The roller system is the wear point on sliding windows. Premium manufacturers use stainless steel ball-bearing rollers that resist corrosion in Dallas summer humidity and hold up across decades of operation. Lower-tier sliders use plastic rollers that can wear, crack, or jam over time, especially when track gunk accumulates from Dallas's hard water sprinkler over-spray and dust. We routinely specify Andersen, Pella, JELD-WEN, and Marvin sliders for Dallas applications because their roller hardware reliably operates cleanly at year fifteen and beyond. Track maintenance is limited to occasional vacuuming and wiping with a damp cloth.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Energy Performance and Air Infiltration</h3>
+                <p>The bulb-and-fin weatherstripping geometry on sliders gives up some performance versus the compression seals on casements and awnings. Modern lines have closed most of the gap with engineered interlock geometry at the meeting rail and high-quality bulb seals on the perimeter. Premium sliders achieve U-factor values in the 0.28 to 0.32 range with Low-E glass, hitting ENERGY STAR Climate Zone 3 minimums. The cooling-season energy savings on a slider replacement project versus original 1960s aluminum sliders is typically thirty to forty percent, even though sliders themselves are not the absolute tightest window style available.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hail Protection and Storm Performance</h3>
+                <p>Sliding sashes do not project outward, which keeps them out of the impact path during Dallas storm events. The interlocking meeting rail also performs well under wind-driven rain. We routinely specify laminated impact-rated glass on west and south elevations for slider installations in hail-prone neighborhoods, and many insurance carriers in Dallas County offer premium credits for laminated impact glazing on slider replacements.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Egress and Sizing Considerations</h3>
+                <p>Sliding windows in bedrooms must meet the 5.7-square-foot egress minimum required by Texas building code. Because only one sash on a two-panel slider is typically operable, the math works out differently than on a casement. The operable sash needs to be wide enough that its single side delivers the required clear opening. We field-verify egress compliance on every bedroom installation and specify slider sizing accordingly. Standard slider sizes range from 36 inches by 24 inches up to 72 inches by 60 inches; oversized custom configurations are available on premium lines.</p>
               </div>
 
               {/* CTA Block */}

@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Grand Prairie is a growing city in the Dallas-Fort Worth metroplex, known for its diverse communities, excellent schools, and family-friendly atmosphere. With a population exceeding 195,000, Grand Prairie offers a mix of established neighborhoods and modern developments.</p>
+                <p>Grand Prairie sits between Dallas and Fort Worth in the central part of the metroplex with a housing stock that runs from 1960s and 1970s ranch homes in the older neighborhoods near Highway 161 and Belt Line Road to newer subdivisions on the city's southern and western edges. Most replacement work we do here addresses original aluminum or first-generation vinyl windows from the original construction era. We work the entire city, including the established neighborhoods near Asia Times Square and Lone Star Park, the Lake Joe Pool area, and the newer developments along the President George Bush Turnpike.</p>
 
-                <p>Our window and door replacement services serve Grand Prairie's varied housing landscape, providing installations that enhance comfort, energy efficiency, and property values. As Grand Prairie specialists, we understand the unique characteristics of this dynamic city.</p>
+                <p>Grand Prairie shares the same cooling-dominated climate as the rest of North Texas, with ENERGY STAR Climate Zone 3 requirements applying. Spring hailstorms regularly track across the city, and we routinely specify laminated impact-rated glass on storm-exposed elevations. Insurance carriers serving Dallas and Tarrant counties offer premium credits for impact-rated glazing, which can offset the upgrade cost over the policy life.</p>
 
-                <p>Grand Prairie homes range from established neighborhoods to contemporary builds in developing areas. Many homeowners seek energy-efficient upgrades that reduce utility bills while maintaining the city's community-oriented atmosphere.</p>
+                <p>The city's housing mix includes traditional brick ranches, multi-family townhomes, and contemporary new construction. We help homeowners select between premium vinyl, fiberglass, Fibrex, and wood-clad based on architectural style, ownership horizon, and any HOA design guidelines governing the property. Although Grand Prairie spans the Dallas-Fort Worth boundary, our base in Dallas keeps us within easy service range of every neighborhood in the city.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,21 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Energy Performance for Grand Prairie Cooling Loads</h3>
+                <p>Grand Prairie's cooling season stretches from April into October and drives most of the annual electric spend. Replacing original aluminum or worn-out builder vinyl with modern dual-pane Low-E glass typically reduces cooling-season energy use by twenty-five to thirty-five percent. We model west and south elevations against orientation and shading, then recommend glass packages with appropriately low Solar Heat Gain Coefficients. Triple-silver Low-E coatings, argon gas fills, and warm-edge spacers are standard upgrades on most Grand Prairie projects we quote.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hail and Storm Performance</h3>
+                <p>Grand Prairie sits along a regular hail track moving across North Texas in spring. Pairing replacement frames with laminated or impact-rated glass on exposed elevations dramatically reduces breakage risk. Many insurance carriers serving Dallas and Tarrant counties offer premium credits for impact-rated glazing, which we document and provide for the carrier's underwriting review.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Architectural Fit and HOA Considerations</h3>
+                <p>Grand Prairie's older neighborhoods generally accept white or almond exterior with double-hung configurations and applied muntins on traditional brick ranches. Newer subdivisions on the south and west sides of the city often have HOA guidelines specifying acceptable exterior colors and grille patterns. Contemporary new construction sometimes calls for thermally broken aluminum or premium fiberglass with narrow sightlines, and we specify accordingly.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Service Coverage Across Grand Prairie</h3>
+                <p>We serve Grand Prairie homeowners across the entire city, from the older neighborhoods around the central core through the Lake Joe Pool area to the newer developments along the President George Bush Turnpike and the southern boundary near Mansfield. Grand Prairie is within our regular service area from our Dallas base, and we maintain consistent scheduling, pricing, and service quality across the metroplex.</p>
               </div>
 
               {/* CTA Block */}

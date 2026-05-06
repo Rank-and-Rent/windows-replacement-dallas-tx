@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Multi-slide door systems feature large individual panels—often 4 to 6 feet wide—that slide on precision track systems and stack or disappear into wall pockets. This creates wider openings than traditional sliding doors, with some systems providing clear spans of 40 feet or more.</p>
+                <p>Our multi-slide door installation service across Dallas covers the premium category of sliding door systems where individual panels run 4 to 8 feet wide and stack on precision tracks to create openings of 12 to 40 feet or more. This is the door type that defines the indoor-outdoor architecture of high-end Bluffview, Preston Hollow, and Lake Highlands modern remodels, where the entire back wall of the great room or kitchen retracts to merge interior space with the pool deck or terrace.</p>
 
-                <p>The engineering required for multi-slide systems is substantial—each panel can weigh several hundred pounds yet must glide effortlessly and seal weather-tight when closed. Premium systems feature stainless steel or bronze roller assemblies, multi-point locking, and specialized weatherstripping designed for large-scale applications.</p>
+                <p>Multi-slide systems differ from bifold doors in operational pattern. Where bifolds fold accordion-style with each panel hinged to the next, multi-slides keep each panel parallel to the wall and slide them along a track to stack at one or both ends of the opening. This creates a cleaner sightline when closed, simpler hardware, and slightly better weather-sealing geometry. Multi-slides typically sit at slightly lower price points than equivalent bifolds for similar opening widths.</p>
 
-                <p>Multi-slide doors represent the pinnacle of indoor-outdoor living, commonly specified in luxury homes, modern architecture, and high-end commercial applications where dramatic design statements are essential.</p>
+                <p>We work with premium manufacturers including Andersen, Pella, Marvin, Western Window Systems, and LaCantina for multi-slide projects. Frame material is almost always thermally broken aluminum because of the panel weights and sightline expectations. Lift-and-slide hardware that lifts each panel off the seal before sliding is standard on premium systems, enabling larger panel weights with smoother operation. Lead times typically run twelve to twenty weeks because of custom manufacturing.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Multi-Slide vs. Bifold Decision</h3>
+                <p>Both multi-slide and bifold systems achieve the same general goal of dissolving the wall between interior and exterior space, but they differ in important ways. Multi-slides preserve cleaner sightlines when closed because the panels remain in plane with the wall. Bifolds open faster because the accordion fold collapses panels quickly. Multi-slides typically cost less per linear foot of opening at large spans. Bifolds offer more flexibility for partial-opening configurations. We help homeowners think through these tradeoffs based on the specific architectural intent and use pattern.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Pocket Walls vs. End-Stack Configurations</h3>
+                <p>Multi-slide systems can stack at one or both ends of the opening, or they can disappear entirely into a pocket wall. Pocket-wall configurations require building wall depth to accommodate the stacked panels, which works best when planned during initial framing or significant remodel. End-stack configurations are more flexible for retrofit installations because the stacked panels remain visible at the opening edges. We help select based on architectural plans and structural feasibility.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Glass Specification for Massive Glass Areas</h3>
+                <p>Multi-slide doors carry enormous glass area, often 200 to 600 square feet on a single opening. Glass specification drives most of the cooling-season performance. We routinely specify triple-silver Low-E coatings with the lowest available SHGC values on west and south multi-slide installations. Argon gas fills, warm-edge spacers, and laminated impact-rated glass are standard upgrades on premium systems. The right glass package is what makes large multi-slide installations livable during Dallas summer afternoons.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Threshold, Drainage, and Weather Sealing</h3>
+                <p>The threshold and weatherstripping geometry on a multi-slide system has to seal effectively against Dallas wind-driven rain while still allowing smooth operation. Premium systems use multi-step thresholds with integrated drainage channels and adjustable weatherstripping. Lift-and-slide hardware lifts each panel off the seal before sliding, which lets the seal compress firmly when closed without dragging during operation. We coordinate threshold detail with the interior flooring transition and exterior patio surface for a clean architectural integration.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Permitting and Project Coordination</h3>
+                <p>Multi-slide installations almost always require a permit from the City of Dallas because they involve structural framing modifications and exterior envelope changes. We handle permitting on the homeowner's behalf and coordinate with structural engineers when load calculations are required. Our service includes coordination with finish carpenters, flooring contractors, and exterior trim specialists. Total project timelines from initial consultation through final installation typically span four to six months.</p>
               </div>
 
               {/* CTA Block */}

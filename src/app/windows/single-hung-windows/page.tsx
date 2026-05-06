@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Single-hung windows feature a fixed upper sash and an operable lower sash that slides vertically. This streamlined design reduces the number of moving parts, resulting in fewer potential air leakage points and improved long-term durability.</p>
+                <p>Single-hung windows are the value-tier sibling of the double-hung. The upper sash is fixed and the lower sash slides vertically, which delivers most of the architectural look of a double-hung at a meaningfully lower price point. The simplification eliminates one set of weatherstripping seals, one balance system, and one tilt mechanism, which also slightly reduces the number of moving parts that can fail over time. For Dallas homeowners on whole-house replacement projects with twenty or more openings, the per-window savings on single-hungs versus double-hungs adds up to a real budget difference, often in the thousands of dollars across a complete project.</p>
 
-                <p>The simplified mechanics of single-hung windows make them an excellent value choice for homeowners seeking quality replacement windows on a budget. Despite the lower cost, modern single-hung windows deliver comparable energy efficiency to their double-hung counterparts when properly installed.</p>
+                <p>Single-hungs work especially well on second-story openings in two-story Dallas homes where exterior cleaning access is awkward and the upper sash never needs to operate anyway. They are common across postwar tract neighborhoods in Casa View, Wilshire Heights, and the older streets of Lake Highlands, where the original windows were almost always single-hungs and replacements maintain the same operational pattern. They also fit well on minor openings, secondary-bedroom windows, hallway openings, and similar locations where the value proposition matters more than maximum ventilation flexibility.</p>
 
-                <p>These windows are particularly popular for second-story installations where exterior cleaning access isn't a primary concern, and for rooms where full ventilation control isn't essential.</p>
+                <p>Premium single-hungs from Andersen, Pella, JELD-WEN, and Marvin all carry Climate Zone 3-tuned glass packages, multi-point locks, and structural performance comparable to their double-hung equivalents. The visible profile from inside and outside the home is essentially identical to a double-hung, which preserves architectural consistency on the elevation.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">When Single-Hung Is the Right Specification</h3>
+                <p>Single-hung windows fit projects where the budget needs to stretch across many openings. Whole-house replacements in postwar Dallas neighborhoods often involve fifteen to twenty-five openings, and the per-unit savings versus double-hungs can fund glass-package upgrades or address other deferred maintenance like rotted exterior trim, failed flashing, or HVAC duct work that exists alongside the window project. We help homeowners think through the full project budget rather than treating windows as an isolated line item.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Energy Performance and Climate Zone 3 Compliance</h3>
+                <p>Modern single-hungs achieve U-factor values in the 0.27 to 0.30 range with multi-pane Low-E glass, comfortably meeting ENERGY STAR Climate Zone 3 requirements for Dallas. The performance gap versus comparable double-hungs in the same product line is small to zero in real-world testing. The cooling-season energy savings on a whole-house single-hung replacement project typically run the same twenty-five to thirty-five percent improvement that double-hung replacements deliver, because the glass package is doing most of the work and the operable sash differences are secondary.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Architectural Fit Across Dallas</h3>
+                <p>Single-hungs read identically to double-hungs from the curb, which means they fit the same architectural contexts: prairie-style and Craftsman bungalows in the M Streets and Junius Heights, brick colonials and ranches across Lake Highlands and Casa Linda, postwar tract homes in Wilshire Heights and Casa View, and the older blocks of East Dallas. They are slightly less appropriate on Tudor Revivals around Lakewood and Greenway Parks where casements were the historical specification, but they work fine when budget or ownership horizon argues for the value tier.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hail Protection and Egress</h3>
+                <p>Single-hung sashes do not project outward, so they cannot be damaged in the open position by hail or wind. We routinely specify laminated impact-rated glass on west and south elevations for hail-prone Dallas neighborhoods, which qualifies most homeowners for insurance premium credits. Single-hungs are an acceptable egress window for bedrooms when the lower operable sash provides at least 5.7 square feet of clear opening, which is the Texas building code minimum. We field-verify egress compliance on every bedroom installation.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Brand and Warranty Considerations</h3>
+                <p>The premium single-hung lines we install carry essentially the same warranty terms as the double-hung lines from the same manufacturer. Andersen 100 Series single-hungs include lifetime frame coverage with twenty-year glass warranty. Pella 250 and 350 Series single-hungs match the corresponding double-hung warranty terms. The structural performance, NFRC ratings, and warranty coverage are equivalent; the price savings come from the simplified hardware. We register every install on the homeowner's behalf and handle warranty claims directly.</p>
               </div>
 
               {/* CTA Block */}

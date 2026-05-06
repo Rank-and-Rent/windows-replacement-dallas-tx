@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Fort Worth, Texas's fifth-largest city, is a dynamic cultural and economic hub with a population exceeding 900,000. Known for its rich Western heritage, world-class museums, and growing business sector, Fort Worth offers diverse residential communities from historic districts to modern developments.</p>
+                <p>Fort Worth is the western anchor of the Dallas-Fort Worth metroplex with a deep stock of historic neighborhoods including Fairmount, Mistletoe Heights, Ryan Place, Berkeley Place, and the Cultural District around the Kimbell and Modern museums. Replacement work in Fort Worth often involves pre-war Craftsman bungalows, Tudor Revivals, and Spanish Colonial homes with original wood sashes that have aged significantly under decades of Texas sun. We also serve newer developments in the southwest part of the city around Hulen and the affluent neighborhoods of TCU-adjacent University Place and Westover Hills.</p>
 
-                <p>Our window and door replacement services serve Fort Worth's varied housing landscape, providing installations that enhance comfort, energy efficiency, and property values. As Fort Worth specialists, we understand the unique needs of homes throughout this historic city.</p>
+                <p>Fort Worth shares the same hot-summer cooling-dominated climate as Dallas, with cooling season typically running from April into October and ENERGY STAR Climate Zone 3 requirements applying to new replacement windows. Spring hailstorms regularly track across Tarrant County, and pairing replacement frames with laminated impact-rated glass on storm-exposed elevations is a standard recommendation. Insurance carriers serving Tarrant County often offer premium credits for impact-rated glazing.</p>
 
-                <p>Properties range from Victorian homes in established neighborhoods to contemporary builds in growing suburban areas. Fort Worth's location means many homeowners want energy-efficient upgrades that reduce utility bills while maintaining the city's architectural character.</p>
+                <p>Fort Worth's housing mix calls for a wide range of replacement specifications. Pre-war neighborhoods often benefit from wood-clad or premium fiberglass that reads correctly on traditional architecture without the maintenance burden of pure wood. Mid-century neighborhoods around the older Tarrant County Junior College area accept premium vinyl with appropriate profiles. Newer subdivisions in the southwest part of the city often have HOA design guidelines that we navigate during the specification phase. Although our home base is in Dallas, Fort Worth is well within our regular service radius.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,21 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Historic Districts and Architectural Authenticity</h3>
+                <p>Fort Worth's Fairmount, Mistletoe Heights, and Ryan Place historic districts have design guidelines that strongly favor wood or wood-clad replacement windows. Pre-war Craftsman bungalows with original three-over-one configurations and Tudor Revivals with leaded-glass casements need replacements that match the original architectural vocabulary. We work with Marvin Signature Ultimate, Andersen A-Series, and Pella Architect Series Reserve on most historic-district projects in Fort Worth, with custom color matching and authentic profile selection critical to historic compliance.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Energy Performance and Cooling-Season Savings</h3>
+                <p>Fort Worth's cooling season is the dominant driver of annual energy spend on most homes. Replacing original aluminum or worn-out builder vinyl with modern dual-pane Low-E glass typically cuts cooling-season energy use by twenty-five to thirty-five percent. We model west and south elevations against orientation and shading, then recommend glass packages with appropriately low Solar Heat Gain Coefficients. Triple-silver Low-E coatings on west-facing walls in TCU-adjacent neighborhoods and the Cultural District deliver measurable comfort improvements alongside the energy savings.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hail Protection and Storm Considerations</h3>
+                <p>Tarrant County is on the spring hail track and takes regular damage during the April-through-June storm season. Pairing frames with laminated or impact-rated glass on exposed elevations dramatically reduces breakage risk, and many Tarrant County insurance carriers offer premium credits for impact-rated glazing. We coordinate replacement work with insurance carriers when storm-driven claims are involved.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Service Coverage Across Fort Worth</h3>
+                <p>We serve Fort Worth homeowners across the entire city, from the historic neighborhoods around the Cultural District and downtown through TCU-adjacent University Place and Westover Hills to the newer developments in the southwest part of the city near Hulen and Chisholm Trail Parkway. Although Fort Worth sits at the western edge of our regular service area from our Dallas base, we maintain consistent scheduling, pricing, and product availability across the full metroplex.</p>
               </div>
 
               {/* CTA Block */}

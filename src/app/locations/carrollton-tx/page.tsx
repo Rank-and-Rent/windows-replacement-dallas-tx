@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Carrollton is a thriving suburb in the Dallas-Fort Worth metroplex, known for its excellent schools, diverse neighborhoods, and family-friendly atmosphere. With a population of over 130,000, Carrollton offers a mix of established communities and modern developments.</p>
+                <p>Carrollton straddles Dallas and Denton counties along the Trinity Mills and Frankford corridors and carries a housing stock that runs from 1970s and 1980s ranch-style homes in the older central neighborhoods to newer subdivisions along the President George Bush Turnpike. Most replacement work we do in Carrollton addresses original aluminum or first-generation vinyl windows that are now thirty to fifty years into their service life. We work the entire city, including the established neighborhoods around Carrollton Heritage Park and Old Downtown Carrollton, the Hebron-area homes near Hebron Parkway, and the Castle Hills-adjacent developments on the city's western edge.</p>
 
-                <p>Our window and door replacement services serve Carrollton's varied housing landscape, providing installations that enhance comfort, energy efficiency, and property values. As Carrollton specialists, we understand the unique characteristics of this growing suburb.</p>
+                <p>Carrollton homeowners face the same hot-summer climate as the rest of the metroplex with cooling season running from April into October. ENERGY STAR Climate Zone 3 requirements apply, and we routinely specify Low-E glass packages with low Solar Heat Gain Coefficients on west and south elevations to control afternoon cooling load. Spring hailstorms regularly hit Carrollton, and pairing replacement frames with laminated impact-rated glass on exposed elevations is a standard upgrade we recommend on most projects.</p>
 
-                <p>Carrollton homes range from established neighborhoods to contemporary builds in developing areas. Many homeowners seek energy-efficient upgrades that reduce utility bills while maintaining the city's community-oriented atmosphere.</p>
+                <p>The city's housing mix runs from traditional brick ranches and colonials to contemporary new construction and multi-family townhomes. We help homeowners select between premium vinyl, fiberglass, Fibrex, and wood-clad based on the architectural style, the long-term ownership horizon, and any HOA design guidelines that govern the property. Most Carrollton subdivisions have specific exterior color and grille pattern requirements that we navigate during the specification phase.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,21 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Energy Performance for Carrollton Climate Zone 3</h3>
+                <p>Carrollton sits in ENERGY STAR Climate Zone 3, which calls for U-factor at or below 0.30 and SHGC below 0.25 for cooling-dominated climates. The original aluminum and basic vinyl frames installed across Carrollton's 1970s-through-1990s housing stock fall well short of those numbers today. Replacement projects with modern Low-E glass and fusion-welded frames typically reduce cooling-season energy use by twenty-five to thirty-five percent, which is a meaningful improvement on Carrollton's typical electric bills during peak summer months.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hail Season and Storm Considerations</h3>
+                <p>Carrollton is on a regular path for spring hailstorms moving across North Texas. Pairing frames with laminated or impact-rated glass on west and south elevations dramatically reduces breakage risk, and many insurance carriers serving Dallas and Denton counties offer premium credits for impact-rated glazing. We coordinate replacement work with insurance carriers when storm-driven claims are involved and document the upgraded specifications for underwriting review.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">HOA and Architectural Approvals</h3>
+                <p>Most Carrollton neighborhoods have HOA design guidelines specifying acceptable exterior colors, grille patterns, and frame materials. We navigate these approvals on the homeowner's behalf and have completed projects through the major homeowner associations in the city. For traditional brick homes, white or almond exterior with double-hung configurations and applied muntins is typically the standard. Newer subdivisions sometimes specify dark exterior colors that read appropriately on contemporary architecture.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Service Coverage Across Carrollton</h3>
+                <p>We serve Carrollton homeowners across the entire city, from the established neighborhoods around Old Downtown Carrollton and Heritage Park to the newer Hebron-area subdivisions, the Castle Hills-adjacent developments on the western edge, and the President George Bush Turnpike corridor. Carrollton is well within our regular service area from our Dallas base, and we maintain consistent scheduling and pricing across the metroplex.</p>
               </div>
 
               {/* CTA Block */}

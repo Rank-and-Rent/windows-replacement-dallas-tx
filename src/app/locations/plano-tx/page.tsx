@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Plano is one of the Dallas-Fort Worth metroplex's most desirable suburbs, known for its excellent schools, family-friendly communities, and high quality of life. With a population of over 290,000, Plano offers a mix of established neighborhoods and modern developments.</p>
+                <p>Plano is one of the largest suburbs in the Dallas-Fort Worth metroplex with a housing stock that ranges from 1980s and 1990s tract subdivisions in West Plano and the Willow Bend area to newer master-planned communities along the Sam Rayburn Tollway and the established neighborhoods around the original Plano downtown. Most replacement work we do in Plano addresses original builder-grade windows that are now twenty-five to forty years old and showing the effects of long Texas summers, periodic hailstorms, and ordinary seal failure. We serve homeowners from Plano east of US-75 around the Plano Senior High area through Frisco-adjacent West Plano and the corporate-corridor neighborhoods around Legacy West.</p>
 
-                <p>Our window and door replacement services cater to Plano's residential landscape, from single-family homes in established neighborhoods to luxury properties in master-planned communities. As Plano specialists, we understand the unique characteristics of this premier suburb.</p>
+                <p>Plano sits squarely in North Texas hail territory and shares the same cooling-dominated climate as the rest of Dallas County. ENERGY STAR Climate Zone 3 requirements apply, meaning U-factor at or below 0.30 and SHGC below 0.25 on most exposures. The original aluminum-frame and basic vinyl windows installed in much of Plano's 1980s and 1990s housing stock fall well short of those numbers today, which is why replacement projects here typically deliver substantial cooling-season energy savings. We help Plano homeowners select between premium vinyl, fiberglass, Fibrex, and wood-clad based on the architectural style of the home and the long-term ownership horizon.</p>
 
-                <p>Plano homes often feature larger windows and open floor plans that benefit greatly from energy-efficient upgrades. The city's family-oriented nature means many homeowners prioritize durability and quality in their home improvement projects.</p>
+                <p>The Plano architectural mix ranges from traditional brick colonials and prairie-style homes in established neighborhoods to contemporary new construction in the Castle Hills and Stonebriar-adjacent developments. Replacement windows need to read correctly on the original architecture, and we match profile, grille pattern, and exterior color carefully. Plano HOAs generally have specific exterior color guidelines that we navigate on the homeowner's behalf, and the City of Plano building permit office handles like-for-like replacements without requiring formal permits in most cases.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,21 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Energy Performance for Plano Cooling Loads</h3>
+                <p>The cooling season in Plano stretches from April through October and drives the bulk of annual electric spend on most homes. Replacing original aluminum or single-pane vinyl with modern dual-pane Low-E glass and fusion-welded frames typically cuts cooling-season energy use by twenty-five to thirty-five percent. We model each elevation against the home's orientation and any shading from existing oaks or pecans before recommending a glass package, and we lean on lower SHGC coatings on west and south exposures where afternoon solar load is significant.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hail and Storm Considerations</h3>
+                <p>Plano takes hail damage in most spring storm seasons. Pairing replacement frames with laminated or impact-rated glass dramatically reduces breakage risk and qualifies many homeowners for insurance premium credits. We coordinate replacement work with insurance carriers when storm-driven claims are involved, and we field-measure carefully so the new units fit correctly in original openings without the stucco, brick, or trim modifications that drive up project costs.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Architectural Fit and HOA Approvals</h3>
+                <p>Plano HOAs have specific guidelines on exterior window color, grille patterns, and frame visibility, and we have completed projects through most of the major homeowner associations in the city. For traditional brick colonials, we typically specify white or almond exterior with double-hung configurations and applied muntins. For contemporary homes in Stonebriar-area new construction, dark exterior colors with minimal grille patterns are usually the right call. We match material, profile, and finish to both the architecture and the HOA specifications.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Service Coverage Across Plano</h3>
+                <p>We serve Plano homeowners across the entire city, from the east side near the original Plano downtown and Plano Senior High through the central neighborhoods around Park and Custer to Legacy West, Willow Bend, and the West Plano boundary with Frisco. The Sam Rayburn Tollway corridor, Castle Hills, and the Plano-side neighborhoods of the PGA-adjacent developments all sit within our regular service area. Plano is also a useful base for serving adjacent communities including Frisco, Allen, Richardson, and northern Dallas neighborhoods.</p>
               </div>
 
               {/* CTA Block */}

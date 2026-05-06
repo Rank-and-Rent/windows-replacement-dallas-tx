@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Every Dallas home tells a unique story, and custom doors allow you to express that individuality in ways that standard doors cannot. Whether you need unusual sizes, special architectural details, or doors that incorporate unique materials and hardware, custom doors provide unlimited possibilities.</p>
+                <p>Custom door work is the right path for Dallas homes where stock door sizes do not fit the existing opening, where the architectural style demands period-correct profiles, or where the homeowner wants a unique design statement at the entry. Highland Park, University Park, the Conservation Districts of East Dallas, and the architecturally significant streets of Lakewood, Greenway Parks, and Devonshire are the most common contexts for custom door work because the housing stock predates standardized door sizing and design. Restoration projects, additions, and significant remodels all routinely call for custom doors that match the rest of the home's vocabulary.</p>
 
-                <p>These made-to-order doors from Andersen, Pella, JELD-WEN, and Marvin combine the functionality you expect with distinctive character that makes your home truly one-of-a-kind. The collaborative process between you, our design experts, and skilled craftsmen ensures doors that perfectly match your vision.</p>
+                <p>Custom doors come in every material and configuration. We have installed mahogany Tudor entries with leaded-glass divided lite sidelights for Lakewood restoration projects, hand-carved Spanish Colonial entries for Greenway Parks remodels, contemporary pivot doors for Bluffview modern remodels, and custom-shaped barn doors for adaptive reuse projects across East Dallas. The premium custom door manufacturers we work with, including Marvin, Pella Reserve, Andersen E-Series, and select architectural specialty shops, can match virtually any historic profile or contemporary design intent.</p>
 
-                <p>From exotic woods and specialty metals to custom glass designs and unique hardware, custom doors offer the freedom to create something truly special that reflects your personal style and enhances your home's architectural character.</p>
+                <p>Custom door projects take longer than stock door replacements because of the manufacturing lead time. Standard custom doors run eight to twelve weeks from order, with more elaborate specifications running sixteen weeks or more. We handle the entire process from initial design consultation through final installation, including any architectural review or HOA approval steps required.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">When Custom Doors Are the Right Specification</h3>
+                <p>Custom doors are the right answer when the existing opening does not fit standard sizing, when the architectural style demands period-correct profiles, or when the homeowner wants a unique design statement. Pre-war Dallas neighborhoods including Junius Heights, Munger Place, Vickery Place, Hollywood Heights, and Swiss Avenue often have non-standard openings because the original construction predates the dimensional standardization that came with mass production. Highland Park-area Tudors and University Park colonials frequently call for custom mahogany or stained oak doors with specific divided lite patterns to match the original architecture.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Custom Manufacturing Process</h3>
+                <p>Custom door projects start with a detailed in-home consultation covering opening dimensions, architectural fit, material selection, glass specification, hardware finish, and any divided lite or carving details. We field-template the existing opening and document any structural considerations affecting the new door installation. The order goes to the manufacturer with detailed specifications, and lead times typically run eight to sixteen weeks depending on complexity. We coordinate scheduling with the homeowner so the new door arrives close to the planned installation date.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Architectural Review and Conservation District Approvals</h3>
+                <p>Custom doors on architecturally significant Dallas homes often require architectural review. Conservation Districts including Munger Place, Junius Heights, Swiss Avenue, and Hollywood Heights have design guidelines that govern entry door replacements. Highland Park and University Park architectural review boards typically expect period-appropriate specifications. We navigate these approvals on the homeowner's behalf, prepare the necessary documentation, and have completed projects through every major review process in the city.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Material and Finish Selection</h3>
+                <p>Material choice on a custom door drives both aesthetics and long-term performance in the Dallas climate. Solid mahogany is the historically appropriate choice for Tudor and English Revival entries; properly finished, it holds up well to UV exposure when refinishing schedules are followed. White oak suits Craftsman and Prairie homes. Hand-carved Knotty Alder works well on Spanish Colonial and Mediterranean homes in Devonshire and Bluffview. Premium fiberglass with stained finishes delivers most of the wood look with significantly less maintenance burden, which is the right call for many homeowners.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Installation, Hardware, and Long-Term Service</h3>
+                <p>Custom door installations require careful templating against the existing opening, custom shimming and structural prep, and detailed exterior trim and brick mold work to match original details. We coordinate with finish carpenters and stucco repair specialists when needed for trim and exterior repair work. Hardware selection on custom entries spans premium handle sets, mortise locks, multi-point security systems, and smart lock integration. We register custom doors with the manufacturer for warranty support and provide long-term service for any future hardware adjustments.</p>
               </div>
 
               {/* CTA Block */}

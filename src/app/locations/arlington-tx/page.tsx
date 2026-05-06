@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Arlington is a dynamic city in the Dallas-Fort Worth metroplex, home to major attractions like AT&T Stadium and Six Flags Over Texas. With a population exceeding 400,000, Arlington offers diverse residential communities from established neighborhoods to modern developments.</p>
+                <p>Arlington is a large city sitting between Dallas and Fort Worth with a housing stock that ranges from 1960s and 1970s ranch homes in north and east Arlington to newer developments in the southern parts of the city near Joe Pool Lake. Most replacement work we do here addresses original aluminum or builder-grade vinyl windows showing decades of UV degradation, seal failure, and hailstorm damage. We work across the entire city including the entertainment district near AT&amp;T Stadium and Globe Life Field, the Lake Arlington area, the established neighborhoods around UTA, and the newer south Arlington subdivisions.</p>
 
-                <p>Our window and door replacement services serve Arlington's varied housing landscape, providing installations that enhance comfort, energy efficiency, and property values. As Arlington specialists, we understand the unique needs of homes throughout this vibrant city.</p>
+                <p>Arlington shares the same hot-summer cooling-dominated climate as the rest of North Texas, with ENERGY STAR Climate Zone 3 requirements applying to new replacement windows. The city is a regular hail target every spring, and we routinely specify laminated or impact-rated glass on west and south elevations where afternoon storm exposure is highest. Many insurance carriers in Tarrant County offer premium credits for impact-rated glazing, which can offset the upgrade cost over the policy life.</p>
 
-                <p>Properties range from established neighborhoods to growing suburban areas, with many homeowners seeking energy-efficient upgrades for Texas weather. We work extensively with Arlington's housing stock to deliver optimal results.</p>
+                <p>Architectural styles in Arlington range from traditional brick ranches to contemporary new construction. The original homes near the UTA campus and east Arlington often benefit from premium vinyl with modern Low-E glass packages, while newer subdivisions on the south end of the city sometimes carry stricter HOA color and grille requirements that we navigate during the specification phase. Although Arlington is in Tarrant County, our base in Dallas keeps us within easy service range of every neighborhood in the city.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,21 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Energy Efficiency for Arlington Cooling Loads</h3>
+                <p>The cooling season in Arlington runs from April through October and drives most of the annual electric bill. Replacing original aluminum or worn-out builder vinyl with modern dual-pane Low-E glass typically reduces cooling-season energy use by twenty-five to thirty-five percent. We model west and south elevations against orientation and shading, then recommend glass packages with appropriately low Solar Heat Gain Coefficients. Triple-silver Low-E coatings, argon gas fills, and warm-edge spacers are standard upgrades on most Arlington projects we quote.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hail Protection and Storm Performance</h3>
+                <p>Arlington is on the western edge of the North Texas hail corridor and takes regular storm damage in the spring season. We pair frames with laminated or impact-rated glass on storm-exposed elevations, particularly homes in open neighborhoods or those near Joe Pool Lake. Insurance carriers serving Tarrant County often offer premium credits for impact-rated glazing, which we document and provide for the carrier's underwriting review.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Architectural Fit and HOA Considerations</h3>
+                <p>Arlington's housing mix calls for different specifications depending on neighborhood. Older brick ranches near east Arlington and UTA generally accept white or almond exterior with double-hung configurations and applied muntins. Newer subdivisions south of I-20 toward Mansfield often have HOA design guidelines specifying frame colors and grille patterns, and we navigate those approvals on the homeowner's behalf. Contemporary new construction occasionally calls for thermally broken aluminum with narrow sightlines, and we specify accordingly.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Service Coverage Across Arlington</h3>
+                <p>We serve Arlington homeowners across the entire city, from north Arlington and the entertainment district near Globe Life Field and AT&amp;T Stadium through central Arlington around the UTA campus to south Arlington toward Mansfield and Joe Pool Lake. Although our home base is in Dallas, Arlington is well within our regular service radius and we maintain consistent scheduling, pricing, and service across the metroplex.</p>
               </div>
 
               {/* CTA Block */}

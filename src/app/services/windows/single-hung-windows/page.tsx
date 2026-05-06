@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Single-hung windows feature a fixed upper sash and an operable lower sash that slides vertically. This streamlined design reduces the number of moving parts, resulting in fewer potential air leakage points and improved long-term durability.</p>
+                <p>Our single-hung window installation service across Dallas covers the value-tier replacement option that fits whole-house projects with tight budgets and homes where the architectural call leans toward simplicity. The fixed upper sash with operable lower sash delivers most of the architectural look of a double-hung at a meaningful per-window cost reduction. On a typical fifteen-to-twenty-window whole-house replacement project, the savings versus double-hungs can fund glass-package upgrades, address other deferred maintenance, or simply stay in the homeowner's pocket.</p>
 
-                <p>The simplified mechanics of single-hung windows make them an excellent value choice for homeowners seeking quality replacement windows on a budget. Despite the lower cost, modern single-hung windows deliver comparable energy efficiency to their double-hung counterparts when properly installed.</p>
+                <p>Single-hungs work especially well on second-story openings where exterior cleaning access is awkward and the upper sash never needs to operate anyway. They are common across postwar tract neighborhoods in Casa View, Wilshire Heights, and the older streets of Lake Highlands, where the original windows were almost always single-hungs and the replacement maintains the same operational pattern. They also make sense on minor openings, secondary-bedroom windows, and similar locations where value matters more than maximum operability.</p>
 
-                <p>These windows are particularly popular for second-story installations where exterior cleaning access isn't a primary concern, and for rooms where full ventilation control isn't essential.</p>
+                <p>Premium single-hungs from Andersen, Pella, JELD-WEN, and Marvin all carry the same warranty terms as their double-hung equivalents in the same product line. Energy performance is essentially equivalent. The cost savings come from simplified hardware, not from compromised quality.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">When Single-Hung Service Is the Right Call</h3>
+                <p>We help Dallas homeowners think through the single-hung versus double-hung decision honestly. For a homeowner staying in a Casa Linda ranch home for fifteen years and replacing eighteen windows, the per-window savings on single-hungs can fund the glass-package upgrade that delivers ten to fifteen years of meaningful cooling-bill reduction. For a homeowner restoring a 1925 M Streets bungalow with original double-hung wood sashes, single-hungs may compromise period authenticity in a way that hurts resale value. Our consultation walks through these tradeoffs.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Service Workflow and Project Timeline</h3>
+                <p>Our single-hung installation workflow handles whole-house replacement projects efficiently. Each project starts with an in-home measurement and consultation, followed by an itemized quote covering product, installation, trim, and warranty registration. Lead times typically run four to six weeks from order confirmation, and installations complete in three to five working days for a fifteen-to-twenty-window project. We coordinate scheduling around the household's needs to minimize disruption.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Glass Package Recommendations</h3>
+                <p>Single-hungs accept the same glass packages as their double-hung counterparts. We specify on a per-elevation basis: triple-silver Low-E with low SHGC on west and south elevations of homes in Lake Highlands, Casa View, and Devonshire; standard Low-E with moderate SHGC on north elevations to preserve daylight; laminated impact-rated glass on storm-exposed elevations in hail-prone neighborhoods. The glass spec drives most of the long-term energy performance.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Hail Protection and Insurance Credits</h3>
+                <p>Single-hung sashes do not project outward, which keeps them out of the impact path during Dallas storm events. We routinely specify laminated impact-rated glass on west and south elevations across hail-prone neighborhoods, which qualifies most homeowners for insurance premium credits through carriers serving Dallas County. We document the spec for the carrier's underwriting review when storm-driven replacement claims are involved.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Free In-Home Consultation</h3>
+                <p>We offer free in-home consultations for any window or door replacement project across the Dallas metro service area. The consultation covers product selection, glass package recommendations, exterior color matching, and a detailed itemized quote. There is no obligation, no high-pressure sales process, and no charge for the time. Reach out to schedule.</p>
               </div>
 
               {/* CTA Block */}

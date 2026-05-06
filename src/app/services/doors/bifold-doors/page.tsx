@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Bifold door systems consist of multiple panels hinged together that fold and stack to one or both sides, creating expansive openings of up to 30 feet or more. This accordion-style operation transforms walls into open-air pavilions, seamlessly connecting interior spaces with patios, decks, and outdoor entertaining areas.</p>
+                <p>Our bifold door installation service across Dallas covers the premium architectural product that transforms a wall into a fully retractable opening. Multiple panels hinged together fold accordion-style to one or both sides of the opening, creating clear spans of 12 to 30 feet or more. This is the door type that dissolves the boundary between living room and pool deck on contemporary Bluffview, Preston Hollow, and East Dallas modern remodels, creating an indoor-outdoor pavilion experience that no other door type can match.</p>
 
-                <p>Modern bifold systems feature precision-engineered roller tracks, multi-point locking mechanisms, and high-performance weatherstripping to ensure smooth operation and weather-tight performance when closed. The slim frame profiles maximize glass area for unobstructed views.</p>
+                <p>Bifold systems are not casual installations. The hardware is engineered for the panel weights and operational frequency, structural support has to handle the cantilevered loads of stacked panels at the open position, and the threshold detail has to deliver weather-tight sealing across long spans without interfering with smooth operation. We work with premium manufacturers including Marvin, NanaWall, LaCantina, and Andersen folding systems for these projects because the engineering demands and Dallas climate stresses argue for the upper tier of product.</p>
 
-                <p>Professional installation is essential for bifold systems due to the precision required for proper tracking, alignment, and structural support. Our certified installers ensure each panel glides effortlessly while maintaining weather protection and security.</p>
+                <p>Bifold projects typically involve structural framing review, custom unit manufacturing, and coordinated installation with finish carpentry and flooring transitions. Lead times run twelve to twenty weeks because of custom manufacturing, and total project timelines from initial consultation through final installation typically span four to six months.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">When Bifold Is the Right Architectural Choice</h3>
+                <p>Bifold doors fit projects where the goal is true wall-dissolution and the architecture supports a long span of glass. Modern Bluffview and Preston Hollow remodels with backyards, pool decks, or outdoor entertaining areas often justify the bifold investment because the door defines the architecture. East Dallas contemporary infill homes and high-end Lakewood remodels are the other common contexts. Bifolds are not the right answer for traditional Tudors or Spanish Colonials where the architectural language calls for French doors instead, and we will tell you when that is the better path.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Frame Material and Hardware</h3>
+                <p>Bifold doors require thermally broken aluminum frames in almost every application because of the structural loads, sightline expectations, and panel weight requirements. Wood and fiberglass bifolds exist but are uncommon in residential applications because the hardware engineering demands favor aluminum. The hinges, top-and-bottom rollers, and locking hardware are all engineered for the specific panel weights, and we coordinate hardware specification with the manufacturer based on panel sizing and configuration.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Glass Specification for Dallas Conditions</h3>
+                <p>Bifold doors carry massive glass surface area, often 200 to 400 square feet of glass on a single opening. That makes glass specification critically important for Dallas cooling-season performance. We routinely specify triple-silver Low-E coatings with the lowest available SHGC values on west and south bifold installations. Argon gas fills, warm-edge spacers, and laminated impact-rated glass are standard upgrades. The right glass package on a west-facing bifold dramatically improves interior comfort during August afternoons.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Threshold Detail and Drainage</h3>
+                <p>The threshold on a bifold door has to handle traffic, drain water, and seal tightly when closed. Premium systems use multi-step threshold designs with integrated drainage channels and adjustable height mechanisms. Flush-mount thresholds that sit level with interior flooring are available but require careful detailing to handle Dallas wind-driven rain. We coordinate threshold selection with the architectural intent, the interior flooring, and the exterior patio surface.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Permitting and Project Coordination</h3>
+                <p>Bifold installations almost always require a permit from the City of Dallas because they involve structural framing modifications and exterior envelope changes. We handle permitting on the homeowner's behalf and coordinate with structural engineers when load calculations are required. Our service includes coordination with finish carpenters, flooring contractors, and exterior trim specialists to deliver a complete installation that integrates cleanly with the surrounding architecture.</p>
               </div>
 
               {/* CTA Block */}

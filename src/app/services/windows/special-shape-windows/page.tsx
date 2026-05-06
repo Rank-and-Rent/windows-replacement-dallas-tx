@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Special shape windows encompass any non-rectangular configuration—circles, half-rounds, ellipses, octagons, triangles, trapezoids, and custom geometric designs. These architectural elements serve as focal points that define your home's character and style.</p>
+                <p>Our special shape window installation service across Dallas covers custom-geometry units including eyebrow arches, half-rounds, circles, octagons, trapezoids, and rake-cut configurations. These are the architectural details that define some of Dallas's most recognizable residential silhouettes: the eyebrow arch over the front entry of a Lakewood Tudor, the half-round in the gable end of a Greenway Parks Spanish Colonial, the porthole window on a Junius Heights bungalow attic dormer, the rake-cut trapezoid under the cathedral ceiling of a Lake Highlands modern remodel.</p>
 
-                <p>While most special shape windows are fixed (non-operable) to maintain their unique geometry, some configurations can incorporate operable sections when ventilation is required. Modern manufacturing technology allows for precise custom fabrication to match any architectural design.</p>
+                <p>Special shape replacements require custom manufacturing, careful template work, and installation skill that goes beyond standard rectangular replacements. We approach these projects with field-templated measurement, custom-ordered units from premium manufacturers, and detailed flashing and trim work that protects the unique perimeter geometry from water intrusion across decades of Dallas weather.</p>
 
-                <p>Special shapes are commonly used in gable ends, stairwell landings, foyers, and cathedral ceilings. They transform blank wall spaces into dramatic design statements while flooding previously dark areas with natural light.</p>
+                <p>We work primarily with Marvin, Andersen, and Pella for special shape projects because their custom departments deliver units that match historic profiles or contemporary architectural intent. Frame material selection leans toward fiberglass and wood-clad because dimensional stability matters more on focal-point geometry. Lead times typically run eight to twelve weeks because of custom manufacturing.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Field Templating and Custom Manufacturing</h3>
+                <p>Standard window replacements rely on rough-opening dimensions; special shapes require physical templates to capture the exact geometry. We make field templates from the existing opening using thin plywood or rigid template material, then transfer those templates to the manufacturer for custom fabrication. The templating step is critical because manufacturing tolerance on custom shapes is tight, and an incorrect template means a unit that does not fit the opening.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Architectural Review and Conservation Districts</h3>
+                <p>Special shape windows on historic Dallas homes often face architectural review during replacement. Conservation Districts including Munger Place, Junius Heights, Swiss Avenue, and Hollywood Heights all have design guidelines that govern eyebrow arches, half-rounds, and similar period-correct details. Highland Park and University Park architectural review boards typically expect special shapes to match the original profile and divided lite pattern. We navigate these approvals on the homeowner's behalf and have completed projects through every major review process in the city.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Glass Specification and Energy Performance</h3>
+                <p>Fixed-glass special shapes accept the same Low-E glass packages as standard picture windows. We specify low SHGC values on west and south elevations to control afternoon solar heat gain on Dallas exposures. Many special shapes serve as gable-end or stairwell daylighting, and the right glass package controls heat gain without compromising daylighting function. Laminated impact-rated glass is standard on storm-exposed elevations across hail-prone neighborhoods.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Flashing, Trim, and Water Management</h3>
+                <p>Round and arched windows have unique flashing requirements that benefit from custom-fabricated metal flashing or self-adhered membrane systems. The perimeter geometry does not allow standard rectangular flashing to lap correctly, and we plan the water management details specifically for each opening. Stucco repairs around arched windows on Spanish Colonial homes in Devonshire and Bluffview require careful patching to maintain the architectural detail. Trim work around eyebrow arches on Tudor Revivals demands custom millwork rather than standard stock profiles.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Project Timeline and Free Consultation</h3>
+                <p>Special shape projects typically run three to four months from initial consultation through final installation including custom manufacturing lead time. We schedule the templating step early so the manufacturing window does not slip the overall project timeline. Free in-home consultations cover architectural review, custom manufacturing options, glass package recommendations, and detailed itemized quotes. Reach out to schedule a no-obligation visit.</p>
               </div>
 
               {/* CTA Block */}

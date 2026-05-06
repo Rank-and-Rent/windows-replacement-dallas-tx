@@ -34,11 +34,11 @@ export default function Page() {
             {/* Left Column: Content */}
             <div className="lg:w-3/5">
               <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
-                <p>Sliding windows operate horizontally on precision roller systems, making them effortless to open with minimal effort—ideal for locations that are difficult to reach or for homeowners seeking simple, reliable operation.</p>
+                <p>Our sliding window installation service across Dallas covers horizontal-slide replacements that fit the architectural language of mid-century ranch homes filling Lake Highlands, Casa View, the Disney Streets, parts of Casa Linda, and many of the postwar tract neighborhoods scattered across the city. Sliders are also a smart specification for contemporary remodels in Bluffview and Preston Hollow where horizontal lines and minimal hardware are part of the design vocabulary. The horizontal-glide geometry keeps the sash parallel to the wall, which works well in tight side yards, behind landscaping, and adjacent to walkways and decks.</p>
 
-                <p>The horizontal design maximizes glass area while maintaining a low profile, making sliding windows perfect for ranch-style homes, contemporary architecture, and any application where wall space is limited but you want generous natural light.</p>
+                <p>Most of our sliding window service work involves replacing original 1960s and 1970s aluminum sliders, which have largely failed seal and hardware durability across decades of Dallas summers. Modern vinyl, fiberglass, and aluminum sliders deliver dramatically better energy performance with the same operational pattern, and the visual change from outside is minimal because the proportions match the original architectural intent.</p>
 
-                <p>Modern sliding windows feature advanced track systems that prevent air and water infiltration while ensuring smooth, quiet operation for decades. The absence of cranks or hardware makes them particularly appealing in minimalist interiors.</p>
+                <p>Premium sliders from Andersen, Pella, JELD-WEN, and Marvin all carry Climate Zone 3-tuned glass packages and engineered roller hardware that holds up across the Dallas humidity range. Lead times typically run four to six weeks from order, and most slider installations complete in a single working day per opening.</p>
               </div>
 
               {/* Benefits Grid */}
@@ -109,6 +109,24 @@ export default function Page() {
                     </ul>
                   </div>
                 </div>
+              </div>
+
+              {/* Additional Body Sections */}
+              <div className="prose prose-lg text-gray-600 max-w-none space-y-6 mb-12">
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Service Coverage Across Dallas</h3>
+                <p>We install sliding windows across the full Dallas metro service area. The mid-century ranch neighborhoods of Lake Highlands, Casa Linda, Casa View, the Disney Streets, and Wilshire Heights are particularly common slider replacement zones because the original architecture used sliders almost universally. We also serve Highland Park, University Park, Lakewood, the M Streets, Devonshire, Preston Hollow, Bluffview, Bishop Arts, Oak Cliff, Kessler Park, and the surrounding suburbs of Plano, Frisco, Richardson, Carrollton, Irving, and Las Colinas.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Roller Hardware Quality and Long-Term Operation</h3>
+                <p>The roller mechanism is the wear point on sliding windows, and quality matters more than people often assume. We specify lines that use stainless steel ball-bearing rollers because plastic rollers can wear, crack, or jam over time, especially when track gunk accumulates from Dallas hard-water sprinkler over-spray. Andersen, Pella, JELD-WEN, and Marvin sliders all use durable hardware that operates cleanly at year fifteen and beyond. Track maintenance is limited to occasional vacuuming and wiping with a damp cloth.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Glass Specification for Cooling Performance</h3>
+                <p>Sliding windows accept the full range of Low-E glass packages available from premium manufacturers. We specify on a per-elevation basis: triple-silver Low-E with low Solar Heat Gain Coefficient on west and south elevations of homes facing direct afternoon sun, standard Low-E with moderate SHGC on north elevations to preserve daylight. Acoustic laminated glass works well on homes near major Dallas arterials. Storm-exposed elevations across hail-prone neighborhoods get laminated impact-rated glass.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Egress Compliance for Bedroom Sliders</h3>
+                <p>Sliding windows in bedrooms must meet the 5.7-square-foot egress minimum required by Texas building code. Because only one sash on a two-panel slider is typically operable, the operable sash must be wide enough that its single side delivers the required clear opening. We field-verify egress compliance on every bedroom slider installation and specify sizing accordingly. Standard slider sizes range from 36 inches by 24 inches up to 72 inches by 60 inches; oversized custom configurations are available on premium lines for larger openings.</p>
+
+                <h3 className="text-2xl font-black text-secondary-dark uppercase tracking-tighter mb-4">Installation Workflow and Free Quotes</h3>
+                <p>Our slider installation workflow starts with a free in-home consultation covering measurement, product selection, glass package recommendations, and exterior color matching. We provide detailed itemized quotes before any deposit. Most slider installations are pocket replacements into existing rough openings without structural changes, with each opening typically completing in a single working day including final operation testing.</p>
               </div>
 
               {/* CTA Block */}

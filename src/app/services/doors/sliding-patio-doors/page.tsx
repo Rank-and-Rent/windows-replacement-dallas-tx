@@ -24,7 +24,7 @@ export default function Page() {
               <span className="text-primary">Sliding Patio Doors</span>
             </nav>
             <h1 className="text-5xl md:text-8xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-              Sliding Patio Doors
+              Sliding Patio Door Installation in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
               Sliding-track patio doors for Lake Highlands and Casa Linda mid-century rear elevations, Lakewood deck openings, and Forest Hills pool decks. Roller hardware that won't seize on Dallas hard-water mineral deposits.

@@ -24,7 +24,7 @@ export default function Page() {
               <span className="text-primary">Special Shape Windows</span>
             </nav>
             <h1 className="text-5xl md:text-8xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-              Special Shape Windows
+              Special Shape Window Replacement in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
               Pointed-arch transoms for Highland Park Tudors, quatrefoils for Greenway Parks Spanish Colonials, and gable-end fan windows for Lakewood eclectic. Templated to the original opening — no compromise patterns.

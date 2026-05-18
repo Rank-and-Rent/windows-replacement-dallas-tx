@@ -24,7 +24,7 @@ export default function Page() {
               <span className="text-primary">Bifold Doors</span>
             </nav>
             <h1 className="text-5xl md:text-8xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-              Bifold Doors
+              Bifold Door Installation in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
               Folding glass walls for Knox-Henderson townhomes, Uptown loft conversions, and Bluffview modern rear elevations. Panels stack open in a 90-degree Dallas summer without binding on the foundation movement that affects older homes.

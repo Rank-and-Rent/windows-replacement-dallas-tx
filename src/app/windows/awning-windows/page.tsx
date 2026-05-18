@@ -24,7 +24,7 @@ export default function Page() {
               <span className="text-primary">Awning Windows</span>
             </nav>
             <h1 className="text-5xl md:text-8xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-              Awning Windows
+              Awning Window Replacement in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
               Top-hinge ventilation that stays open through a Dallas spring thunderstorm. Common over Bishop Arts and Winnetka Heights bungalow kitchen sinks, Oak Cliff bathroom transoms, and basement-room Lakewood openings.

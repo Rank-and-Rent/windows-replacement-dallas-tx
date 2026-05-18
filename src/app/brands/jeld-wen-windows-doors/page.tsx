@@ -24,7 +24,7 @@ export default function Page() {
               <span className="text-primary">Jeld-Wen</span>
             </nav>
             <h1 className="text-5xl md:text-8xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-              Jeld-Wen Windows & Doors
+              Jeld-Wen Windows & Doors in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
               The value-and-volume specification for Casa View, Lake Highlands, and Wilshire Heights whole-house projects where 20-plus openings need to come in under budget without sacrificing the warranty profile or installation tolerances.

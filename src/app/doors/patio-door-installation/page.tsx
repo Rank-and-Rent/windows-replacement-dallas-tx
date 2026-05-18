@@ -24,7 +24,7 @@ export default function Page() {
               <span className="text-primary">Patio Door Installation</span>
             </nav>
             <h1 className="text-5xl md:text-8xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-              Patio Door Installation
+              Patio Door Installation in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
               Patio doors for Lakewood decks, Forest Hills pool decks, and Casa Linda mid-century rear elevations. Sliding, French-hinged, multi-slide, and bifold options sized to the original opening with foundation-aware shimming.

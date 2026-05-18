@@ -75,7 +75,7 @@ export default function DoorsIndexPage() {
           <div className="bg-white p-12 lg:p-20 shadow-2xl flex flex-col lg:flex-row items-center gap-12">
             <div className="lg:w-1/2">
               <h2 className="text-4xl font-black text-secondary-dark uppercase tracking-tighter leading-[0.9] mb-8">
-                Why Signature<br/><span className="text-primary italic">Doors?</span>
+                Why Choose<br/><span className="text-primary italic">Our Doors?</span>
               </h2>
               <ul className="space-y-4">
                 {['Premium Materials', 'Expert Installation', 'Energy Efficient', 'Security Enhanced'].map((point) => (

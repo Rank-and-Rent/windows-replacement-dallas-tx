@@ -24,7 +24,7 @@ export default function Page() {
               <span className="text-primary">Single-Hung Windows</span>
             </nav>
             <h1 className="text-5xl md:text-8xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-              Single-Hung Windows
+              Single-Hung Window Replacement in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
               Whole-house value pick for Casa View, Wilshire Heights, and the postwar streets of Lake Highlands where the original openings were always single-hungs. Saves real money across 20+ openings without changing the look.

@@ -47,13 +47,25 @@ export default function sitemap(): MetadataRoute.Sitemap {
     'custom-door-installation',
   ]
 
-  // Service pages
+  // Service door pages
   const servicePages = [
     'bifold-doors',
     'french-hinged-patio-doors',
     'front-entry-doors',
     'multi-slide-doors',
     'sliding-patio-doors',
+  ]
+
+  // Service window pages
+  const serviceWindowPages = [
+    'awning-windows',
+    'bay-and-bow-windows',
+    'casement-windows',
+    'double-hung-windows',
+    'picture-windows',
+    'single-hung-windows',
+    'sliding-windows',
+    'special-shape-windows',
   ]
 
   // Location pages
@@ -102,10 +114,20 @@ export default function sitemap(): MetadataRoute.Sitemap {
     })
   })
 
-  // Add service pages
+  // Add service door pages
   servicePages.forEach(servicePage => {
     sitemap.push({
-      url: `${baseUrl}/services/${servicePage}`,
+      url: `${baseUrl}/services/doors/${servicePage}`,
+      lastModified: new Date(),
+      changeFrequency: 'monthly',
+      priority: 0.6,
+    })
+  })
+
+  // Add service window pages
+  serviceWindowPages.forEach(servicePage => {
+    sitemap.push({
+      url: `${baseUrl}/services/windows/${servicePage}`,
       lastModified: new Date(),
       changeFrequency: 'monthly',
       priority: 0.6,

@@ -24,7 +24,7 @@ export default function Page() {
               <span className="text-primary">Casement Windows</span>
             </nav>
             <h1 className="text-5xl md:text-8xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-              Casement Windows
+              Casement Window Replacement in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
               The right specification for the M Streets prairie-school cottages, Lakewood 1920s eclectics, and Vickery Place Tudor cottages where original wood casements have served their century. Multi-point lock, true-divided-light options.

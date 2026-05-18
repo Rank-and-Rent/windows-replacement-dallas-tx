@@ -24,7 +24,7 @@ export default function Page() {
               <span className="text-primary">Casement Windows</span>
             </nav>
             <h1 className="text-5xl md:text-8xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-              Casement Windows
+              Casement Window Replacement in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
               The right answer for M Streets prairie cottages and Lakewood 1920s eclectics where original casements are still in service. Multi-point lock, screens to the inside, true-divided-light options.

@@ -24,7 +24,7 @@ export default function Page() {
               <span className="text-primary">Sliding Windows</span>
             </nav>
             <h1 className="text-5xl md:text-8xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-              Sliding Windows
+              Sliding Window Replacement in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
               For openings that run wider than tall — Casa Linda mid-century ranches, Hollywood Heights post-war, Lake Highlands kitchen-side openings. Roller hardware engineered for Dallas hard-water mineral spotting.

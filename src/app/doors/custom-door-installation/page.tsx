@@ -24,7 +24,7 @@ export default function Page() {
               <span className="text-primary">Custom Door Installation</span>
             </nav>
             <h1 className="text-5xl md:text-8xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-              Custom Door Installation
+              Custom Door Installation in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
               Made-to-order doors for Swiss Avenue Historic District, Munger Place conservation overlay, and Greenway Parks period homes where the original openings do not match stock sizes. Period-correct profiles, hand-built in wood or fiberglass.

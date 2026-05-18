@@ -19,7 +19,7 @@ export default function AboutPage() {
             Decades of <span className="text-primary italic">Excellence</span>
           </h1>
           <p className="text-xl text-gray-400 font-medium max-w-3xl mx-auto leading-relaxed">
-            Signature Windows and Doors was founded on a simple principle: provide Texas homeowners with the highest quality products and unparalleled craftsmanship.
+            Window Replacements of Dallas was founded on a simple principle: provide Texas homeowners with the highest quality products and unparalleled craftsmanship.
           </p>
         </div>
       </section>
@@ -122,7 +122,7 @@ export default function AboutPage() {
       <section className="bg-primary py-24 text-center">
         <div className="container">
           <h2 className="text-4xl md:text-6xl font-black text-white uppercase tracking-tighter leading-none mb-10">
-            Experience the Signature<br/><span className="text-secondary-dark italic">Difference</span> Today
+            Experience the Dallas Window<br/><span className="text-secondary-dark italic">Difference</span> Today
           </h2>
           <Link href="/contact" className="inline-block bg-secondary-dark hover:bg-gray-900 text-white font-black py-5 px-12 uppercase tracking-[0.3em] text-[11px] shadow-2xl transition-all active:scale-95">
             Get Your Free Estimate

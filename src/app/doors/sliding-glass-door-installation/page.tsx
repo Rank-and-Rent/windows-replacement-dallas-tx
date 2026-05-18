@@ -24,7 +24,7 @@ export default function Page() {
               <span className="text-primary">Sliding Glass Door Installation</span>
             </nav>
             <h1 className="text-5xl md:text-8xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-              Sliding Glass Door Installation
+              Sliding Glass Door Installation in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
               Sliding-track glass doors for Casa Linda mid-century rear elevations, Lakewood deck openings, and Lake Highlands pool-deck retrofits. Hardware that won't seize on Dallas hard-water mineral spotting after years of pool-side service.

@@ -24,7 +24,7 @@ export default function Page() {
               <span className="text-primary">Bay & Bow Windows</span>
             </nav>
             <h1 className="text-5xl md:text-8xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-              Bay & Bow Windows
+              Bay & Bow Window Replacement in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
               Projection assemblies for Highland Park Tudor breakfast nooks and Devonshire Spanish Colonial living rooms. Engineered seat and roof support that accounts for Dallas foundation movement on older blocks.

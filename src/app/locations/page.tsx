@@ -2,6 +2,7 @@
 
 import { useState } from 'react'
 import Link from 'next/link'
+import { FaHome, FaBolt, FaHandshake } from 'react-icons/fa'
 import Header from '@/components/layout/Header'
 import Footer from '@/components/layout/Footer'
 import ContactSection from '@/components/contact-section'
@@ -89,17 +90,17 @@ export default function LocationsPage() {
               <h2 className="text-2xl font-bold text-gray-900 mb-4">Why Choose Local Installation?</h2>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
                 <div className="text-center">
-                  <div className="text-3xl text-orange-600 mb-3">🏠</div>
+                  <div className="text-3xl text-orange-600 mb-3"><FaHome /></div>
                   <h3 className="font-semibold text-gray-900 mb-2">Local Expertise</h3>
                   <p className="text-gray-600 text-sm">Understanding of local building codes and climate considerations specific to Dallas area homes.</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl text-orange-600 mb-3">⚡</div>
+                  <div className="text-3xl text-orange-600 mb-3"><FaBolt /></div>
                   <h3 className="font-semibold text-gray-900 mb-2">Quick Response</h3>
                   <p className="text-gray-600 text-sm">Local presence means faster response times for consultations, measurements, and installations.</p>
                 </div>
                 <div className="text-center">
-                  <div className="text-3xl text-orange-600 mb-3">🤝</div>
+                  <div className="text-3xl text-orange-600 mb-3"><FaHandshake /></div>
                   <h3 className="font-semibold text-gray-900 mb-2">Community Support</h3>
                   <p className="text-gray-600 text-sm">Supporting local jobs and businesses while providing personalized service to Dallas homeowners.</p>
                 </div>

@@ -24,7 +24,7 @@ export default function Page() {
               <span className="text-primary">Storm Door Installation</span>
             </nav>
             <h1 className="text-5xl md:text-8xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-              Storm Door Installation
+              Storm Door Installation in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
               Storm doors that protect Munger Place, Junius Heights, and Swiss Avenue original wood entries from Dallas spring hailstorms and direct UV. Full-view, mid-view, and ventilating options that don't alter the historic door behind them.

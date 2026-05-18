@@ -24,7 +24,7 @@ export default function Page() {
               <span className="text-primary">Entry Door Installation</span>
             </nav>
             <h1 className="text-5xl md:text-8xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-              Entry Door Installation
+              Entry Door Installation in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
               Front entries for HPISD Tudor mahogany doors, Lakewood Craftsman originals, and Munger Place conservation overlay homes. Solid wood, fiberglass-clad, or stave-core options with multipoint security hardware.

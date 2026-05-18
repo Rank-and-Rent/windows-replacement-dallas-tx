@@ -24,7 +24,7 @@ export default function Page() {
               <span className="text-primary">Double-Hung Windows</span>
             </nav>
             <h1 className="text-5xl md:text-8xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-              Double-Hung Windows
+              Double-Hung Window Replacement in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
               The default specification for HPISD Tudors, Swiss Avenue Historic District, and Munger Place — period-correct sash proportions with modern weatherstripping and Low-E glass tuned to North Texas Climate Zone 3.

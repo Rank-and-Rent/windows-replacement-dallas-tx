@@ -24,7 +24,7 @@ export default function Page() {
               <span className="text-primary">French Patio Doors</span>
             </nav>
             <h1 className="text-5xl md:text-8xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-              French Patio Doors
+              French Patio Door Installation in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
               Hinged French pairs for Highland Park estate rear elevations and Greenway Parks Spanish Colonial garden rooms. True divided lite glass and multipoint security hardware, with mortise-and-tenon stiles available in mahogany or oak.

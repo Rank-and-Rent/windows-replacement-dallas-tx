@@ -24,7 +24,7 @@ export default function Page() {
               <span className="text-primary">Pella</span>
             </nav>
             <h1 className="text-5xl md:text-8xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-              Pella Windows & Doors
+              Pella Windows & Doors in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
               Pella Reserve Traditional and Architect Series are mainstays for Greenway Parks Spanish Colonials, Bluffview contemporary remodels, and Preston Hollow custom projects. Between-the-glass blind options solve dust-in-blinds problems on Dallas west elevations.

@@ -24,7 +24,7 @@ export default function Page() {
               <span className="text-primary">Andersen</span>
             </nav>
             <h1 className="text-5xl md:text-8xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-              Andersen Windows & Doors
+              Andersen Windows & Doors in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
               The volume choice for Lakewood Tudor restorations, M Streets prairie-school cottages, and Forest Hills west-elevation replacements where Fibrex composite shrugs off Dallas thermal cycling. 400 Series wood-clad for period-correct profiles.

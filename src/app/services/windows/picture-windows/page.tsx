@@ -24,7 +24,7 @@ export default function Page() {
               <span className="text-primary">Picture Windows</span>
             </nav>
             <h1 className="text-5xl md:text-8xl font-black text-white uppercase tracking-tighter leading-none mb-8">
-              Picture Windows
+              Picture Window Replacement in Dallas, TX
             </h1>
             <p className="text-xl text-gray-300 font-medium max-w-2xl leading-relaxed">
               Fixed glass for White Rock Lake-facing rooms, Bluffview great rooms, and Preston Hollow stairwell elevations. Solar-control coatings sized for Dallas west exposures, no operable hardware to fail.

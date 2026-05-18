@@ -1,5 +1,14 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { FaArrowRight, FaCheckCircle } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Window Services Dallas TX | Casement, Double-Hung & More',
+  description: 'Professional window installation services in Dallas, TX. Double-hung, casement, awning, sliding, picture, bay & bow, and specialty windows. Free estimates.',
+  alternates: {
+    canonical: 'https://windowreplacementdallastx.com/services/windows',
+  },
+};
 
 export default function WindowsIndex() {
   const windowTypes = [

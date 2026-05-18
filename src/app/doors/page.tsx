@@ -5,6 +5,9 @@ import { FaArrowRight, FaCheckCircle } from 'react-icons/fa';
 export const metadata = {
   title: 'Door Installation Services Dallas TX | Entry & Patio Doors',
   description: 'Professional door installation in Dallas, TX. Entry doors, patio doors, French doors, sliding glass doors. Andersen, Pella, JELD-WEN, Marvin. Free estimates.',
+  alternates: {
+    canonical: 'https://windowreplacementdallastx.com/doors',
+  },
 }
 
 export default function DoorsIndexPage() {

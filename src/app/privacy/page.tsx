@@ -1,10 +1,15 @@
-import Header from '@/components/layout/Header'
-import Footer from '@/components/layout/Footer'
+import type { Metadata } from 'next'
+
+export const metadata: Metadata = {
+  title: 'Privacy Policy | Window Replacements of Dallas',
+  alternates: {
+    canonical: 'https://windowreplacementdallastx.com/privacy',
+  },
+}
 
 export default function PrivacyPage() {
   return (
     <>
-      <Header />
       <main>
         <section className="pt-32 pb-24 bg-gray-50">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
@@ -66,7 +71,7 @@ export default function PrivacyPage() {
                   <div className="bg-gray-100 p-6 rounded-lg mt-4">
                     <p className="font-semibold">Phone: 214-949-8227</p>
                     <p className="font-semibold">Email: hello@windowreplacementdallastx.com</p>
-                    <p className="mt-2">909 Hidden Ridge Dr #180<br />Irving, TX 75038</p>
+                    <p className="mt-2">600 N Pearl St #1615<br />Dallas, TX 75201</p>
                   </div>
                 </div>
               </div>
@@ -74,7 +79,6 @@ export default function PrivacyPage() {
           </div>
         </section>
       </main>
-      <Footer />
     </>
   )
 }

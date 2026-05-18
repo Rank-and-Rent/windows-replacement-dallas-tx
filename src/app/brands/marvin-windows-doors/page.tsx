@@ -1,8 +1,6 @@
 import Link from 'next/link';
 import type { Metadata } from 'next';
 import { FaArrowRight, FaCheckCircle, FaTools, FaHome, FaShieldAlt, FaSun, FaSnowflake, FaDollarSign, FaAward } from 'react-icons/fa';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
 
 export const metadata: Metadata = {
   title: 'Marvin Windows and Doors Dallas TX | Signature Ultimate for HPISD Tudors and Spanish Colonials',
@@ -13,7 +11,6 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
     <>
-      <Header />
       <div className="bg-white">
         {/* Hero Section */}
         <section className="bg-secondary-dark py-32 relative overflow-hidden">
@@ -272,7 +269,6 @@ export default function Page() {
           </div>
         </section>
       </div>
-      <Footer />
     </>
   );
 }

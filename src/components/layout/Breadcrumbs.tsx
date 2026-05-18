@@ -1,5 +1,7 @@
 import Link from 'next/link'
 
+const BASE_URL = 'https://windowreplacementdallastx.com'
+
 interface BreadcrumbItem {
   label: string
   href: string
@@ -10,29 +12,48 @@ interface BreadcrumbsProps {
 }
 
 export default function Breadcrumbs({ items }: BreadcrumbsProps) {
+  const allItems = [{ label: 'Home', href: '/' }, ...items]
+
+  const breadcrumbSchema = {
+    '@context': 'https://schema.org',
+    '@type': 'BreadcrumbList',
+    itemListElement: allItems.map((item, index) => ({
+      '@type': 'ListItem',
+      position: index + 1,
+      name: item.label,
+      item: `${BASE_URL}${item.href}`,
+    })),
+  }
+
   return (
-    <nav className="bg-stone-100 py-4 pt-32">
-      <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
-        <ol className="flex items-center space-x-2 text-sm">
-          <li>
-            <Link href="/" className="text-gray-600 hover:text-orange-600 transition-colors">
-              Home
-            </Link>
-          </li>
-          {items.map((item, index) => (
-            <li key={index} className="flex items-center space-x-2">
-              <span className="text-gray-400">/</span>
-              {index === items.length - 1 ? (
-                <span className="text-orange-600 font-medium">{item.label}</span>
-              ) : (
-                <Link href={item.href} className="text-gray-600 hover:text-orange-600 transition-colors">
-                  {item.label}
-                </Link>
-              )}
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbSchema) }}
+      />
+      <nav className="bg-stone-100 py-4 pt-32">
+        <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
+          <ol className="flex items-center space-x-2 text-sm">
+            <li>
+              <Link href="/" className="text-gray-600 hover:text-orange-600 transition-colors">
+                Home
+              </Link>
             </li>
-          ))}
-        </ol>
-      </div>
-    </nav>
+            {items.map((item, index) => (
+              <li key={index} className="flex items-center space-x-2">
+                <span className="text-gray-400">/</span>
+                {index === items.length - 1 ? (
+                  <span className="text-orange-600 font-medium">{item.label}</span>
+                ) : (
+                  <Link href={item.href} className="text-gray-600 hover:text-orange-600 transition-colors">
+                    {item.label}
+                  </Link>
+                )}
+              </li>
+            ))}
+          </ol>
+        </div>
+      </nav>
+    </>
   )
 }

@@ -6,6 +6,9 @@ export const metadata = {
   title: 'Window Types & Materials Dallas TX | Replacement Windows',
   description: 'Explore all window types and materials in Dallas, TX. Double-hung, casement, sliding, vinyl, aluminum, Fibrex, fiberglass, wood clad, and wood windows. Urban-rated for cosmopolitan living.',
   keywords: 'window types Dallas TX, window materials, window styles Dallas, replacement windows Dallas',
+  alternates: {
+    canonical: 'https://windowreplacementdallastx.com/windows',
+  },
 }
 
 export default function WindowsIndexPage() {

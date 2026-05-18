@@ -1,6 +1,4 @@
 import type { Metadata } from 'next'
-import Header from '@/components/header'
-import Footer from '@/components/footer'
 import ServiceHero from '@/components/service-hero'
 import ServiceContent from '@/components/service-content'
 import CtaBanner from '@/components/cta-banner'
@@ -134,7 +132,6 @@ export default function VinylWindowsPage() {
 
   return (
     <>
-      <Header />
       <main>
         <ServiceHero
           title={content.title}
@@ -145,7 +142,6 @@ export default function VinylWindowsPage() {
         <CtaBanner />
         <ContactSection />
       </main>
-      <Footer />
     </>
   )
 }

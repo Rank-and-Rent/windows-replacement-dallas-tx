@@ -1,8 +1,6 @@
 'use client'
 
 import { useState, useEffect, useRef, FormEvent } from 'react'
-import Header from '@/components/layout/Header'
-import Footer from '@/components/layout/Footer'
 import { servicesData } from '@/data'
 
 // Extend window type for Turnstile
@@ -261,7 +259,6 @@ export default function ContactPage() {
 
   return (
     <>
-      <Header />
       <main>
         {/* Hero Section */}
         <section className="pt-32 pb-24 bg-gray-900 text-white">
@@ -540,7 +537,6 @@ export default function ContactPage() {
           </div>
         </section>
       </main>
-      <Footer />
     </>
   )
 }

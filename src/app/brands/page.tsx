@@ -1,8 +1,15 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { FaArrowRight, FaAward } from 'react-icons/fa';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
+
+export const metadata: Metadata = {
+  title: 'Window & Door Brands | Andersen, Pella, JELD-WEN, Marvin in Dallas TX',
+  description: 'We carry and install the top window and door brands in Dallas, TX — Andersen, Pella, JELD-WEN, and Marvin. Factory-trained installers. Free estimates.',
+  alternates: {
+    canonical: 'https://windowreplacementdallastx.com/brands',
+  },
+};
 
 export default function BrandsIndex() {
   const brands = [
@@ -38,7 +45,6 @@ export default function BrandsIndex() {
 
   return (
     <>
-      <Header />
       <Breadcrumbs items={[{ label: 'Brands', href: '/brands' }]} />
       <div className="bg-white">
       {/* Hero Section */}
@@ -168,7 +174,6 @@ export default function BrandsIndex() {
         </div>
       </section>
       </div>
-      <Footer />
     </>
   );
 }

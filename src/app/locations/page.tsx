@@ -3,8 +3,6 @@
 import { useState } from 'react'
 import Link from 'next/link'
 import { FaHome, FaBolt, FaHandshake } from 'react-icons/fa'
-import Header from '@/components/layout/Header'
-import Footer from '@/components/layout/Footer'
 import ContactSection from '@/components/contact-section'
 import { locationsData } from '@/data'
 
@@ -17,7 +15,6 @@ export default function LocationsPage() {
 
   return (
     <>
-      <Header />
       <main>
         <section className="py-24 bg-gray-50">
           <div className="max-w-[1400px] mx-auto px-6 lg:px-12">
@@ -110,7 +107,6 @@ export default function LocationsPage() {
         </section>
         <ContactSection />
       </main>
-      <Footer />
     </>
   )
 }

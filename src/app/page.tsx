@@ -1,4 +1,11 @@
+import type { Metadata } from 'next';
 import Hero from '@/components/home/Hero';
+
+export const metadata: Metadata = {
+  alternates: {
+    canonical: 'https://windowreplacementdallastx.com',
+  },
+};
 import FullImageSection from '@/components/home/FullImageSection';
 import WindowTypesSection from '@/components/home/WindowTypesSection';
 import MaterialsSection from '@/components/home/MaterialsSection';

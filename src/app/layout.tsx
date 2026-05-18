@@ -51,9 +51,9 @@ export const metadata: Metadata = {
     type: 'website',
     images: [
       {
-        url: '/og-image.jpg',
-        width: 1200,
-        height: 630,
+        url: '/window-replacements-of-dallas-tx-logo.png',
+        width: 800,
+        height: 400,
         alt: 'Window Replacements of Dallas - Premium Window Installation',
       },
     ],
@@ -62,14 +62,15 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'Window Replacements of Dallas',
     description: 'Premium window replacement in Dallas, TX. Andersen, Pella & JELD-WEN windows.',
-    images: ['/og-image.jpg'],
+    images: ['/window-replacements-of-dallas-tx-logo.png'],
   },
   alternates: {
     canonical: 'https://windowreplacementdallastx.com',
   },
-  verification: {
-    google: 'verification-token',
-  },
+  // Google Search Console verification token — add when GSC is set up
+  // verification: {
+  //   google: 'YOUR_TOKEN_HERE',
+  // },
   icons: {
     icon: '/favicon.ico',
     shortcut: '/favicon.ico',
@@ -182,8 +183,8 @@ export default function RootLayout({
               priceRange: '$$',
               currenciesAccepted: 'USD',
               paymentAccepted: 'Cash, Credit Card, Financing',
-              image: 'https://windowreplacementdallastx.com/og-image.jpg',
-              logo: 'https://windowreplacementdallastx.com/logo.png',
+              image: 'https://windowreplacementdallastx.com/window-replacements-of-dallas-tx-logo.png',
+              logo: 'https://windowreplacementdallastx.com/window-replacements-of-dallas-tx-logo.png',
               slogan: 'Premium Window Replacement for Dallas Homes',
               foundingDate: '2010',
               aggregateRating: {
@@ -238,12 +239,9 @@ export default function RootLayout({
               url: 'https://windowreplacementdallastx.com',
               publisher: { '@id': 'https://windowreplacementdallastx.com/#organization' },
               potentialAction: {
-                '@type': 'SearchAction',
-                target: {
-                  '@type': 'EntryPoint',
-                  urlTemplate: 'https://windowreplacementdallastx.com/search?q={search_term_string}',
-                },
-                'query-input': 'required name=search_term_string',
+                '@type': 'ContactAction',
+                name: 'Get a Free Estimate',
+                target: 'https://windowreplacementdallastx.com/contact',
               },
             }),
           }}
@@ -257,7 +255,7 @@ export default function RootLayout({
               '@id': 'https://windowreplacementdallastx.com/#org',
               name: 'Window Replacements of Dallas',
               url: 'https://windowreplacementdallastx.com',
-              logo: 'https://windowreplacementdallastx.com/logo.png',
+              logo: 'https://windowreplacementdallastx.com/window-replacements-of-dallas-tx-logo.png',
               contactPoint: {
                 '@type': 'ContactPoint',
                 telephone: '+1-214-949-8227',

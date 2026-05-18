@@ -1,5 +1,14 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { FaArrowRight, FaCheckCircle } from 'react-icons/fa';
+
+export const metadata: Metadata = {
+  title: 'Door Services Dallas TX | Bifold, Sliding Patio & Entry Doors',
+  description: 'Expert door installation services in Dallas, TX. Bifold doors, sliding patio doors, French patio doors, multi-slide doors, and front entry doors. Free estimates.',
+  alternates: {
+    canonical: 'https://windowreplacementdallastx.com/services/doors',
+  },
+};
 
 export default function DoorsIndex() {
   const doorTypes = [

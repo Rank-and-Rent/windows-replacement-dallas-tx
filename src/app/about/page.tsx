@@ -1,13 +1,19 @@
+import type { Metadata } from 'next';
 import Link from 'next/link';
 import { FaCheckCircle, FaAward, FaTools, FaUserShield } from 'react-icons/fa';
-import Header from '@/components/layout/Header';
-import Footer from '@/components/layout/Footer';
 import Breadcrumbs from '@/components/layout/Breadcrumbs';
+
+export const metadata: Metadata = {
+  title: 'About Window Replacements of Dallas | Expert Window Contractors',
+  description: 'Learn about Window Replacements of Dallas — our story, our team, and our commitment to quality window and door installation throughout the Dallas-Fort Worth metroplex.',
+  alternates: {
+    canonical: 'https://windowreplacementdallastx.com/about',
+  },
+};
 
 export default function AboutPage() {
   return (
     <>
-      <Header />
       <Breadcrumbs items={[{ label: 'About', href: '/about' }]} />
       <div className="bg-white">
       {/* Hero Section */}
@@ -130,7 +136,6 @@ export default function AboutPage() {
         </div>
       </section>
       </div>
-      <Footer />
     </>
   );
 }
